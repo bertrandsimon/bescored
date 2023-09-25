@@ -1,7 +1,9 @@
+
 import './globals.css'
 import { Inter, Work_Sans, Oswald } from 'next/font/google'
-
-// const inter = Inter({ subsets: ['latin'] })
+import ToolBar from './toolBar'
+import Nav from './nav'
+import Footer from './footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -26,10 +28,17 @@ export const metadata = {
   description: `Centre d'expertise scientifique`,
 }
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${inter.variable} ${work_sans.variable} ${oswald.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${work_sans.variable} ${oswald.variable} container mx-auto max-w-screen-2xl`}>
+        <ToolBar />
+        <Nav />
+        {children}
+        <Footer/>
+        </body>
     </html>
   )
 }
