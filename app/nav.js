@@ -74,7 +74,7 @@ export default function Nav() {
               </div>
 
              <div className='sm:visible flex flex-col items-center justify-center'>
-                <button class="oswald bg-transparent hover:bg-black text-white uppercase text-sm hover:text-white hover:border-black py-2 px-4 border border-white hover:border-transparent">
+                <button className="oswald bg-transparent hover:bg-black text-white uppercase text-sm hover:text-white hover:border-black py-2 px-4 border border-white hover:border-transparent">
                   <span>Contactez nous</span>
                 </button>
              </div>

@@ -3,7 +3,11 @@ import { useState } from 'react'
 
 export default function Cards() {
 
+  const [card1, setCard1] = useState('card1.jpg')
+  const [card2, setCard2] = useState('card2.jpg')
+  const [card3, setCard3] = useState('card3.jpg')
 
+  // const handleMouseOver = () = {}
 
   return (
 
@@ -22,15 +26,24 @@ export default function Cards() {
       </div>
 
       <div className='col-span-2'>
-        <Image className="w-auto cursor-pointer" src="/images/card1.png" width={239} height={328} alt="Card"/>
+        <Image className="w-auto cursor-pointer rounded-xl drop-shadow-lg" src={`/images/${card1}`} width={239} height={328} alt="Card" 
+        onMouseEnter={ () =>  setCard1('card1b.jpg')}
+        onMouseLeave={ () =>  setCard1('card1.jpg')}
+        />
       </div>
       
       <div className='col-span-2'>
-        <Image className="w-auto cursor-pointer" src="/images/card2.png" width={239} height={328} alt="Card"/>
+        <Image className="w-auto cursor-pointer rounded-xl drop-shadow-lg" src={`/images/${card2}`} width={239} height={328} alt="Card"
+         onMouseEnter={ () =>  setCard2('card2b.jpg')}
+         onMouseLeave={ () =>  setCard2('card2.jpg')}
+        />
       </div>
 
       <div className='col-span-2'>
-        <Image className="w-auto cursor-pointer" src="/images/card3.png" width={239} height={328} alt="Card"/>
+        <Image className="w-auto cursor-pointer rounded-xl drop-shadow-lg" src={`/images/${card3}`} width={239} height={328} alt="Card"
+         onMouseEnter={ () =>  setCard3('card3b.jpg')}
+         onMouseLeave={ () =>  setCard3('card3.jpg')}
+        />
       </div>
 
 
