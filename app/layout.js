@@ -5,6 +5,7 @@ import ToolBar from './toolBar'
 import Nav from './nav'
 import Footer from './footer'
 
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -33,10 +34,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${inter.variable} ${work_sans.variable} ${oswald.variable} container mx-auto max-w-screen-2xl`}>
-        <ToolBar />
+
+      <body className={`${inter.variable} ${work_sans.variable} ${oswald.variable} container mx-auto z-10 max-w-screen-2xl`}>
+        
+        <div className='z-10'>
+          <ToolBar />
+    
+        </div>
+        
         <Nav />
-        {children}
+       
+          {children}
+        
+       
         <Footer/>
         </body>
     </html>

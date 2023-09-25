@@ -31,3 +31,16 @@ h1 {
 .oswald {
   font-family: var(--font-oswald);
 }
+
+.btn {
+  @apply font-normal py-2 px-4 rounded;
+  text-transform: uppercase;
+}
+.btn-blue {
+  background-color:#4DB4C4; 
+  color:white;
+}
+.btn-blue:hover {
+  background-color:#178090; 
+  color:#14252F;
+}

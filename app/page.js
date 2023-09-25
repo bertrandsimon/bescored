@@ -1,12 +1,14 @@
 import Image from 'next/image'
+import Slider from './slider'
+import { Fragment } from 'react'
 
 export default function Home() {
   return (
     <main>
-      <div>
-       <h1>test</h1>
-       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam vel consequuntur unde deleniti tempora, architecto adipisci fugiat fuga aspernatur a accusamus delectus inventore nobis, exercitationem ut minima obcaecati</span>
-      </div>
+     <div className='-mt-[120px] z-1'>
+       <Slider/>
+     </div>
+      
     </main>
   )
 }

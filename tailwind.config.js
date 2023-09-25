@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        'hero-pattern': "url('/images/medical-bg.jpg')",
+      },
     },
   },
   plugins: [],

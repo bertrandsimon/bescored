@@ -5,6 +5,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -12,7 +13,8 @@ function classNames(...classes) {
 
 export default function Nav() {
   return (
-    
+    <>
+
     <Disclosure as="nav" className="">
       {({ open }) => (
         <>
@@ -41,29 +43,29 @@ export default function Nav() {
                 />
                
                 </div>
-                <div className="hidden sm:ml-6 sm:flex sm:space-x-8 oswald">
+                <div className="hidden sm:ml-32 sm:flex sm:space-x-8 oswald text-white">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-black px-1 pt-1 uppercase"
+                    className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
                   >
                     Expertise
                   </a>
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-gray-700"
+                    className=" hvr-underline-from-center inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-white"
                   >
                     Equipe
                   </a>
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-gray-700"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-white"
                   >
                     Etudes de cas
                   </a>
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-gray-700"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-white"
                   >
                     News
                   </a>
@@ -71,7 +73,7 @@ export default function Nav() {
   
               </div>
 
-             <div className='flex flex-col items-center justify-center pr-8'>
+             <div className='sm:visible flex flex-col items-center justify-center'>
                 <button class="oswald bg-transparent hover:bg-black text-white uppercase text-sm hover:text-white hover:border-black py-2 px-4 border border-white hover:border-transparent">
                   <span>Contactez nous</span>
                 </button>
@@ -117,6 +119,6 @@ export default function Nav() {
         </>
       )}
     </Disclosure>
-   
+    </>
   )
 }
