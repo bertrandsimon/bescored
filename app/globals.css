@@ -42,5 +42,8 @@ h1 {
 }
 .btn-blue:hover {
   background-color:#178090; 
-  color:#14252F;
+  color:white;
+  outline: 2px solid cyan;
+  outline-offset: 2px;
 }
+

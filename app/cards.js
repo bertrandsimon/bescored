@@ -26,24 +26,54 @@ export default function Cards() {
       </div>
 
       <div className='col-span-2'>
-        <Image className="w-auto cursor-pointer rounded-xl drop-shadow-lg" src={`/images/${card1}`} width={239} height={328} alt="Card" 
-        onMouseEnter={ () =>  setCard1('card1b.jpg')}
-        onMouseLeave={ () =>  setCard1('card1.jpg')}
-        />
+        <div className='relative w-auto cursor-pointer'>
+          <Image className="absolute top-0 left-0 w-auto rounded-xl drop-shadow-lg transition-opacity duration-500" src={`/images/${card1}`} width={239} height={328} alt="Card" />
+          
+          <Image 
+            className="w-auto rounded-xl drop-shadow-lg transition-opacity duration-300" 
+            src={`/images/card1b.jpg`} 
+            width={239} 
+            height={328} 
+            alt="Card"
+            onMouseEnter={() => setCard1('card1b.jpg')}
+            onMouseLeave={() => setCard1('card1.jpg')}
+            style={{ opacity: card1 === 'card1b.jpg' ? 1 : 0 }}
+          />
+        </div>
       </div>
       
       <div className='col-span-2'>
-        <Image className="w-auto cursor-pointer rounded-xl drop-shadow-lg" src={`/images/${card2}`} width={239} height={328} alt="Card"
-         onMouseEnter={ () =>  setCard2('card2b.jpg')}
-         onMouseLeave={ () =>  setCard2('card2.jpg')}
-        />
+        <div className='relative w-auto cursor-pointer'>
+            <Image className="absolute top-0 left-0 w-auto rounded-xl drop-shadow-lg transition-opacity duration-500" src={`/images/${card2}`} width={239} height={328} alt="Card" />
+            
+            <Image 
+              className="w-auto rounded-xl drop-shadow-lg transition-opacity duration-300" 
+              src={`/images/card2b.jpg`} 
+              width={239} 
+              height={328} 
+              alt="Card"
+              onMouseEnter={() => setCard2('card2b.jpg')}
+              onMouseLeave={() => setCard2('card2.jpg')}
+              style={{ opacity: card2 === 'card2b.jpg' ? 1 : 0 }}
+            />
+          </div>
       </div>
 
       <div className='col-span-2'>
-        <Image className="w-auto cursor-pointer rounded-xl drop-shadow-lg" src={`/images/${card3}`} width={239} height={328} alt="Card"
-         onMouseEnter={ () =>  setCard3('card3b.jpg')}
-         onMouseLeave={ () =>  setCard3('card3.jpg')}
-        />
+          <div className='relative w-auto cursor-pointer'>
+            <Image className="absolute top-0 left-0 w-auto rounded-xl drop-shadow-lg transition-opacity duration-500" src={`/images/${card3}`} width={239} height={328} alt="Card" />
+            
+            <Image 
+              className="w-auto rounded-xl drop-shadow-lg transition-opacity duration-300" 
+              src={`/images/card3b.jpg`} 
+              width={239} 
+              height={328} 
+              alt="Card"
+              onMouseEnter={() => setCard3('card3b.jpg')}
+              onMouseLeave={() => setCard3('card3.jpg')}
+              style={{ opacity: card3 === 'card3b.jpg' ? 1 : 0 }}
+            />
+          </div>
       </div>
 
 
