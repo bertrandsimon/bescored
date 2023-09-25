@@ -27,3 +27,7 @@ h1 {
   padding-bottom: 20px;
   /* font-weight: lighter; */
 }
+
+.oswald {
+  font-family: var(--font-oswald);
+}
