@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Slider from './slider'
 import Cards from './cards'
+import Editorial from './editorial'
 import { Fragment } from 'react'
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
     <div className='-mt-[60px] z-2'>
       <Cards/>
     </div>
-    
+    <Editorial/>
       
     </main>
   )
