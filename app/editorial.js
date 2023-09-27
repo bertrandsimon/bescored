@@ -10,7 +10,7 @@ export default function Editorial() {
           <p className='font-sm font-extralight pt-4'>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. <br />Integer eu praesent at a. Ornare arcu.</p>
        </div>
       
-      <div className='grid grid-cols-1 sm:grid-cols-2 content-center h-56 w-full px-10 mt-80 mb-80 gap-10 sm:gap-0 sm:mt-20'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 content-center h-56 w-full px-10 mt-80 mb-40 gap-10 sm:gap-0 sm:mt-20'>
 
         <div className='sm:cols-span-6'>
           <div className='flex justify-center items-center'>

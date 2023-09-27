@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Slider from './slider'
 import Cards from './cards'
 import Editorial from './editorial'
+import Method from './method'
 import { Fragment } from 'react'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Cards/>
     </div>
     <Editorial/>
+    <Method/>
       
     </main>
   )
