@@ -6,6 +6,7 @@ import Editorial from './editorial'
 import Method from './method'
 import Stats from './stats'
 import Content from './content'
+import Logos from './logos'
 import { Fragment } from 'react'
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
     <Method/>
     <Stats/>  
     <Content/>
+    <Logos/>
 
     </main>
   )
