@@ -7,6 +7,7 @@ import Method from './method'
 import Stats from './stats'
 import Content from './content'
 import Logos from './logos'
+import Testimonials from './testimonials'
 import { Fragment } from 'react'
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
     <Stats/>  
     <Content/>
     <Logos/>
+    <Testimonials/>
 
     </main>
   )
