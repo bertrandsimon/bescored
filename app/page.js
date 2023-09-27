@@ -8,6 +8,7 @@ import Stats from './stats'
 import Content from './content'
 import Logos from './logos'
 import Testimonials from './testimonials'
+import News from './news'
 import { Fragment } from 'react'
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
     <Content/>
     <Logos/>
     <Testimonials/>
+    <News/>
 
     </main>
   )
