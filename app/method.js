@@ -7,13 +7,13 @@ export default function Method() {
        
        <div className='text-center'>
 
-          <p className='uppercase oswald text-4xl'>
+          <p className='uppercase oswald text-4xl '>
             <span className='pr-2 font-semibold'>notre</span>
             <span className='font-light'>méthode</span>
           </p>
 
-          <div className='flex justify-center'>
-            <p className='font-light pt-4 max-w-lg'>
+          <div className='flex justify-center '>
+            <p className='font-light pt-4 max-w-lg tracking-tight'>
               Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu.
             </p>
           </div>

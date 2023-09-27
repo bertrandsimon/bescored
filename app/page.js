@@ -5,6 +5,7 @@ import Cards from './cards'
 import Editorial from './editorial'
 import Method from './method'
 import Stats from './stats'
+import Content from './content'
 import { Fragment } from 'react'
 
 export default function Home() {
@@ -18,10 +19,11 @@ export default function Home() {
     <div className='-mt-[60px] z-2'>
       <Cards/>
     </div>
-    
+
     <Editorial/>
     <Method/>
     <Stats/>  
+    <Content/>
 
     </main>
   )
