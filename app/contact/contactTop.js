@@ -8,7 +8,7 @@ export default function ContactTop() {
         <div className='flex pt-[160px] w-full justify-start items-center'>
 
           <div className='text-white uppercase oswald pl-[200px]'>
-            <p className='text-sm p-1'>lorem</p>
+            <p className='text-sm p-1'>contactez nous</p>
             <p className='text-5xl p-1 font-extralight'>lorem</p>
             <p className='text-5xl p-1 font-semibold'>ipsum</p>
            

@@ -5,7 +5,7 @@ export default function NewsTop() {
 
       <div className='h-[350px] max-h-128 bg-hero-pattern bg-cover'>
     
-        <div className='flex pt-[160px] w-full justify-start items-center'>
+        <div className='flex pt-[10px] w-full justify-start items-center'>
 
           <div className='text-white uppercase oswald pl-[200px]'>
             <p className='text-sm p-1'>les news</p>
