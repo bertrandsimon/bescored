@@ -7,55 +7,55 @@ export default function Subteam() {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
     },
    
   ]
@@ -70,7 +70,7 @@ export default function Subteam() {
           <div className='flex flex-col justify-center items-center'>
               <p className='uppercase oswald text-4xl '>
                 <span className='pr-2 font-semibold'>ils font aussi partie</span>
-                <span className='font-light'>de l'équipe</span>
+                <span className='font-light'>de l équipe</span>
               </p>
             
               <p className="mt-6 text-light">
@@ -87,7 +87,7 @@ export default function Subteam() {
         >
           {people.map((person) => (
             <li key={person.name}>
-              <img className="mx-auto h-24 w-24 rounded-full" src={person.imageUrl} alt="" />
+              <Image className="mx-auto h-24 w-24 rounded-full" src={person.imageUrl} width={200} height={220} alt="" />
               <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
               <p className="text-sm leading-6 text-gray-600">{person.role}</p>
             </li>

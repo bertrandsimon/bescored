@@ -7,28 +7,28 @@ export default function Content() {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
       bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
       bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
       bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
     },
     {
       name: 'Lorem ipsum',
       role: 'Poste',
       imageUrl:
-        'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/images/man.jpg',
       bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
     },
   
@@ -55,7 +55,7 @@ export default function Content() {
       >
         {people.map((person) => (
           <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
-            <img className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" />
+            <Image className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" width={200} height={220} />
             <div className="flex-auto">
               <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
               <p className="text-base leading-7 text-gray-600">{person.role}</p>

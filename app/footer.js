@@ -177,7 +177,7 @@ export default function Footer() {
           <div className="mt-10 xl:mt-0">
             <h3 className="font-normal leading-6 text-white">On vous rappelle</h3>
             <p className="mt-2 leading-6 text-gray-300">
-             Prenez contact avec nous pour plus d'informations
+             Prenez contact avec nous pour plus informations
             </p>
             <form className="mt-6 sm:flex sm:max-w-md">
             
