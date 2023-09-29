@@ -13,6 +13,7 @@ export default function Home() {
     </div>
     
     <News/>
+    <News/>
  
    </main>
   )

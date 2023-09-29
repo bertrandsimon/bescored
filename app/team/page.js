@@ -1,5 +1,8 @@
 import Image from 'next/image'
-import TeamTop from '../team'
+// import TeamTop from './team'
+import TeamTop from './teamTop'
+import Content from './content'
+import Subteam from './subteam'
 
 export default function Home() {
   return (
@@ -9,7 +12,9 @@ export default function Home() {
       <TeamTop/>
     </div>
    
- 
+    <Content/>
+    <Subteam/>
+    
    </main>
   )
 }
