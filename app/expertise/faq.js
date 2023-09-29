@@ -53,7 +53,12 @@ export default function Faq() {
 <div className="bg-gray-900 rounded-xl">
       <div className="mx-auto max-w-4xl px-6 py-12 sm:py-32 lg:px-8 lg:py-14 ">
         <div className="mx-auto max-w-4xl divide-y divide-white/10">
-          <h2 className="text-2xl font-bold leading-10 tracking-tight text-white">Questions fréquentes</h2>
+         
+        <p className='uppercase oswald text-4xl text-white text-center'>
+            <span className='pr-2 font-semibold'>questions</span>
+            <span className='font-light'>fréquentes</span>
+          </p>
+
           <dl className="mt-10 space-y-6 divide-y divide-white/10">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="pt-6">

@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Slider() {
   return (
 
-      <div className='h-[580px] max-h-128 bg-hero-pattern bg-cover'>
+      <div className='h-[580px] max-h-128 bg-hero-pattern bg-cover rounded-b-lg'>
     
         <div className='flex pt-[230px] w-full justify-around items-center'>
 

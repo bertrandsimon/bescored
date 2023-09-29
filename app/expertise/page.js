@@ -3,6 +3,7 @@ import Image from 'next/image'
 import ExpertiseTop from './expertiseTop'
 import Faq from './faq'
 import TopContent from './topContent'
+import Content from '../content'
 
 export default function Home() {
 
@@ -16,8 +17,11 @@ export default function Home() {
     </div>
 
       <TopContent/>
-      
+
       <Faq/>
+
+      <Content/>
+
  
    </main>
   )
