@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import CasesTop from './casesTop' 
+import ContactTop from './contactTop'
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
 
     <div className='-mt-[120px] z-1'>
 
-      <CasesTop/>
+      <ContactTop/>
       
     </div>
    
