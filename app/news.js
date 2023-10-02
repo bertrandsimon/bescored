@@ -118,6 +118,7 @@ export default function News() {
               </div>
             </article>
           ))}
+          
         </div>
       </div>
     </div>
