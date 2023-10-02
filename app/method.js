@@ -13,8 +13,12 @@ export default function Method() {
           </p>
 
           <div className='flex justify-center '>
-            <p className='font-light pt-4 max-w-lg tracking-tight'>
-              Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu.
+            <p className='font-light pt-4 max-w-[800px] tracking-tight'>
+            Les expertises, les programmes de recherche et les recommandations men&eacute;s par
+            beScored Institute, allant de la validation de dispositifs jusqu&rsquo;&agrave;
+            l&rsquo;utilisation de mat&eacute;riel, s&rsquo;adressent aux entreprises
+            d&eacute;sireuses d&rsquo;observer les r&eacute;elles applications dans
+            le monde du sport, du bien-&ecirc;tre, de la sant&eacute; et de l&rsquo;entreprise.
             </p>
           </div>
 

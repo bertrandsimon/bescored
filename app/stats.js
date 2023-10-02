@@ -3,9 +3,9 @@ import Image from 'next/image'
 export default function Stats() {
 
   const stats = [
-    { id: 1, name: 'lorem ipsum psum lor', value: '44 %' },
-    { id: 2, name: 'lorem ipsum psum lor', value: '22 %' },
-    { id: 3, name: 'lorem ipsum psum lor', value: '2500' },
+    { id: 1, name: 'Publications scientifiques internationales', value: '+ de 300' },
+    { id: 2, name: 'd experience', value: '+ de 30 ans' },
+    { id: 3, name: 'évaluations (Athletes, chefs d entreprise, chirurgiens)', value: '1500' },
   ]
 
   return (
@@ -15,7 +15,7 @@ export default function Stats() {
       <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
         {stats.map((stat) => (
           <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
-            <dt className="text-base leading-7 text-gray-400">{stat.name}</dt>
+            <dt className="text-base leading-7 text-white">{stat.name}</dt>
             <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">{stat.value}</dd>
           </div>
         ))}
