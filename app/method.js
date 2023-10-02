@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Method() {
   return (
@@ -26,7 +27,7 @@ export default function Method() {
 
             <div>
               <Image src="/images/method/step1.jpg" width={135} height={135} alt='etape' className='pt-[55px] img1Method cursor-pointer'/>
-              <p className='font-semibold text-lg pt-5'>Etape 1</p>
+              <p className='font-semibold text-lg pt-5'>Ecouter</p>
               <p className='pt-5 max-w-[135px] font-light'>Amet amet eget scelerisque tellus sit neque faucibus non.</p>
             </div>
 
@@ -36,7 +37,7 @@ export default function Method() {
 
             <div>
               <Image src="/images/method/step2.jpg" width={135} height={135} alt='etape' className='pt-[22px] img2Method cursor-pointer'/>
-              <p className='font-semibold text-lg pt-5'>Etape 2</p>
+              <p className='font-semibold text-lg pt-5'>Echanger</p>
               <p className='pt-5 max-w-[135px] font-light'>Amet amet eget scelerisque tellus sit neque faucibus non.</p>
             </div>
 
@@ -46,7 +47,7 @@ export default function Method() {
 
             <div>
               <Image src="/images/method/step3.jpg" width={135} height={135} alt='etape' className='pt-[40px] img3Method cursor-pointer'/>
-              <p className='font-semibold text-lg pt-5'>Etape 3</p>
+              <p className='font-semibold text-lg pt-5'>Evaluer</p>
               <p className='pt-5 max-w-[135px] font-light'>Amet amet eget scelerisque tellus sit neque faucibus non.</p>
             </div>
 
@@ -57,7 +58,7 @@ export default function Method() {
 
             <div>
               <Image src="/images/method/step4.jpg" width={135} height={135} alt='etape' className='pt-[16px] img4Method cursor-pointer'/>
-              <p className='font-semibold text-lg pt-5'>Etape 4</p>
+              <p className='font-semibold text-lg pt-5'>Rapporter</p>
               <p className='pt-5 max-w-[135px] font-light'>Amet amet eget scelerisque tellus sit neque faucibus non.</p>
             </div>
 
@@ -66,7 +67,7 @@ export default function Method() {
           </div>
 
           <div className='flex justify-center pt-10'>
-            <button className='btn btn-blue oswald'>call to action</button>
+            <button className='btn btn-blue oswald'><Link href="/contact">contactez nous</Link></button>
           </div>
 
        </div>
