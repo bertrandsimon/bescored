@@ -187,8 +187,8 @@ export default function Content() {
               <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
 
               <p className='uppercase oswald text-4xl '>
-                <span className='pr-2 font-semibold'>lorem</span>
-                <span className='font-light'>ipsum</span>
+                <span className='pr-2 font-semibold'>votre</span>
+                <span className='font-light'>rapport</span>
              </p>
 
                 <p className="relative mt-6 text-sm font-light leading-8 sm:max-w-md lg:max-w-none">

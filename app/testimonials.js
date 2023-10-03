@@ -10,8 +10,8 @@ export default function Testimonials() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
           <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 ">
-            <Image className="h-12 self-start" src="/images/logos/3.jpg" alt="" height={48}
-                  width={158}/>
+            <Image className="self-start" src="/images/logos/lpg.jpg" alt="LPG" height={39}
+                  width={160}/>
             <figure className="mt-10 flex flex-auto flex-col justify-between ">
               <blockquote className="text-lg leading-8 text-gray-900 ">
                 <p>
@@ -41,27 +41,25 @@ export default function Testimonials() {
             </figure>
           </div>
           
-          <div className="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20 lg:pr-8 xl:pr-20">
-          <Image className="h-12 self-start" src="/images/tuple-logo-gray-900.svg" alt="" height={56}
-                  width={56}/>
+          <div className="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20 lg:pr-4 xl:pr-0">
+          <Image className="self-start" src="/images/logos/16.png" alt="Mouratoglou" height={39}
+                  width={160}/>
             <figure className="mt-10 flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-gray-900">
                 <p>
-                  “Excepteur veniam labore ullamco eiusmod. Pariatur consequat proident duis dolore nulla veniam
-                  reprehenderit nisi officia voluptate incididunt exercitation exercitation elit. Nostrud veniam sint
-                  dolor nisi ullamco.”
+                  “Un travail exceptionnel à la fois pour la mise en place de protocoles de récupération, et pour le suivi nutritionnel des athlètes. Tout ce qui touche de près ou de loin à l’optimisation de la performance est concerné. BeScored est un interlocuteur attentif qui apporte toutes les réponses à mes attentes et à celles des sportifs.”
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
               <Image
                   className="rounded-full bg-gray-50"
-                  src="/images/man.jpg"
+                  src="/images/moura.jpg"
                   alt=""
                   height={56}
                   width={56}
                 />
                 <div className="text-base">
-                  <div className="font-semibold text-gray-900">Joseph Rodriguez</div>
+                  <div className="font-semibold text-gray-900">Patrick Mouratoglou</div>
                   <div className="mt-1 text-gray-500">CEO of Reform</div>
                 </div>
               </figcaption>
