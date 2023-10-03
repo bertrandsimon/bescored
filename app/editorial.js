@@ -5,12 +5,12 @@ export default function Editorial() {
     
       <>
        <div className='text-center pt-20'>
-          <p className='font-bold text-lg blue'>Amet amet eget sceleris</p>
+          <p className='font-semibold text-lg blue'>beScored, accélérateur de performance et de bien être</p>
           <p className='font-light text-4xl pt-4 oswald uppercase'>Nous évaluons les potentiels, nous révélons les bénéfices <br /> et nous optimisons les différentes recommandations. </p>
-            <p className='font-sm font-extralight pt-4 max-w-2xl text-center mx-auto'>&ldquo;Fort de plus de 30 ans d&apos;expérience dans l&apos;optimisation de la performance sportive de haut niveau, Bescored propose également cette expertise dans les domaines de la santé, du bien être et de l&apos;entreprise.&rdquo;</p>
+            <p className='font-sm font-extralight pt-4 max-w-2xl text-center mx-auto'>&ldquo;Fort de plus de 30 ans d&apos;expérience dans l&apos;optimisation de la performance sportive de haut niveau, beScored propose également cette expertise dans les domaines de la santé, du bien être et de l&apos;entreprise.&rdquo;</p>
        </div>
       
-      <div className='grid grid-cols-1 sm:grid-cols-2 content-center h-56 w-full px-10 mt-80 mb-40 gap-10 sm:gap-0 sm:mt-20'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 content-center pt-40 h-56 w-full px-10  mb-40 gap-14 sm:gap-8 sm:mt-20'>
 
         <div className='sm:cols-span-6'>
           <div className='flex justify-center items-center'>
@@ -36,7 +36,7 @@ export default function Editorial() {
           <div className='flex justify-center items-center'>
             <div className='p-6 flex-shrink-0'><Image src="/images/editorial3.jpg" alt="editorial" width={145} height={108}/></div>
             <div>
-              <p className='font-bold text-lg blue pb-3'>Expertise Médicale</p>
+              <p className='font-bold text-lg blue pb-3'>Expertise Santé</p>
               <span className='font-extralight'>Des thématiques fortes s’imposent à nous depuis quelques temps, à l’image de la qualité de sommeil à améliorer, de l’augmentation de la vitalité en réduisant le stress, ou le renforcement de nos défenses immunitaires par des procédés appropriés. Notre équipe s’attache à mettre en évidence les sources d’amélioration dans chaque registre, une priorité évidente depuis la crise sanitaire.</span>
             </div>
           </div>

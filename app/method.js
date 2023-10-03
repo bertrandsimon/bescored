@@ -6,7 +6,7 @@ export default function Method() {
     
       <>
        
-       <div className='text-center'>
+       <div className='text-center pt-20'>
 
           <p className='uppercase oswald text-4xl '>
             <span className='pr-2 font-semibold'>notre</span>
@@ -28,7 +28,7 @@ export default function Method() {
             <div>
               <Image src="/images/method/step1.jpg" width={135} height={135} alt='etape' className='pt-[55px] img1Method cursor-pointer'/>
               <p className='font-semibold text-lg pt-5'>Ecouter</p>
-              <p className='pt-5 max-w-[135px] font-light'>Amet amet eget scelerisque tellus sit neque faucibus non.</p>
+              <p className='pt-5 max-w-[135px] font-light'>Recueil de vos attentes.</p>
             </div>
 
             <div>
@@ -38,7 +38,7 @@ export default function Method() {
             <div>
               <Image src="/images/method/step2.jpg" width={135} height={135} alt='etape' className='pt-[22px] img2Method cursor-pointer'/>
               <p className='font-semibold text-lg pt-5'>Echanger</p>
-              <p className='pt-5 max-w-[135px] font-light'>Amet amet eget scelerisque tellus sit neque faucibus non.</p>
+              <p className='pt-5 max-w-[135px] font-light'>Ensemble, élaborons la meilleure approche.</p>
             </div>
 
             <div>
@@ -48,7 +48,7 @@ export default function Method() {
             <div>
               <Image src="/images/method/step3.jpg" width={135} height={135} alt='etape' className='pt-[40px] img3Method cursor-pointer'/>
               <p className='font-semibold text-lg pt-5'>Evaluer</p>
-              <p className='pt-5 max-w-[135px] font-light'>Amet amet eget scelerisque tellus sit neque faucibus non.</p>
+              <p className='pt-5 max-w-[135px] font-light'>Un protocole de test qui a fait ses preuves.</p>
             </div>
 
 
@@ -59,7 +59,7 @@ export default function Method() {
             <div>
               <Image src="/images/method/step4.jpg" width={135} height={135} alt='etape' className='pt-[16px] img4Method cursor-pointer'/>
               <p className='font-semibold text-lg pt-5'>Rapporter</p>
-              <p className='pt-5 max-w-[135px] font-light'>Amet amet eget scelerisque tellus sit neque faucibus non.</p>
+              <p className='pt-5 max-w-[135px] font-light'>Nos rapports sont clairs et ultra détaillés.</p>
             </div>
 
 
