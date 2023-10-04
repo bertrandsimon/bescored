@@ -6,6 +6,8 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
+import {Popover, PopoverTrigger, PopoverContent, Button} from "@nextui-org/react";
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -47,37 +49,94 @@ export default function Nav() {
                 <div className="hidden sm:ml-32 sm:flex sm:space-x-8 oswald text-white">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                  {/* desktop menu */}
-                  <Link
-                    href="/expertise"
-                    className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
-                  >
-                    Expertise
-                  </Link>
-                  <Link
-                    href="/team"
-                    className=" hvr-underline-from-center inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-white"
-                  >
-                    Equipe
-                  </Link>
-                  <Link
-                    href="/cases"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-white"
-                  >
-                    Etudes de cas
-                  </Link>
-                  <Link
-                    href="/news"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 uppercase hover:border-gray-300 hover:text-white"
-                  >
-                    News
-                  </Link>
+                 <Popover placement="bottom" showArrow={true}   classNames={{
+                  base: "py-3 px-4 bg-white rounded-xl text-sm text-center mt-4",
+                  arrow: "bg-default-200",
+                }}>
+                  <PopoverTrigger className='inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase'>
+                      {/* <Link
+                        href="/expertise"
+                        className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
+                      > */}
+                        Expertise
+                      {/* </Link> */}
+                    </PopoverTrigger>
+
+                    <PopoverContent>
+                        <div className="px-1 py-2">
+                          <div className="text-small font-bold">Site en construction</div>
+                          <div className="text-tiny">Ouverture prochaine</div>
+                        </div>
+                    </PopoverContent>
+                    </Popover>
+
+                    <Popover placement="bottom" showArrow={true}   classNames={{
+                  base: "py-3 px-4 bg-white rounded-xl text-sm text-center mt-4",
+                  arrow: "bg-default-200",
+                }}>
+                  <PopoverTrigger className='inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase'>
+                      {/* <Link
+                        href="/expertise"
+                        className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
+                      > */}
+                        équipe
+                      {/* </Link> */}
+                    </PopoverTrigger>
+
+                    <PopoverContent>
+                        <div className="px-1 py-2">
+                          <div className="text-small font-bold">Site en construction</div>
+                          <div className="text-tiny">Ouverture prochaine</div>
+                        </div>
+                    </PopoverContent>
+                    </Popover>
+                    <Popover placement="bottom" showArrow={true}   classNames={{
+                  base: "py-3 px-4 bg-white rounded-xl text-sm text-center mt-4",
+                  arrow: "bg-default-200",
+                }}>
+                  <PopoverTrigger className='inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase'>
+                      {/* <Link
+                        href="/expertise"
+                        className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
+                      > */}
+                        études de cas
+                      {/* </Link> */}
+                    </PopoverTrigger>
+
+                    <PopoverContent>
+                        <div className="px-1 py-2">
+                          <div className="text-small font-bold">Site en construction</div>
+                          <div className="text-tiny">Ouverture prochaine</div>
+                        </div>
+                    </PopoverContent>
+                    </Popover>
+                    <Popover placement="bottom" showArrow={true}   classNames={{
+                  base: "py-3 px-4 bg-white rounded-xl text-sm text-center mt-4",
+                  arrow: "bg-default-200",
+                }}>
+                  <PopoverTrigger className='inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase'>
+                      {/* <Link
+                        href="/expertise"
+                        className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
+                      > */}
+                        News
+                      {/* </Link> */}
+                    </PopoverTrigger>
+
+                    <PopoverContent>
+                        <div className="px-1 py-2">
+                          <div className="text-small font-bold">Site en construction</div>
+                          <div className="text-tiny">Ouverture prochaine</div>
+                        </div>
+                    </PopoverContent>
+                    </Popover>
                 </div>
   
               </div>
 
              <div className='sm:visible flex flex-col items-center justify-center'>
                 <button className="oswald bg-transparent hover:bg-black text-white uppercase text-sm hover:text-white hover:border-black py-2 px-4 border border-white hover:border-transparent">
-                  <Link href="/contact">
+                  <Link href="/#">
                    <span>Contactez nous</span>
                   </Link>
                 </button>

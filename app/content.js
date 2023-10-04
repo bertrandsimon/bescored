@@ -186,12 +186,12 @@ export default function Content() {
             <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
               <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
 
-              <p className='uppercase oswald text-4xl '>
+              <p className='uppercase oswald text-4xl text-center sm:text-left'>
                 <span className='pr-2 font-semibold'>votre</span>
                 <span className='font-light'>rapport</span>
              </p>
 
-                <p className="relative mt-6 text-sm font-light leading-8 sm:max-w-md lg:max-w-none">
+                <p className="relative mt-6 text-sm font-light leading-8 sm:max-w-md lg:max-w-none text-center sm:text-left">
                 beScored Institute est un partenaire privilégié pour mettre en place les solutions de demain. Nous validons vos produits et nous les mettons en oeuvre dans des centres innovants.
                 </p>
               </div>

@@ -67,7 +67,7 @@ export default function Method() {
           </div>
 
           <div className='flex justify-center pt-10'>
-            <button className='btn btn-blue oswald'><Link href="/contact">contactez nous</Link></button>
+            <button className='btn btn-blue oswald'><Link href="#">contactez nous</Link></button>
           </div>
 
        </div>

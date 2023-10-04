@@ -13,7 +13,7 @@ export default function Testimonials() {
             <Image className="self-start" src="/images/logos/lpg.jpg" alt="LPG" height={39}
                   width={160}/>
             <figure className="mt-10 flex flex-auto flex-col justify-between ">
-              <blockquote className="text-lg leading-8 text-gray-900 ">
+              <blockquote className="text-sm font-normal leading-8 text-gray-900 ">
                 <p>
 
                 {/* En tant que V.P. m&eacute;dical et scientifique du groupe LPG, j&apos;ai eu l&apos;opportunit&eacute; de faire appel &agrave; cette soci&eacute;t&eacute; sur 2 projets de recherche au cours des derni&egrave;res ann&eacute;es. La qualit&eacute; du travail r&eacute;alis&eacute; par leur &eacute;quipe de scientifiques est tout simplement remarquable.
@@ -45,7 +45,7 @@ export default function Testimonials() {
           <Image className="self-start" src="/images/logos/16.png" alt="Mouratoglou" height={39}
                   width={160}/>
             <figure className="mt-10 flex flex-auto flex-col justify-between">
-              <blockquote className="text-lg leading-8 text-gray-900">
+              <blockquote className="text-sm font-normal leading-8 text-gray-900">
                 <p>
                   “Un travail exceptionnel à la fois pour la mise en place de protocoles de récupération, et pour le suivi nutritionnel des athlètes. Tout ce qui touche de près ou de loin à l’optimisation de la performance est concerné. BeScored est un interlocuteur attentif qui apporte toutes les réponses à mes attentes et à celles des sportifs.”
                 </p>

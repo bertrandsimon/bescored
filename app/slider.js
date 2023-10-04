@@ -35,6 +35,7 @@ export default function Slider() {
       txt2 : `centre d'expertise`,
       txt3 : 'scentifique',
       tag : '/images/tag1.png',
+      bgPos : 'bg-center',
     },
     { 
       imgBg : '/images/sport-bg.jpg',
@@ -42,6 +43,7 @@ export default function Slider() {
       txt2 : 'performance',
       txt3 : 'et récupération',
       tag : '/images/tag2.png',
+      bgPos : 'bg-right',
     },
     { 
       imgBg : '/images/corporate-bg.jpg',
@@ -49,6 +51,7 @@ export default function Slider() {
       txt2 : 'santé mentale',
       txt3 : 'en entreprise',
       tag : '/images/tag3.png',
+      bgPos : 'bg-center',
     },
   ]
 
@@ -61,7 +64,7 @@ export default function Slider() {
 
   
 
-    <div style={{ backgroundImage: `url(${bgImages[imgNb].imgBg})`, height: '580px' }} className="aspect-auto max-h-128 bg-cover rounded-b-lg">
+    <div style={{ backgroundImage: `url(${bgImages[imgNb].imgBg})`, height: '580px' }} className={`${bgImages[imgNb].bgPos} aspect-auto max-h-128 bg-cover rounded-b-lg`}>
 
    
         <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>

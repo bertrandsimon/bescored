@@ -12,7 +12,7 @@ export default function Editorial() {
               <p className='font-sm font-extralight pt-4 max-w-2xl text-center mx-auto'>&ldquo;Fort de plus de 30 ans d&apos;expérience dans l&apos;optimisation de la performance sportive de haut niveau, beScored propose également cette expertise dans les domaines de la santé, du bien être et de l&apos;entreprise.&rdquo;</p>
         </div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 pt-20 px-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-4 pt-20 px-6 sm:px-10'>
           
           <div className='flex justify-center items-center'>
             <div className='p-6 flex-shrink-0'><Image src="/images/editorial1.jpg" alt="editorial" width={145} height={108}/></div>
