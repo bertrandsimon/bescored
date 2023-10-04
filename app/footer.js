@@ -150,11 +150,13 @@ export default function Footer() {
 
 
 
-<footer className="bg-gray-900 mt-40 rounded-t-xl" aria-labelledby="footer-heading">
+<footer className="bg-gray-900 mt-40 rounded-t-xl">
    
-      <div className="mx-auto max-w-7xl px-6 pb-6 pt-20 sm:pt-24 lg:px-8 lg:pt-16">
+      <div className="mx-auto max-w-7xl px-6 pb-6 pt-2 sm:pt-24 lg:px-8 lg:pt-16">
+        
         <div className="xl:grid xl:grid-cols-2 xl:gap-8">
-        <div className='flex h-full w-full items-center justify-between'>
+        <div className='hidden lg:flex h-full w-full items-center justify-center sm:justify-between'>
+
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
@@ -179,8 +181,8 @@ export default function Footer() {
           </div>
           </div>
           <div className="mt-10 xl:mt-0">
-            <h3 className="font-normal leading-6 text-white">On vous rappelle</h3>
-            <p className="mt-2 leading-6 text-gray-300">
+            <h3 className="font-normal leading-6 text-white text-center sm:text-left">On vous rappelle</h3>
+            <p className="mt-2 leading-6 text-gray-300  text-center sm:text-left">
              Prenez contact avec nous pour plus informations
             </p>
             <form className="mt-6 sm:flex sm:max-w-md">
@@ -191,7 +193,7 @@ export default function Footer() {
                 id="email-address"
                 autoComplete="email"
                 required
-                className="w-full min-w-0 appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#4DB4C4] sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
+                className="w-full min-w-0 text-center appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#4DB4C4] sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
                 placeholder="Téléphone"
               />
               <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
@@ -206,14 +208,14 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
-          <div className="flex space-x-6 md:order-2">
+          <div className="flex space-x-6 justify-center sm:justify-start md:order-2">
             {navigation.social.map((item) => (
               <a key={item.name} href={item.href} target="_blank" className="text-gray-500 hover:text-gray-400">
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>
             ))}
           </div>
-          <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
+          <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0 sm:text-left text-center">
             &copy; Bescored 2023
           </p>
         </div>

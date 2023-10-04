@@ -192,10 +192,7 @@ export default function Content() {
              </p>
 
                 <p className="relative mt-6 text-sm font-light leading-8 sm:max-w-md lg:max-w-none">
-                  Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
-                  labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt
-                  mollit id pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                  aliqua.
+                beScored Institute est un partenaire privilégié pour mettre en place les solutions de demain. Nous validons vos produits et nous les mettons en oeuvre dans des centres innovants.
                 </p>
               </div>
               <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
