@@ -14,7 +14,7 @@ export default function Slider() {
       setImgNb(prevImgNb => (prevImgNb + 1) % bgImages.length);
     }
 
-    const intervalId = setInterval(changeSlide, 5000);
+    const intervalId = setInterval(changeSlide, 7000);
 
     return () => {
       clearInterval(intervalId);
@@ -66,11 +66,11 @@ export default function Slider() {
    
         <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>
 
-          <div className='text-white uppercase oswald pl-[60px]'>
+          <div className='text-white uppercase oswald sm:pl-[60px]'>
             <p className='text-sm p-1'>{bgImages[imgNb].txt1}</p>
             <p className='text-5xl p-1 font-extralight'>{bgImages[imgNb].txt2}</p>
             <p className='text-5xl p-1 font-semibold'>{bgImages[imgNb].txt3}</p>
-            <div className='pt-4'><button className='btn btn-blue'>en savoir +</button></div>
+            <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
            
           </div>
 
