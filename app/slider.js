@@ -31,24 +31,24 @@ export default function Slider() {
     
     { 
       imgBg : '/images/sante-bg.jpg',
-      txt1 : '30 ans d&rsquo;experience',
-      txt2 : 'centre d&rsquo;expertise',
+      txt1 : `30 ans d'experience`,
+      txt2 : `centre d'expertise`,
       txt3 : 'scentifique',
       tag : '/images/tag1.png',
     },
     { 
       imgBg : '/images/sport-bg.jpg',
-      txt1 : '30 ans d&rsquo;experience',
-      txt2 : 'centre d&rsquo;expertise',
-      txt3 : 'scentifique',
+      txt1 : `30 ans d'experience`,
+      txt2 : 'performance',
+      txt3 : 'et récupération',
       tag : '/images/tag2.png',
     },
     { 
       imgBg : '/images/corporate-bg.jpg',
-      txt1 : '30 ans d&rsquo;experience',
-      txt2 : 'centre d&rsquo;expertise',
-      txt3 : 'scentifique',
-      tag : '/images/tag2.png',
+      txt1 : `30 ans d'experience`,
+      txt2 : 'santé mentale',
+      txt3 : 'en entreprise',
+      tag : '/images/tag3.png',
     },
   ]
 
@@ -64,17 +64,17 @@ export default function Slider() {
     <div style={{ backgroundImage: `url(${bgImages[imgNb].imgBg})`, height: '580px' }} className="aspect-auto max-h-128 bg-cover rounded-b-lg">
 
    
-        <div className='flex pt-[230px] w-full justify-around items-center'>
+        <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>
 
           <div className='text-white uppercase oswald pl-[60px]'>
-            <p className='text-sm p-1'>30 ans d&rsquo;experience</p>
-            <p className='text-5xl p-1 font-extralight'>centre d&rsquo;expertise</p>
-            <p className='text-5xl p-1 font-semibold'>scentifique</p>
-            <div className='pt-4'><button className='btn btn-blue'>call to action</button></div>
+            <p className='text-sm p-1'>{bgImages[imgNb].txt1}</p>
+            <p className='text-5xl p-1 font-extralight'>{bgImages[imgNb].txt2}</p>
+            <p className='text-5xl p-1 font-semibold'>{bgImages[imgNb].txt3}</p>
+            <div className='pt-4'><button className='btn btn-blue'>en savoir +</button></div>
            
           </div>
 
-          <div className='flex-shrink-0'>
+          <div className='sm:flex-shrink-0 hidden sm:flex'>
             <Image 
             src= {bgImages[imgNb].tag}
             width={220}
