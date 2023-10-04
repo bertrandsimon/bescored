@@ -19,7 +19,7 @@ export default function Home() {
        <Slider/>
      </div>
     
-    <div className='mt-20 sm:-mt-[60px] z-2'>
+    <div className='-mt-[50px] sm:-mt-[60px] z-2'>
       <Cards/>
     </div>
 

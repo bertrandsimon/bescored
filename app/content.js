@@ -154,7 +154,7 @@ export default function Content() {
 
   return (
     
-    <div className='-mt-64'>
+    <div className='sm:-mt-64'>
  
 
     <main className="isolate">
