@@ -1,0 +1,25 @@
+.sliderContainer {
+    position: relative;
+    height: 580px;
+    background-size: cover;
+  }
+  
+  .transitionOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    animation: fadeOut 0.5s forwards;  /* This is the fade out animation */
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  

@@ -17,7 +17,7 @@ export default function Editorial() {
           <div className='flex justify-center items-center'>
             <div className='p-6 flex-shrink-0'><Image src="/images/editorial1.jpg" alt="editorial" width={145} height={108}/></div>
             <div>
-              <p className='font-bold text-lg blue pb-3'>Expertise Santé</p>
+              <p className='font-bold text-lg blue pb-3'>Expertise santé</p>
               <span className='font-extralight'>Notre rôle est d’évaluer notamment les différents niveaux de fatigue à 360°, que cela soit mis en œuvre pour les chirurgiens ou les personnels soignants. C’est l’occasion de prendre soin de ceux ou celles qui prennent soin de nous!</span>
             </div>
           </div>
@@ -25,7 +25,7 @@ export default function Editorial() {
           <div className='flex justify-center items-center'>
             <div className='p-6 flex-shrink-0'><Image src="/images/editorial2.jpg" alt="editorial" width={145} height={108}/></div>
             <div>
-              <p className='font-bold text-lg blue pb-3'>Expertise Sport</p>
+              <p className='font-bold text-lg blue pb-3'>Expertise sport</p>
               <span className='font-extralight'>Nous travaillons régulièrement sur l’optimisation de la phase de récupération en sport, dans le but de prévenir l’apparition de blessures. Évaluer le sportif et faciliter sa récupération par des dispositifs ou des protocoles appropriés est au centre de nos réflexions au quotidien.</span>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function Editorial() {
           <div className='flex justify-center items-center'>
             <div className='p-6 flex-shrink-0'><Image src="/images/editorial3.jpg" alt="editorial" width={145} height={108}/></div>
             <div>
-              <p className='font-bold text-lg blue pb-3'>Expertise Santé</p>
+              <p className='font-bold text-lg blue pb-3'>Expertise bien être</p>
               <span className='font-extralight'>Des thématiques fortes s’imposent à nous depuis quelques temps, à l’image de la qualité de sommeil à améliorer, de l’augmentation de la vitalité en réduisant le stress, ou le renforcement de nos défenses immunitaires par des procédés appropriés. Notre équipe s’attache à mettre en évidence les sources d’amélioration dans chaque registre, une priorité évidente depuis la crise sanitaire.</span>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function Editorial() {
           <div className='flex justify-center items-center'>
             <div className='p-6 flex-shrink-0'><Image src="/images/editorial4.jpg" alt="editorial" width={145} height={108}/></div>
             <div>
-              <p className='font-bold text-lg blue pb-3'>Expertise Corporate</p>
+              <p className='font-bold text-lg blue pb-3'>Expertise corporate</p>
               <span className='font-extralight'>Le monde de l’entreprise est quelquefois bien démuni lorsqu’il s’agit de trouver des solutions pour diagnostiquer la santé mentale souvent fragile de leurs salariés. Issues de nos recherches, nos solutions proposent des diagnostiques pas uniquement subjectifs mais essentiellement à partir de données objectives et de tests faciles à mettre en œuvre. </span>
             </div>
           </div>
