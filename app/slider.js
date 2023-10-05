@@ -53,6 +53,14 @@ export default function Slider() {
       tag : '/images/tag3.png',
       bgPos : 'bg-center',
     },
+    { 
+      imgBg : '/images/sport2-bg.jpg',
+      txt1 : `30 ans d'experience`,
+      txt2 : 'performance',
+      txt3 : 'et récupération',
+      tag : '/images/tag4.png',
+      bgPos : 'bg-right',
+    },
   ]
 
 
@@ -87,6 +95,11 @@ export default function Slider() {
           </div>
 
         </div>
+
+      </div>
+
+      {/* test area for CSS perspectives and framer animations */}
+      <div>
 
       </div>
    

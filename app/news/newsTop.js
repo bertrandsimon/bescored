@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function NewsTop() {
   return (
 
-    <div className='h-[350px] max-h-128 expertise-bg bg-cover bg-hero-pattern'>
+    <div className='h-[350px] max-h-128 expertise-bg bg-cover' style={{ backgroundImage: 'url(/images/news/news-bg.jpg)'}}>
     
     <div className='flex pt-[160px] w-full justify-start items-center '>
 
