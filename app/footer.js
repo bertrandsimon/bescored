@@ -150,7 +150,7 @@ export default function Footer() {
 
 
 
-<footer className="bg-gray-900 mt-40 rounded-t-xl">
+<footer className="bg-gray-900">
    
       <div className="mx-auto max-w-7xl px-6 pb-6 pt-2 sm:pt-24 lg:px-8 lg:pt-16">
         

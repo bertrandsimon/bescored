@@ -1,7 +1,34 @@
+'use client'
+
+import { Fragment } from 'react'
 import Image from 'next/image'
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import emailjs from '@emailjs/browser';
+import { useRef, useState } from 'react';
 
 export default function Content() {
+
+  const [success, setSuccess] = useState(true);
+  const form = useRef();
+
+  const sendEmail = (e) => {
+
+    e.preventDefault(); 
+
+    console.log(form.current.name.value)
+
+    emailjs.sendForm('service_uvsxn6b', 'template_vp0qn7h', form.current, 'NgT7PTAfnfr_bHXV2')
+      .then((result) => {
+          // show the user a success message
+          console.log('mail envoyé')
+          setSuccess(true)
+      }, (error) => {
+          console.log('erreur')
+          // show the user an error
+      });
+  };
+
+  
   return (
 
     <div className="relative isolate bg-gray-900">
@@ -87,33 +114,34 @@ export default function Content() {
           </dl>
         </div>
       </div>
-      <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+
+      { !success ? 
+      
+      <form ref={form} action="#" onSubmit={sendEmail} className="px-6 pt-20 lg:px-8 lg:pt-48">
         <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
-              <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-white">
+              <label htmlFor="name" className="block text-sm font-semibold leading-6 text-white">
                 Nom
               </label>
               <div className="mt-2.5">
                 <input
                   type="text"
-                  name="first-name"
-                  id="first-name"
-                  autoComplete="given-name"
+                  name="name"
+                  id="name"
                   className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
             <div>
-              <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-white">
+              <label htmlFor="surname" className="block text-sm font-semibold leading-6 text-white">
                 Prénom
               </label>
               <div className="mt-2.5">
                 <input
                   type="text"
-                  name="last-name"
-                  id="last-name"
-                  autoComplete="family-name"
+                  name="surname"
+                  id="surname"
                   className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -132,7 +160,7 @@ export default function Content() {
                 />
               </div>
             </div>
-            <div className="sm:col-span-2">
+            {/* <div className="sm:col-span-2">
               <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-white">
                 Téléphone
               </label>
@@ -145,7 +173,7 @@ export default function Content() {
                   className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 />
               </div>
-            </div>
+            </div> */}
             <div className="sm:col-span-2">
               <label htmlFor="message" className="block text-sm font-semibold leading-6 text-white">
                 Votre message
@@ -162,17 +190,29 @@ export default function Content() {
             </div>
           </div>
           <div className="mt-8 flex justify-end">
-            {/* <button
-              
-              className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-            >
-             Envoyer
-            </button> */}
-
+        
             <button className='btn btn-blue px-3.5 py-2.5'  type="submit">envoyer</button>
           </div>
         </div>
       </form>
+      
+      // success message
+      : <div className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48 flex justify-center items-center h-full">
+            <div class=" border-t border-b border-[#4DB4C4] text-[#4DB4C4] px-4 py-3 text-center" role="alert">
+              <div className='flex justify-center py-4'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
+              </svg>
+              </div>
+              <p class=" text-white font-normal">Votre message a été envoyé !</p>
+              <p class="text-sm py-4">Nous revenons vers vous rapidement.</p>
+            </div>
+        </div>
+      }
+
+
+      
+     
+
     </div>
   </div>
    
