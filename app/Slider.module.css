@@ -1,8 +1,4 @@
-.sliderContainer {
-    position: relative;
-    height: 580px;
-    background-size: cover;
-  }
+ 
   
   .transitionOverlay {
     position: absolute;
@@ -22,4 +18,25 @@
       opacity: 0;
     }
   }
+ 
+  .slider-container {
+    position: relative;
+    height: 580px;
+  }
   
+  .slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Adjust duration as needed */
+    object-fit: cover; /* To maintain image aspect ratio */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-image.active {
+    opacity: 1;
+  }

@@ -9,17 +9,23 @@ import Content from './content'
 import Logos from './logos'
 import Testimonials from './testimonials'
 import News from './news'
+import SliderSwiper from './sliderSwiper'
+import ParticlesZone from './particlesZone'
 import { Fragment } from 'react'
 
 export default function Home() {
   return (
     <main>
 
-     <div className='-mt-[120px] z-1'>
-       <Slider/>
+    <div className='-mt-[120px] z-0 relative'>
+       <SliderSwiper/>
      </div>
+
+     {/* <div className='-mt-[120px] z-1'>
+       <Slider/>
+     </div> */}
     
-    <div className='-mt-[50px] sm:-mt-[60px] z-2'>
+    <div className='-mt-[50px] sm:-mt-[60px] z-1000'>
       <Cards/>
     </div>
 
@@ -30,7 +36,7 @@ export default function Home() {
     <Logos/>
     <Testimonials/>
     <News/>
-
+     <ParticlesZone/>
     </main>
   )
 }

@@ -191,7 +191,7 @@ export default function Content() {
                 <span className='font-light'>rapport</span>
              </p>
 
-                <p className="relative mt-6 text-sm font-light leading-8 sm:max-w-md lg:max-w-none text-center sm:text-left">
+                <p className="relative mt-6 text-normal font-light leading-8 sm:max-w-md lg:max-w-none text-center sm:text-left">
                 beScored Institute est un partenaire privilégié pour mettre en place les solutions de demain. Nous validons vos produits et nous les mettons en oeuvre dans des centres innovants.
                 </p>
               </div>

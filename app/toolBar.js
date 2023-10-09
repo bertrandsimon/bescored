@@ -9,7 +9,7 @@ export default function ToolBar() {
        
         <div className='text-slate-400 px-8 text-xs'>
 
-          <span className='pr-8'><a href="0686584696">Téléphone: 06 86 58 46 96 </a></span>
+          <span className='pr-8'><a href="0686584696">Téléphone: 06 86 58 46 93 </a></span>
           
           <span><a href="mailto:contact@bescored.fr">contact@bescored.fr</a></span>
 

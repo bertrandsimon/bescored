@@ -1,6 +1,6 @@
 
 import './globals.css'
-import { Inter, Work_Sans, Oswald } from 'next/font/google'
+import { Inter, Work_Sans, Oswald, Poppins } from 'next/font/google'
 import ToolBar from './toolBar'
 import Nav from './nav'
 import Footer from './footer'
@@ -24,6 +24,13 @@ const oswald = Oswald({
   display: 'swap',
 })
 
+// const poppins = Poppins({
+//   subsets: ['latin'],
+//   variable: '--font-poppins',
+//   weight: ["400", "500", "600", "700", "800", "900"],
+//   display: 'swap',
+// })
+
 export const metadata = {
   title: 'BeScored',
   description: `Centre d'expertise scientifique`,
@@ -42,7 +49,7 @@ export default function RootLayout({ children }) {
     
         </div>
         
-        <Nav />
+        <Nav className='z-9999'/>
        
           {children}
         

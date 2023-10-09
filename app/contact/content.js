@@ -8,7 +8,7 @@ import { useRef, useState } from 'react';
 
 export default function Content() {
 
-  const [success, setSuccess] = useState(true);
+  const [success, setSuccess] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {

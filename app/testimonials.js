@@ -13,14 +13,16 @@ export default function Testimonials() {
             <Image className="self-start" src="/images/logos/lpg.jpg" alt="LPG" height={39}
                   width={160}/>
             <figure className="mt-10 flex flex-auto flex-col justify-between ">
-              <blockquote className="text-sm font-normal leading-8 text-gray-900 ">
+              <blockquote className="text-normal font-normal leading-8 text-gray-900 ">
                 <p>
 
                 {/* En tant que V.P. m&eacute;dical et scientifique du groupe LPG, j&apos;ai eu l&apos;opportunit&eacute; de faire appel &agrave; cette soci&eacute;t&eacute; sur 2 projets de recherche au cours des derni&egrave;res ann&eacute;es. La qualit&eacute; du travail r&eacute;alis&eacute; par leur &eacute;quipe de scientifiques est tout simplement remarquable.
                 <br /><br />
                 J&apos;ai eu la chance de travailler en &eacute;troite collaboration avec leur &eacute;quipe de recherche et je tiens &agrave; souligner la rigueur et la pr&eacute;cision qui caract&eacute;risent les m&eacute;thodes de recherche employ&eacute;es par le laboratoire. Leurs protocoles sont soigneusement &eacute;labor&eacute;s, et chaque &eacute;tape de l&apos;exp&eacute;rience est minutieusement planifi&eacute;e pour garantir des r&eacute;sultats fiables.
                 <br /><br /> */}
-                Bescored Institute dispose d&apos;une infrastructure de pointe qui facilite la r&eacute;alisation de projets de recherche ambitieux.
+                beScored Institute dispose d&apos;une infrastructure de pointe qui facilite la r&eacute;alisation de projets de recherche ambitieux.
+                <br /><br />
+                Mon expérience avec beScored a été exceptionnelle et remarquable.
                 <br /><br />
                 Rigueur scientifique, ponctualit&eacute; dans la livraison des r&eacute;sultats. Les d&eacute;lais ont toujours &eacute;t&eacute; respect&eacute;s, et les rapports finaux &eacute;taient complets, bien r&eacute;dig&eacute;s et facilement compr&eacute;hensibles &raquo;
                 </p>
@@ -30,8 +32,8 @@ export default function Testimonials() {
                   className="rounded-full bg-gray-50"
                   src="/images/man.jpg"
                   alt=""
-                  height={56}
-                  width={56}
+                  height={80}
+                  width={80}
                 />
                 <div className="text-base">
                   <div className="font-semibold text-gray-900">Christian Gagnière</div>
@@ -45,9 +47,12 @@ export default function Testimonials() {
           <Image className="self-start" src="/images/logos/16.png" alt="Mouratoglou" height={39}
                   width={160}/>
             <figure className="mt-10 flex flex-auto flex-col justify-between">
-              <blockquote className="text-sm font-normal leading-8 text-gray-900">
+              <blockquote className="text-normal font-normal leading-8 text-gray-900">
                 <p>
-                  “Un travail exceptionnel à la fois pour la mise en place de protocoles de récupération, et pour le suivi nutritionnel des athlètes. Tout ce qui touche de près ou de loin à l’optimisation de la performance est concerné. BeScored est un interlocuteur attentif qui apporte toutes les réponses à mes attentes et à celles des sportifs.”
+                  “Un travail exceptionnel à la fois pour la mise en place de protocoles de récupération, et pour le suivi nutritionnel des athlètes. 
+                  <br /><br />
+                  Tout ce qui touche de près ou de loin à l’optimisation de la performance est concerné. 
+                  beScored est un interlocuteur attentif qui apporte toutes les réponses à mes attentes et à celles des sportifs.”
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
@@ -55,12 +60,12 @@ export default function Testimonials() {
                   className="rounded-full bg-gray-50"
                   src="/images/moura.jpg"
                   alt=""
-                  height={56}
-                  width={56}
+                  height={80}
+                  width={80}
                 />
                 <div className="text-base">
                   <div className="font-semibold text-gray-900">Patrick Mouratoglou</div>
-                  <div className="mt-1 text-gray-500">CEO of Reform</div>
+                  <div className="mt-1 text-gray-500">Founder Mouratoglou Tennis Academy</div>
                 </div>
               </figcaption>
             </figure>

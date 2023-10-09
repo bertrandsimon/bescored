@@ -17,10 +17,10 @@ export default function Nav() {
   return (
     <>
 
-    <Disclosure as="nav" className="">
+    <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto px-8 py-6 bg-black">
+          <div className="mx-auto px-8 py-6">
             <div className="relative flex h-16 justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
@@ -34,7 +34,7 @@ export default function Nav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start z-10">
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/">
                     <Image
@@ -134,7 +134,7 @@ export default function Nav() {
   
               </div>
 
-             <div className='sm:visible flex flex-col items-center justify-center'>
+             <div className='sm:visible flex flex-col items-center justify-center z-10'>
                 <button className="oswald bg-transparent hover:bg-black text-white uppercase text-sm hover:text-white hover:border-black py-2 px-4 border border-white hover:border-transparent">
                   <Link href="/#">
                    <span>Contactez nous</span>

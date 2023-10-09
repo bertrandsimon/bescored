@@ -1,10 +1,19 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default function Method() {
   return (
     
       <>
+
+      <Head>
+          <link rel="preload" href="/images/method/step1b.jpg" as="image" />
+          <link rel="preload" href="/images/method/step2b.jpg" as="image" />
+          <link rel="preload" href="/images/method/step3b.jpg" as="image" />
+          <link rel="preload" href="/images/method/step4b.jpg" as="image" />
+              
+      </Head>
        
        <div className='text-center pt-20 px-10'>
 
