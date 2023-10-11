@@ -191,7 +191,7 @@ export default function Content() {
           </div>
           <div className="mt-8 flex justify-end">
         
-            <button className='btn btn-blue px-3.5 py-2.5'  type="submit">envoyer</button>
+            <button className='btn btn-blue px-3.5 py-2.5' type="submit">Envoyer</button>
           </div>
         </div>
       </form>
