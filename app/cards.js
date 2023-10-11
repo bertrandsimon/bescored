@@ -3,7 +3,8 @@ import { useState } from 'react';
 import { Fragment } from 'react';
 import Head from 'next/head';
 import { Fade, Slide } from "react-awesome-reveal";
-
+import Atropos from 'atropos/react';
+import 'atropos/css'
 
 function Card({ initialSrc, hoverSrc, width, height }) {
     const [src, setSrc] = useState(initialSrc);
@@ -51,10 +52,61 @@ export default function Cards() {
             {/* dektop */}
             <div className='hidden order-2 col-span-12 lg:col-span-8 sm:flex sm:flex-row gap-2 sm:gap-6 justify-end'>
             <Fade duration={1000} delay={1000} cascade damping={0.2} triggerOnce>
-                <Slide direction="right" duration={500} delay={1000} triggerOnce><Card initialSrc="/images/cards/card1.jpg" hoverSrc="/images/cards/card1b.jpg" width={206} height={284} className="col-span-6"/></Slide>
-                <Slide direction="right" duration={500} delay={1200} triggerOnce><Card initialSrc="/images/cards/card2.jpg" hoverSrc="/images/cards/card2b.jpg" width={206} height={239} className="col-span-6"/></Slide>
-                <Slide direction="right" duration={500} delay={1400} triggerOnce><Card initialSrc="/images/cards/card3.jpg" hoverSrc="/images/cards/card3b.jpg" width={206} height={284} className="col-span-3"/></Slide>
-                <Slide direction="right" duration={500} delay={1600} triggerOnce><Card initialSrc="/images/cards/card4.jpg" hoverSrc="/images/cards/card4b.jpg" width={206} height={284} className="col-span-3"/></Slide>
+                <Slide direction="right" duration={500} delay={1000} triggerOnce>
+                    
+                <Atropos className="my-atropos cursor-pointer" shadow="false" shadowScale="0.7" shadowOffset="30" rotateXMax="30" rotateYMax="60" highlight="true">
+                    <Image
+                        className='img1Card w-auto rounded-xl drop-shadow-lg'
+                        src="/images/cards/card1.jpg"
+                        width={206}
+                        height={284}
+                        alt='atropos'
+                        />
+                </Atropos>
+                
+                </Slide>
+
+                <Slide direction="right" duration={500} delay={1200} triggerOnce>
+                    
+                    <Atropos className="my-atropos cursor-pointer" shadow="false" shadowScale="0.7" shadowOffset="30" rotateXMax="30" rotateYMax="60" highlight="true">
+                        <Image
+                            className='img2Card w-auto rounded-xl drop-shadow-lg'
+                            src="/images/cards/card2.jpg"
+                            width={206}
+                            height={284}
+                            alt='atropos'
+                            />
+                    </Atropos>
+
+                </Slide>
+
+                <Slide direction="right" duration={500} delay={1400} triggerOnce>
+
+                    <Atropos className="my-atropos cursor-pointer" shadow="false" shadowScale="0.7" shadowOffset="30" rotateXMax="30" rotateYMax="60" highlight="true">
+                        <Image
+                            className='img3Card w-auto rounded-xl drop-shadow-lg'
+                            src="/images/cards/card3.jpg"
+                            width={206}
+                            height={284}
+                            alt='atropos'
+                            />
+                    </Atropos>
+
+                </Slide>
+
+                <Slide direction="right" duration={500} delay={1600} triggerOnce>
+                    
+                    <Atropos className="my-atropos cursor-pointer" shadow="false" shadowScale="0.7" shadowOffset="30" rotateXMax="30" rotateYMax="60" highlight="true">
+                        <Image
+                            className='img4Card w-auto rounded-xl drop-shadow-lg'
+                            src="/images/cards/card4.jpg"
+                            width={206}
+                            height={284}
+                            alt='atropos'
+                            />
+                    </Atropos>
+
+                </Slide>
             </Fade>
             </div>
             
@@ -72,8 +124,10 @@ export default function Cards() {
                 <Card initialSrc="/images/cards/card3.jpg" hoverSrc="/images/cards/card3b.jpg" width={206} height={284} />
                 <Card initialSrc="/images/cards/card4.jpg" hoverSrc="/images/cards/card4b.jpg" width={206} height={284} />
                 </div>
-            </div>
+        </div>
 
+
+    
         </>
     );
 }

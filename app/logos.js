@@ -22,7 +22,7 @@ export default function Logos() {
        slidesPerView={5}
        dynamicBullets= {true}
        navigation
-       pagination={{ clickable: true, dynamicBullets: true  }}
+       pagination={{ clickable: true, dynamicbullets: true  }}
        observer={true}
        observeParents={true}>
 

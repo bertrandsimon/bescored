@@ -86,3 +86,48 @@ h1 {
 }
 
 .swiper-pagination-bullet-active {background-color: #4DB4C4 !important;}
+
+.my-atropos {
+  width: 230px;
+  height: 314px;
+}
+
+.img1Card {
+  transition: all 0.5s ease; /* Adjust the time (0.3s) to your liking */
+}
+
+.img1Card:hover {
+  content: url("/images/cards/card1b.jpg");
+  width: 206px;
+  height: 284px;
+} 
+
+.img2Card {
+  transition: all 0.5s ease; /* Adjust the time (0.3s) to your liking */
+}
+
+.img2Card:hover {
+  content: url("/images/cards/card2b.jpg");
+  width: 206px;
+  height: 284px;
+} 
+
+.img3Card {
+  transition: all 0.5s ease; /* Adjust the time (0.3s) to your liking */
+}
+
+.img3Card:hover {
+  content: url("/images/cards/card3b.jpg");
+  width: 206px;
+  height: 284px;
+} 
+
+.img4Card {
+  transition: all 0.5s ease; /* Adjust the time (0.3s) to your liking */
+}
+
+.img4Card:hover {
+  content: url("/images/cards/card4b.jpg");
+  width: 206px;
+  height: 284px;
+} 
