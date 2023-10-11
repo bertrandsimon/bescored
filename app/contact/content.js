@@ -15,15 +15,14 @@ export default function Content() {
 
     e.preventDefault(); 
 
-    console.log(form.current.name.value)
+    //console.log(form.current.name.value)
 
     emailjs.sendForm('service_uvsxn6b', 'template_vp0qn7h', form.current, 'NgT7PTAfnfr_bHXV2')
       .then((result) => {
-          // show the user a success message
-          console.log('mail envoyé')
+      
           setSuccess(true)
       }, (error) => {
-          console.log('erreur')
+        
           // show the user an error
       });
   };
