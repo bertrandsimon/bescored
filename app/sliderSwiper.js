@@ -46,7 +46,7 @@ export default function SliderSwiper() {
                     <div className='text-white uppercase oswald sm:pl-[60px] drop-shadow-md'>
                         <Fade duration={1000} delay={500} cascade damping={0.2}>
                             <Slide direction="down" duration={1000} delay={500}>
-                                <p className='text-sm p-1 '>30 ans experience</p>
+                                <p className='text-sm p-1'>30 ans d&apos;experience</p>
                             </Slide>
                             <Slide direction="down" duration={1000} delay={600}>
                                 <p className='text-5xl p-1 font-extralight'>centre d&apos;expertise</p>
@@ -54,92 +54,92 @@ export default function SliderSwiper() {
                             <Slide direction="down" duration={1000} delay={700}>
                                 <p className='text-5xl p-1 font-semibold'>scientifique</p>
                             </Slide>
-                            <Slide direction="up" duration={1000} delay={800}>
-                                <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
-                            </Slide>
-                        </Fade>
-                    </div>
-                    <div className='sm:flex-shrink-0 hidden sm:flex'>
-                      <Fade duration={1000} delay={1500}>
-                      <Slide direction="up" duration={1000} delay={1500}>
-                        <Image src= '/images/tag1.png' width={249} height={50} alt="Tag"/>
-                        </Slide>
-                      </Fade>
-                    </div>
-                </div>
-            </div>
-          </SwiperSlide>
+                                                        <Slide direction="up" duration={1000} delay={800}>
+                                                            <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
+                                                        </Slide>
+                                                    </Fade>
+                                                </div>
+                                                <div className='sm:flex-shrink-0 hidden sm:flex'>
+                                                  <Fade duration={1000} delay={1500}>
+                                                  <Slide direction="up" duration={1000} delay={1500}>
+                                                    <Image src= '/images/tag1.png' width={249} height={50} alt="Tag"/>
+                                                    </Slide>
+                                                  </Fade>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </SwiperSlide>
 
-          {/* slide 2 */}
-          <SwiperSlide>
-              <div style={{ backgroundImage: `url('/images/sport-bg.jpg')`, height: '580px' }} className='aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center'>
-                  <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>
-                      <div className='text-white uppercase oswald sm:pl-[60px] drop-shadow-md'>
-                          <Fade duration={1000} delay={500} cascade damping={0.2}>
-                              <Slide direction="down" duration={1000} delay={500}>
-                                  <p className='text-sm p-1'>30 ans experience</p>
-                              </Slide>
-                              <Slide direction="down" duration={1000} delay={600}>
-                                  <p className='text-5xl p-1 font-extralight'>performance</p>
-                              </Slide>
-                              <Slide direction="down" duration={1000} delay={700}>
-                                  <p className='text-5xl p-1 font-semibold'>et récupération</p>
-                              </Slide>
-                              <Slide direction="up" duration={1000} delay={800}>
-                                  <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
-                              </Slide>
-                          </Fade>
-                      </div>
-                      <div className='sm:flex-shrink-0 hidden sm:flex'>
-                          <Fade duration={1000} delay={1500}>
-                              <Slide direction="up" duration={1000} delay={1500}>
-                                  <Image src='/images/tag2.png' width={220} height={50} alt="Tag"/>
-                              </Slide>
-                          </Fade>
-                      </div>
-                  </div>
-              </div>
-          </SwiperSlide>
+                                      {/* slide 2 */}
+                                      <SwiperSlide>
+                                          <div style={{ backgroundImage: `url('/images/sport-bg.jpg')`, height: '580px' }} className='aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center'>
+                                              <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>
+                                                  <div className='text-white uppercase oswald sm:pl-[60px] drop-shadow-md'>
+                                                      <Fade duration={1000} delay={500} cascade damping={0.2}>
+                                                          <Slide direction="down" duration={1000} delay={500}>
+                                                            <p className='text-sm p-1'>30 ans d&rsquo;experience</p>
+                                                          </Slide>
+                                                          <Slide direction="down" duration={1000} delay={600}>
+                                                              <p className='text-5xl p-1 font-extralight'>performance</p>
+                                                          </Slide>
+                                                          <Slide direction="down" duration={1000} delay={700}>
+                                                              <p className='text-5xl p-1 font-semibold'>et récupération</p>
+                                                          </Slide>
+                                                          <Slide direction="up" duration={1000} delay={800}>
+                                                              <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
+                                                          </Slide>
+                                                      </Fade>
+                                                  </div>
+                                                  <div className='sm:flex-shrink-0 hidden sm:flex'>
+                                                      <Fade duration={1000} delay={1500}>
+                                                          <Slide direction="up" duration={1000} delay={1500}>
+                                                              <Image src='/images/tag2.png' width={220} height={50} alt="Tag"/>
+                                                          </Slide>
+                                                      </Fade>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </SwiperSlide>
 
-          {/* slide 3 */}
-          <SwiperSlide>
-              <div style={{ backgroundImage: `url('/images/corporate-bg.jpg')`, height: '580px' }} className='aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center'>
-                  <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>
-                      <div className='text-white uppercase oswald sm:pl-[60px] drop-shadow-md'>
-                          <Fade duration={1000} delay={500} cascade damping={0.2}>
-                              <Slide direction="down" duration={1000} delay={500}>
-                                  <p className='text-sm p-1'>30 ans experience</p>
-                              </Slide>
-                              <Slide direction="down" duration={1000} delay={600}>
-                                  <p className='text-5xl p-1 font-extralight'>santé mentale</p>
-                              </Slide>
-                              <Slide direction="down" duration={1000} delay={700}>
-                                  <p className='text-5xl p-1 font-semibold'>en entreprise</p>
-                              </Slide>
-                              <Slide direction="up" duration={1000} delay={800}>
-                                  <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
-                              </Slide>
-                          </Fade>
-                      </div>
-                      <div className='sm:flex-shrink-0 hidden sm:flex'>
-                          <Fade duration={1000} delay={1500}>
-                              <Slide direction="up" duration={1000} delay={1500}>
-                                  <Image src='/images/tag3.png' width={249} height={50} alt="Tag"/>
-                              </Slide>
-                          </Fade>
-                      </div>
-                  </div>
-              </div>
-          </SwiperSlide>
+                                      {/* slide 3 */}
+                                      <SwiperSlide>
+                                          <div style={{ backgroundImage: `url('/images/corporate-bg.jpg')`, height: '580px' }} className='aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center'>
+                                              <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>
+                                                  <div className='text-white uppercase oswald sm:pl-[60px] drop-shadow-md'>
+                                                      <Fade duration={1000} delay={500} cascade damping={0.2}>
+                                                          <Slide direction="down" duration={1000} delay={500}>
+                                                              <p className='text-sm p-1'>30 ans d&rsquo;experience</p>
+                                                          </Slide>
+                                                          <Slide direction="down" duration={1000} delay={600}>
+                                                              <p className='text-5xl p-1 font-extralight'>santé mentale</p>
+                                                          </Slide>
+                                                          <Slide direction="down" duration={1000} delay={700}>
+                                                              <p className='text-5xl p-1 font-semibold'>en entreprise</p>
+                                                          </Slide>
+                                                          <Slide direction="up" duration={1000} delay={800}>
+                                                              <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
+                                                          </Slide>
+                                                      </Fade>
+                                                  </div>
+                                                  <div className='sm:flex-shrink-0 hidden sm:flex'>
+                                                      <Fade duration={1000} delay={1500}>
+                                                          <Slide direction="up" duration={1000} delay={1500}>
+                                                              <Image src='/images/tag3.png' width={249} height={50} alt="Tag"/>
+                                                          </Slide>
+                                                      </Fade>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </SwiperSlide>
 
-          {/* slide 4 */}
-          <SwiperSlide>
-              <div style={{ backgroundImage: `url('/images/bienetre-bg.jpg')`, height: '580px' }} className='aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center'>
-                  <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>
-                      <div className='text-white uppercase oswald sm:pl-[60px] drop-shadow-md'>
-                          <Fade duration={1000} delay={500} cascade damping={0.2}>
-                              <Slide direction="down" duration={1000} delay={500}>
-                                  <p className='text-sm p-1'>30 ans experience</p>
+                                      {/* slide 4 */}
+                                      <SwiperSlide>
+                                          <div style={{ backgroundImage: `url('/images/bienetre-bg.jpg')`, height: '580px' }} className='aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center'>
+                                              <div className='flex pt-[230px] w-full items-center justify-center sm:justify-around'>
+                                                  <div className='text-white uppercase oswald sm:pl-[60px] drop-shadow-md'>
+                                                      <Fade duration={1000} delay={500} cascade damping={0.2}>
+                                                          <Slide direction="down" duration={1000} delay={500}>
+                                                            <p className='text-sm p-1'>30 ans d&rsquo;experience</p>
                               </Slide>
                               <Slide direction="down" duration={1000} delay={600}>
                                   <p className='text-5xl p-1 font-extralight'>validation de vos</p>

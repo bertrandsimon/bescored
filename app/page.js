@@ -13,7 +13,12 @@ import SliderSwiper from './sliderSwiper'
 import ParticlesZone from './particlesZone'
 import { Fragment } from 'react'
 
+
+
 export default function Home() {
+
+
+
   return (
     <main>
 

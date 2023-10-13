@@ -18,10 +18,10 @@ export default function Testimonials() {
           pagination={{ clickable: true, dynamicBullets: true  }}
           observer={true}
           observeParents={true}
-          autoplay={{
-            "delay": 5000,
-            "disableOnInteraction": false
-          }}
+          // autoplay={{
+          //   "delay": 5000,
+          //   "disableOnInteraction": false
+          // }}
           >
          
           <SwiperSlide>

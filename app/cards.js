@@ -37,8 +37,8 @@ export default function Cards() {
             <link rel="preload" href="/images/cards/card4b.jpg" as="image" />      
         </Head>
 
-        <div className='grid grid-cols-12 px-2 gap-2'>
-            <div className='order-1 col-span-12 lg:col-span-3'>
+        <div className='grid grid-cols-12 px-2 gap-2 justify-between'>
+            <div className='order-1 col-span-12 lg:col-span-3 '>
                 <div className='pl-10 pt-24'>
                 <Fade duration={1000} delay={1000} cascade damping={0.2} triggerOnce>
                     
@@ -49,8 +49,10 @@ export default function Cards() {
                 </div>
             </div>
 
+           
+
             {/* dektop */}
-            <div className='hidden order-2 col-span-12 lg:col-span-8 sm:flex sm:flex-row gap-2 sm:gap-6 justify-end'>
+            <div className='hidden order-2 col-span-12 lg:col-span-9 sm:flex sm:flex-row gap-2 sm:gap-6 justify-end'>
             <Fade duration={1000} delay={1000} cascade damping={0.2} triggerOnce>
                 <Slide direction="right" duration={500} delay={1000} triggerOnce>
                     
