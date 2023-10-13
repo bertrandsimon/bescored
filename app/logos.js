@@ -2,7 +2,7 @@
 import Image from 'next/image'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination} from 'swiper/modules';
+import { Navigation, Pagination, Autoplay} from 'swiper/modules';
 
 export default function Logos() {
   return (
@@ -18,13 +18,18 @@ export default function Logos() {
       </div>
 
       <Swiper style={{ height: '120px' }}
-       modules={[Navigation, Pagination]}
+       modules={[Navigation, Pagination, Autoplay]}
        spaceBetween={0}
        slidesPerView={5}
        navigation
        pagination={{ clickable: true, dynamicBullets: true  }}
        observer={true}
-       observeParents={true}>
+       observeParents={true}
+       autoplay={{
+        "delay": 5000,
+        "disableOnInteraction": false
+      }}
+       >
 
       <SwiperSlide>
         <Image

@@ -19,7 +19,7 @@ export default function Testimonials() {
           observer={true}
           observeParents={true}
           autoplay={{
-            "delay": 2500,
+            "delay": 5000,
             "disableOnInteraction": false
           }}
           >

@@ -1,6 +1,6 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination} from 'swiper/modules';
+import { Navigation, Pagination, Autoplay} from 'swiper/modules';
 import { Fade, Slide } from "react-awesome-reveal";
 
 import 'swiper/css';
@@ -27,18 +27,17 @@ export default function SliderSwiper() {
     </swiper-container> */}
 
     <Swiper style={{ height: '580px' }}
-       modules={[Navigation, Pagination]}
+       modules={[Navigation, Pagination, Autoplay]}
        spaceBetween={0}
        slidesPerView={1}
        navigation
-       //pagination={{ clickable: true }}
-       //scrollbar={{ draggable: true }}
-       //onSwiper={(swiper) => console.log(swiper)}
-       //onSlideChange={() => console.log('slide change')}
        observer={true}
        observeParents={true}
         className='aspect-auto height-[580px] bg-cover rounded-b-lg z-1'
-  
+        autoplay={{
+            "delay": 5000,
+            "disableOnInteraction": false
+          }}
     >
         {/* slide 1 */}
           <SwiperSlide>
