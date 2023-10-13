@@ -10,7 +10,7 @@ export default function News() {
       description:
         'Christophe Hausswirth a été élu le 7 septembre 2023 au Board Medical & Performance de l’ECA (comprenant les 250 meilleurs clubs de football européen) et ce pour une durée de 4 ans. ',
       imageUrl:
-        '/images/news/1.jpg',
+        '/images/news/1bis.jpg',
       date: '16 Mars 2023',
       datetime: '16 Sept 2023',
       category: { title: 'Partenaire', href: '#' },
@@ -104,7 +104,7 @@ export default function News() {
                   <p className="mt-5 line-clamp-5 text-sm leading-6 text-gray-600">{post.description}</p>
                 </div>
                 <div className="relative mt-8 flex items-center gap-x-4">
-                  <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-100" />
+                  <img src={post.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-100" />
                   <div className="text-sm leading-6">
                     <p className="font-semibold text-gray-900">
                       

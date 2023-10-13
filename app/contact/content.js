@@ -19,7 +19,8 @@ export default function Content() {
 
     emailjs.sendForm('service_uvsxn6b', 'template_vp0qn7h', form.current, 'NgT7PTAfnfr_bHXV2')
       .then((result) => {
-      
+          // show the user a success message
+          //console.log('mail envoyé')
           setSuccess(true)
       }, (error) => {
         

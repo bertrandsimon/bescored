@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -20,9 +21,8 @@ export default function Logos() {
        modules={[Navigation, Pagination]}
        spaceBetween={0}
        slidesPerView={5}
-       dynamicBullets= {true}
        navigation
-       pagination={{ clickable: true, dynamicbullets: true  }}
+       pagination={{ clickable: true, dynamicBullets: true  }}
        observer={true}
        observeParents={true}>
 

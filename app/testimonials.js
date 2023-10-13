@@ -10,7 +10,7 @@ export default function Testimonials() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
           <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 ">
-            <Image className="self-start" src="/images/logos/lpg.jpg" alt="LPG" height={39}
+            <Image className="self-start" src="/images/logos/lpg.png" alt="LPG" height={39}
                   width={160}/>
             <figure className="mt-10 flex flex-auto flex-col justify-between ">
               <blockquote className="text-normal font-normal leading-8 text-gray-900 ">
