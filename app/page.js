@@ -14,13 +14,13 @@ import ParticlesZone from "./particlesZone";
 import { Fragment } from "react";
 
 import Lottie from "lottie-react";
-import animationData from "../public/lotties/animation.json";
+import dna from "../public/lotties/dna.json";
 
 export default function Home() {
   const options = {
     loop: true,
     autoplay: true,
-    animationData: animationData,
+    animationData: dna,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },

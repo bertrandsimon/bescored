@@ -31,7 +31,7 @@ export default function Editorial() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-4 pt-20 px-6 sm:px-10">
-          <div className="flex justify-center items-center">
+          <div className="flex flex-col sm:flex-row text-justify sm:text-left justify-center items-center">
             <div className="p-6 flex-shrink-0">
               <Image
                 src="/images/editorial1.jpg"
@@ -41,7 +41,9 @@ export default function Editorial() {
               />
             </div>
             <div>
-              <p className="font-bold text-lg blue pb-3">Expertise santé</p>
+              <p className="font-semibold text-lg blue pb-3 text-center sm:text-left">
+                Expertise santé
+              </p>
               <span className="font-light">
                 Notre rôle est d’évaluer notamment les différents niveaux de
                 fatigue à 360°, que cela soit mis en œuvre pour les chirurgiens
@@ -51,7 +53,7 @@ export default function Editorial() {
             </div>
           </div>
 
-          <div className="flex justify-center items-center">
+          <div className="flex flex-col sm:flex-row text-justify sm:text-left justify-center items-center">
             <div className="p-6 flex-shrink-0">
               <Image
                 src="/images/editorial2.jpg"
@@ -61,7 +63,9 @@ export default function Editorial() {
               />
             </div>
             <div>
-              <p className="font-bold text-lg blue pb-3">Expertise sport</p>
+              <p className="font-semibold text-lg blue pb-3 text-center sm:text-left">
+                Expertise sport
+              </p>
               <span className="font-light">
                 Nous travaillons régulièrement sur l’optimisation de la phase de
                 récupération en sport, dans le but de prévenir l’apparition de
@@ -72,7 +76,7 @@ export default function Editorial() {
             </div>
           </div>
 
-          <div className="flex justify-center items-center">
+          <div className="flex flex-col sm:flex-row text-justify sm:text-left justify-center items-center">
             <div className="p-6 flex-shrink-0">
               <Image
                 src="/images/editorial3.jpg"
@@ -82,7 +86,9 @@ export default function Editorial() {
               />
             </div>
             <div>
-              <p className="font-bold text-lg blue pb-3">Expertise bien-être</p>
+              <p className="font-semibold text-lg blue pb-3 text-center sm:text-left">
+                Expertise bien-être
+              </p>
               <span className="font-light">
                 Des thématiques fortes s’imposent à nous depuis quelques temps,
                 à l’image de la qualité de sommeil à améliorer, de
@@ -95,7 +101,7 @@ export default function Editorial() {
             </div>
           </div>
 
-          <div className="flex justify-center items-center">
+          <div className="flex flex-col sm:flex-row text-justify sm:text-left justify-center items-center">
             <div className="p-6 flex-shrink-0">
               <Image
                 src="/images/editorial4.jpg"
@@ -105,7 +111,9 @@ export default function Editorial() {
               />
             </div>
             <div>
-              <p className="font-bold text-lg blue pb-3">Expertise corporate</p>
+              <p className="font-semibold text-lg blue pb-3 text-center sm:text-left">
+                Expertise corporate
+              </p>
               <span className="font-light">
                 Le monde de l’entreprise est quelquefois bien démuni lorsqu’il
                 s’agit de trouver des solutions pour diagnostiquer la santé
