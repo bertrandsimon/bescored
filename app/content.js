@@ -1,94 +1,92 @@
-import Image from 'next/image'
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import Image from "next/image";
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function Content() {
-
   const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Resources', href: '#' },
-    { name: 'Company', href: '#' },
-  ]
+    { name: "Product", href: "#" },
+    { name: "Features", href: "#" },
+    { name: "Resources", href: "#" },
+    { name: "Company", href: "#" },
+  ];
   const stats = [
-    { label: 'Transactions every 24 hours', value: '44 million' },
-    { label: 'Assets under holding', value: '$119 trillion' },
-    { label: 'New users annually', value: '46,000' },
-  ]
+    { label: "Transactions every 24 hours", value: "44 million" },
+    { label: "Assets under holding", value: "$119 trillion" },
+    { label: "New users annually", value: "46,000" },
+  ];
   const values = [
     {
-      name: 'Be world-class',
+      name: "Be world-class",
       description:
-        'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
+        "Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.",
     },
     {
-      name: 'Share everything you know',
+      name: "Share everything you know",
       description:
-        'Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.',
+        "Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.",
     },
     {
-      name: 'Always learning',
+      name: "Always learning",
       description:
-        'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
+        "Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.",
     },
     {
-      name: 'Be supportive',
+      name: "Be supportive",
       description:
-        'Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.',
+        "Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.",
     },
     {
-      name: 'Take responsibility',
+      name: "Take responsibility",
       description:
-        'Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.',
+        "Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.",
     },
     {
-      name: 'Enjoy downtime',
+      name: "Enjoy downtime",
       description:
-        'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
+        "Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.",
     },
-  ]
+  ];
   const team = [
     {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
     },
     // More people...
-  ]
+  ];
   const blogPosts = [
     {
       id: 1,
-      title: 'Vel expedita assumenda placeat aut nisi optio voluptates quas',
-      href: '#',
+      title: "Vel expedita assumenda placeat aut nisi optio voluptates quas",
+      href: "#",
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
       imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
+        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      date: "Mar 16, 2020",
+      datetime: "2020-03-16",
       author: {
-        name: 'Michael Foster',
+        name: "Michael Foster",
         imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
       },
     },
     // More posts...
-  ]
+  ];
   const footerNavigation = {
     main: [
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
-      { name: 'Accessibility', href: '#' },
-      { name: 'Partners', href: '#' },
+      { name: "Blog", href: "#" },
+      { name: "Jobs", href: "#" },
+      { name: "Press", href: "#" },
+      { name: "Accessibility", href: "#" },
+      { name: "Partners", href: "#" },
     ],
     social: [
       {
-        name: 'Facebook',
-        href: '#',
+        name: "Facebook",
+        href: "#",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -100,8 +98,8 @@ export default function Content() {
         ),
       },
       {
-        name: 'Instagram',
-        href: '#',
+        name: "Instagram",
+        href: "#",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -113,8 +111,8 @@ export default function Content() {
         ),
       },
       {
-        name: 'Twitter',
-        href: '#',
+        name: "Twitter",
+        href: "#",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -122,8 +120,8 @@ export default function Content() {
         ),
       },
       {
-        name: 'GitHub',
-        href: '#',
+        name: "GitHub",
+        href: "#",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -135,8 +133,8 @@ export default function Content() {
         ),
       },
       {
-        name: 'YouTube',
-        href: '#',
+        name: "YouTube",
+        href: "#",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -148,91 +146,119 @@ export default function Content() {
         ),
       },
     ],
-  }
+  };
 
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    
-    <div className='sm:-mt-64'>
- 
+    <div className="sm:-mt-64">
+      <main className="isolate">
+        {/* Hero section */}
+        <div className="relative isolate -z-10">
+          <svg
+            className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
+                width={200}
+                height={200}
+                x="50%"
+                y={-1}
+                patternUnits="userSpaceOnUse"
+              >
+                <path d="M.5 200V.5H200" fill="none" />
+              </pattern>
+            </defs>
 
-    <main className="isolate">
-      {/* Hero section */}
-      <div className="relative isolate -z-10">
-        <svg
-          className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
-          aria-hidden="true"
-        >
-          <defs>
-            <pattern
-              id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
-              width={200}
-              height={200}
-              x="50%"
-              y={-1}
-              patternUnits="userSpaceOnUse"
-            >
-              <path d="M.5 200V.5H200" fill="none" />
-            </pattern>
-          </defs>
-     
-          <rect width="100%" height="100%" strokeWidth={0} fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)" />
-        </svg>
-  
+            <rect
+              width="100%"
+              height="100%"
+              strokeWidth={0}
+              fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
+            />
+          </svg>
 
-        <div className="overflow-hidden">
-          <div className="mx-auto max-w-7xl px-6 sm:pt-60 lg:px-8 lg:pt-32">
-            <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-              <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+          <div className="overflow-hidden">
+            <div className="mx-auto max-w-7xl px-6 sm:pt-60 lg:px-8 lg:pt-32">
+              <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
+                <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+                  <p className="uppercase oswald text-4xl text-center sm:text-left">
+                    <span className="pr-2 font-semibold">votre</span>
+                    <span className="font-light">rapport</span>
+                  </p>
 
-              <p className='uppercase oswald text-4xl text-center sm:text-left'>
-                <span className='pr-2 font-semibold'>votre</span>
-                <span className='font-light'>rapport</span>
-             </p>
-
-                <p className="relative mt-6 text-normal font-light leading-8 sm:max-w-md lg:max-w-none text-center sm:text-left">
-                beScored Institute est un partenaire privilégié pour mettre en place les solutions de demain. Nous validons vos produits et nous les mettons en oeuvre dans des centres innovants.
-                </p>
-              </div>
-              <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-                <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                  <div className="relative">
-                    <Image src="/images/content/1.jpg" alt='Contenu' width={179} height={271} className='rounded-xl shadow-lg' ></Image>
-              
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                  </div>
+                  <p className="relative mt-6 text-normal font-light leading-8 sm:max-w-md lg:max-w-none text-center sm:text-left">
+                    beScored Institute est un partenaire privilégié pour mettre
+                    en place les solutions de demain. Nous validons vos produits
+                    et nous les mettons en oeuvre dans des centres innovants.
+                  </p>
                 </div>
-                <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                  <div className="relative">
-                  <Image src="/images/content/2.jpg" alt='Contenu' width={179} height={271} className='rounded-xl shadow-lg' ></Image>
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
+                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                    <div className="relative">
+                      <Image
+                        src="/images/content/1.jpg"
+                        alt="Contenu"
+                        width={179}
+                        height={271}
+                        className="rounded-xl shadow-lg"
+                      ></Image>
+
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
                   </div>
-                  <div className="relative">
-                  <Image src="/images/content/3.jpg" alt='Contenu' width={179} height={271} className='rounded-xl shadow-lg' ></Image>
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                  <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
+                    <div className="relative">
+                      <Image
+                        src="/images/content/2.jpg"
+                        alt="Contenu"
+                        width={179}
+                        height={271}
+                        className="rounded-xl shadow-lg"
+                      ></Image>
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                      <Image
+                        src="/images/content/3.jpg"
+                        alt="Contenu"
+                        width={179}
+                        height={271}
+                        className="rounded-xl shadow-lg"
+                      ></Image>
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
                   </div>
-                </div>
-                <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                  <div className="relative">
-                  <Image src="/images/content/4.jpg" alt='Contenu' width={179} height={271} className='rounded-xl shadow-lg' ></Image>
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                  </div>
-                  <div className="relative">
-                  <Image src="/images/content/5.jpg" alt='Contenu' width={179} height={271} className='rounded-xl shadow-lg' ></Image>
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                  <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+                    <div className="relative">
+                      <Image
+                        src="/images/content/4.jpg"
+                        alt="Contenu"
+                        width={179}
+                        height={271}
+                        className="rounded-xl shadow-lg"
+                      ></Image>
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                      <Image
+                        src="/images/content/5.jpg"
+                        alt="Contenu"
+                        width={179}
+                        height={271}
+                        className="rounded-xl shadow-lg"
+                      ></Image>
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-    </main>
-
-
-  </div>
-   
-  )
+      </main>
+    </div>
+  );
 }

@@ -1,23 +1,28 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
-import { Navigation, Pagination, Autoplay} from 'swiper/modules';
-import posts from './datas/postsData'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import {Popover, PopoverTrigger, PopoverContent, Button} from "@nextui-org/react";
+import Image from "next/image";
+import Link from "next/link";
+import {
+  BuildingOffice2Icon,
+  EnvelopeIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/outline";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import posts from "./datas/postsData";
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  Button,
+} from "@nextui-org/react";
 
 export default function ToolBar() {
   return (
-    
-      <div className='h-14 bg-black flex items-center'>
-       
-          <div className='flex items-center w-full justify-between px-8 gap-2 text-white'>
-
-            <div className='text-slate-400 text-xs flex justify-center items-center gap-2 h-96'>
-            
-              {/* <Swiper
+    <div className="h-14 bg-black flex items-center">
+      <div className="flex items-center w-full justify-between px-8 gap-2 text-white">
+        <div className="text-slate-400 text-xs flex justify-center items-center gap-2 h-96">
+          {/* <Swiper
                   modules={[Autoplay]}
                   spaceBetween={0}
                   slidesPerView={1}
@@ -52,22 +57,28 @@ export default function ToolBar() {
              
                
               </Swiper> */}
-            </div>
+        </div>
 
-           
-
-            <div className='text-slate-400 text-xs flex justify-center items-center gap-2'>
-              <span className=''><PhoneIcon className="h-3 w-3 text-gray-400" /></span>
-              <span><a href="0686584696" className='hover:text-white'>Téléphone: +33 (0)6 86 58 46 93 </a></span>
-              <span>|</span>
-              <span className=''><EnvelopeIcon className="h-3 w-3 text-gray-400" /></span>
-              <span><a href="mailto:contact@bescored.fr" className='hover:text-white'>contact@bescored.fr</a></span>
-            </div>
-
-          </div>
-
-
+        <div className="text-slate-400 text-xs flex justify-center items-center gap-2">
+          <span className="">
+            <PhoneIcon className="h-3 w-3 text-gray-400" />
+          </span>
+          <span>
+            <a href="0686584696" className="hover:text-white">
+              Téléphone: +33 (0)6 86 58 46 93{" "}
+            </a>
+          </span>
+          <span>|</span>
+          <span className="">
+            <EnvelopeIcon className="h-3 w-3 text-gray-400" />
+          </span>
+          <span>
+            <a href="mailto:contact@bescored.fr" className="hover:text-white">
+              contact@bescored.fr
+            </a>
+          </span>
+        </div>
       </div>
-   
-  )
+    </div>
+  );
 }
