@@ -13,15 +13,27 @@ export default function Testimonials() {
             style={{ height: "520px" }}
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={0}
-            slidesPerView={2}
             navigation
             pagination={{ clickable: true, dynamicBullets: true }}
             observer={true}
             observeParents={true}
-            // autoplay={{
-            //   "delay": 5000,
-            //   "disableOnInteraction": false
-            // }}
+            breakpoints={{
+              // When window width is >= 320px
+              320: {
+                slidesPerView: 1,
+                // spaceBetween: 20
+              },
+              // When window width is >= 480px
+              480: {
+                slidesPerView: 1,
+                // spaceBetween: 30
+              },
+              // When window width is >= 640px
+              640: {
+                slidesPerView: 2,
+                // spaceBetween: 40
+              },
+            }}
           >
             <SwiperSlide>
               <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 ">
