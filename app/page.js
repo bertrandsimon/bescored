@@ -13,7 +13,19 @@ import SliderSwiper from "./sliderSwiper";
 import ParticlesZone from "./particlesZone";
 import { Fragment } from "react";
 
+import Lottie from "lottie-react";
+import animationData from "../public/lotties/animation.json";
+
 export default function Home() {
+  const options = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <main>
       <div className="-mt-[120px] z-0 relative">
@@ -29,6 +41,11 @@ export default function Home() {
       </div>
 
       <Editorial />
+      {/* <div>
+        <h1>LOTTIE</h1>
+        <Lottie options={options} width={400} height={400} />
+      </div> */}
+
       <Method />
       <Stats />
       <Content />

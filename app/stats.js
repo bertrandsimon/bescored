@@ -14,7 +14,7 @@ export default function Stats() {
   const stats = [
     {
       id: 1,
-      name: "Publications scientifiques internationales",
+      name: "publications scientifiques internationales",
       value: "+ de 300",
     },
     { id: 2, name: "d experience", value: "+ de 30 ans" },
@@ -34,7 +34,7 @@ export default function Stats() {
           <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
             <div className="mx-auto flex max-w-xs flex-col gap-y-4">
               <dt className="text-base leading-7 text-white">
-                Publications scientifiques internationales
+                publications scientifiques internationales
               </dt>
               <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl mx-auto">
                 <AnimatedNumbers
@@ -54,7 +54,7 @@ export default function Stats() {
 
             <div className="mx-auto flex max-w-xs flex-col gap-y-4">
               <dt className="text-base leading-7 text-white">
-                Ans d&apos;expérience
+                ans d&apos;expérience
               </dt>
               <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl mx-auto">
                 <AnimatedNumbers
@@ -74,7 +74,8 @@ export default function Stats() {
 
             <div className="mx-auto flex max-w-xs flex-col gap-y-4">
               <dt className="text-base leading-7 text-white">
-                Evaluations (Athletes, chefs d&apos;entreprise, chirurgiens)
+                évaluations <br />
+                (athlètes, chefs d&apos;entreprise, chirurgiens)
               </dt>
               <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl mx-auto">
                 <AnimatedNumbers

@@ -47,7 +47,7 @@ export default function Nav() {
                   <div className="flex flex-shrink-0 items-center">
                     <Link href="/">
                       <Image
-                        className=""
+                        className="cursor-pointer"
                         src="/images/bescored-logo.png"
                         width={171}
                         height={44}
@@ -66,7 +66,7 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase">
+                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase cursor-pointer">
                         {/* <Link
                         href="/expertise"
                         className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
@@ -93,7 +93,7 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase">
+                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase cursor-pointer">
                         {/* <Link
                         href="/expertise"
                         className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
@@ -119,7 +119,7 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase">
+                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase cursor-pointer">
                         {/* <Link
                         href="/expertise"
                         className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
@@ -145,7 +145,7 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase">
+                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase cursor-pointer">
                         {/* <Link
                         href="/expertise"
                         className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
@@ -169,7 +169,7 @@ export default function Nav() {
                 <div className="sm:visible flex flex-col items-center justify-center z-10">
                   <button className="oswald bg-transparent hover:bg-black text-white uppercase text-sm hover:text-white hover:border-black py-2 px-4 border border-white hover:border-transparent">
                     <Link href="/contact">
-                      <span>Contactez-nous</span>
+                      <span>Contactez-nous !</span>
                     </Link>
                   </button>
                 </div>

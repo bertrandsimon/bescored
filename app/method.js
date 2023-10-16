@@ -39,7 +39,10 @@ export default function Method() {
               alt="etape"
               className="sm:pt-[55px] img1Method cursor-pointer"
             />
-            <p className="font-semibold text-lg pt-5">Ecouter</p>
+            <p className="font-semibold text-lg pt-5">
+              <span className="uppercase">é</span>
+              <span>couter</span>
+            </p>
             <p className="pt-5 max-w-[135px] font-light">
               Recueil de vos attentes.
             </p>
@@ -62,7 +65,10 @@ export default function Method() {
               alt="etape"
               className="sm:pt-[22px] img2Method cursor-pointer"
             />
-            <p className="font-semibold text-lg pt-5">Echanger</p>
+            <p className="font-semibold text-lg pt-5">
+              <span className="uppercase">é</span>
+              <span>changer</span>
+            </p>
             <p className="pt-5 max-w-[135px] font-light">
               Ensemble, élaborons la meilleure approche.
             </p>
@@ -85,7 +91,10 @@ export default function Method() {
               alt="etape"
               className="sm:pt-[40px] img3Method cursor-pointer"
             />
-            <p className="font-semibold text-lg pt-5">Evaluer</p>
+            <p className="font-semibold text-lg pt-5">
+              <span className="uppercase">é</span>
+              <span>valuer</span>
+            </p>
             <p className="pt-5 max-w-[135px] font-light">
               Un protocole de test qui a fait ses preuves.
             </p>
@@ -117,7 +126,7 @@ export default function Method() {
 
         <div className="flex justify-center pt-10">
           <button className="btn btn-blue oswald">
-            <Link href="/contact">contactez-nous</Link>
+            <Link href="/contact">contactez-nous !</Link>
           </button>
         </div>
       </div>

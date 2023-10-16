@@ -25,7 +25,7 @@ export default function Editorial() {
               &ldquo;Fort de plus de 30 ans d&apos;expérience dans
               l&apos;optimisation de la performance sportive de haut niveau,
               beScored propose également cette expertise dans les domaines de la
-              santé, du bien être et de l&apos;entreprise.&rdquo;
+              santé, du bien-être et de l&apos;entreprise.&rdquo;
             </p>
           </Fade>
         </div>
@@ -46,7 +46,7 @@ export default function Editorial() {
                 Notre rôle est d’évaluer notamment les différents niveaux de
                 fatigue à 360°, que cela soit mis en œuvre pour les chirurgiens
                 ou les personnels soignants. C’est l’occasion de prendre soin de
-                ceux ou celles qui prennent soin de nous!
+                ceux ou celles qui prennent soin de nous !
               </span>
             </div>
           </div>
