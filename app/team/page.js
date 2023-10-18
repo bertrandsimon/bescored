@@ -1,7 +1,8 @@
 import Image from "next/image";
 // import TeamTop from './team'
 import TeamTop from "./teamTop";
-import Content from "./content";
+import Solo from "./solo";
+import Trio from "./trio";
 import Subteam from "./subteam";
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
         <TeamTop />
       </div>
 
-      <Content />
+      <Solo />
+      <Trio />
       <Subteam />
     </main>
   );
