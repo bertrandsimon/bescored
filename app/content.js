@@ -151,7 +151,7 @@ export default function Content() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="sm:-mt-64">
+    <div className="sm:-mt-64 mb-24">
       <main className="isolate">
         {/* Hero section */}
         <div className="relative isolate -z-10">

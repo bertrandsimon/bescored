@@ -66,14 +66,14 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase cursor-pointer">
-                        {/* <Link
+                      {/* <PopoverTrigger className="inline-flex items-center px-1 pt-1 uppercase cursor-pointer"> */}
+                      <Link
                         href="/expertise"
-                        className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
-                      > */}
+                        className="inline-flex items-center px-1 pt-1 uppercase"
+                      >
                         Expertise
-                        {/* </Link> */}
-                      </PopoverTrigger>
+                      </Link>
+                      {/* </PopoverTrigger> */}
 
                       <PopoverContent>
                         <div className="px-1 py-2">
@@ -93,14 +93,14 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase cursor-pointer">
-                        {/* <Link
-                        href="/expertise"
-                        className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
-                      > */}
+                      {/* <PopoverTrigger className="inline-flex items-center px-1 pt-1 uppercase cursor-pointer"> */}
+                      <Link
+                        href="/team"
+                        className="inline-flex items-center px-1 pt-1 uppercase"
+                      >
                         équipe
-                        {/* </Link> */}
-                      </PopoverTrigger>
+                      </Link>
+                      {/* </PopoverTrigger> */}
 
                       <PopoverContent>
                         <div className="px-1 py-2">
@@ -119,10 +119,10 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase cursor-pointer">
+                      <PopoverTrigger className="inline-flex items-center px-1 pt-1 uppercase cursor-pointer">
                         {/* <Link
                         href="/expertise"
-                        className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
+                        className="inline-flex items-center px-1 pt-1 uppercase"
                       > */}
                         études de cas
                         {/* </Link> */}
@@ -145,10 +145,10 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase cursor-pointer">
+                      <PopoverTrigger className="inline-flex items-center px-1 pt-1 uppercase cursor-pointer">
                         {/* <Link
                         href="/expertise"
-                        className="inline-flex items-center border-b-2 border-white px-1 pt-1 uppercase"
+                        className="inline-flex items-center px-1 pt-1 uppercase"
                       > */}
                         News
                         {/* </Link> */}
