@@ -14,7 +14,7 @@ export default function Editorial() {
             damping={0.2}
             triggerOnce
           >
-            <p className="font-semibold text-lg blue">
+            <p className="font-semibold text-base uppercase blue">
               beScored, accélérateur de performance et de bien-être
             </p>
             <p className="font-light text-4xl pt-4 oswald uppercase">
@@ -41,7 +41,7 @@ export default function Editorial() {
               />
             </div>
             <div>
-              <p className="font-semibold text-lg blue pb-3 text-center sm:text-left">
+              <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
                 Expertise santé
               </p>
               <span className="font-light">
@@ -63,7 +63,7 @@ export default function Editorial() {
               />
             </div>
             <div>
-              <p className="font-semibold text-lg blue pb-3 text-center sm:text-left">
+              <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
                 Expertise sport
               </p>
               <span className="font-light">
@@ -86,7 +86,7 @@ export default function Editorial() {
               />
             </div>
             <div>
-              <p className="font-semibold text-lg blue pb-3 text-center sm:text-left">
+              <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
                 Expertise bien-être
               </p>
               <span className="font-light">
@@ -111,7 +111,7 @@ export default function Editorial() {
               />
             </div>
             <div>
-              <p className="font-semibold text-lg blue pb-3 text-center sm:text-left">
+              <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
                 Expertise corporate
               </p>
               <span className="font-light">

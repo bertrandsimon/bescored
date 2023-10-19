@@ -119,14 +119,14 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center px-1 pt-1 uppercase cursor-pointer">
-                        {/* <Link
-                        href="/expertise"
+                      {/* <PopoverTrigger className="inline-flex items-center px-1 pt-1 uppercase cursor-pointer"> */}
+                      <Link
+                        href="/cases"
                         className="inline-flex items-center px-1 pt-1 uppercase"
-                      > */}
+                      >
                         études de cas
-                        {/* </Link> */}
-                      </PopoverTrigger>
+                      </Link>
+                      {/* </PopoverTrigger> */}
 
                       <PopoverContent>
                         <div className="px-1 py-2">
@@ -145,14 +145,14 @@ export default function Nav() {
                         arrow: "bg-default-200",
                       }}
                     >
-                      <PopoverTrigger className="inline-flex items-center px-1 pt-1 uppercase cursor-pointer">
-                        {/* <Link
-                        href="/expertise"
+                      {/* <PopoverTrigger className="inline-flex items-center px-1 pt-1 uppercase cursor-pointer"> */}
+                      <Link
+                        href="/news"
                         className="inline-flex items-center px-1 pt-1 uppercase"
-                      > */}
+                      >
                         News
-                        {/* </Link> */}
-                      </PopoverTrigger>
+                      </Link>
+                      {/* </PopoverTrigger> */}
 
                       <PopoverContent>
                         <div className="px-1 py-2">
@@ -176,7 +176,7 @@ export default function Nav() {
               </div>
             </div>
 
-            <Disclosure.Panel className="sm:hidden">
+            <Disclosure.Panel className="z-9000 sm:hidden">
               <div className="space-y-1 pb-40 pt-8 oswald text-center mx-auto flex flex-col items-center bg-[#4DB4C4]">
                 {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
                 <Disclosure.Button

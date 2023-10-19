@@ -66,8 +66,7 @@ export default function Subteam() {
             </p>
 
             <p className="mt-6 text-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              exercitationemuptas sunt ut.
+              Reconnus pour leurs compétences, en France et à l'international.
             </p>
           </div>
         </div>

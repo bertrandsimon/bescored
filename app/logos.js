@@ -7,7 +7,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 export default function Logos() {
   return (
     <>
-      <div className="text-center pt-20 pb-20">
+      <div className="text-center pb-20">
         <p className="uppercase oswald text-4xl ">
           <span className="pr-2 font-semibold">ils nous font</span>
           <span className="font-light">confiance</span>
