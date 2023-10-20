@@ -66,7 +66,8 @@ export default function Subteam() {
             </p>
 
             <p className="mt-6 text-light">
-              Reconnus pour leurs compétences, en France et à l'international.
+              Reconnus pour leurs compétences, en France et à
+              l&apos;international.
             </p>
           </div>
         </div>

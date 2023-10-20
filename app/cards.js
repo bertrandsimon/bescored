@@ -5,6 +5,7 @@ import Head from "next/head";
 import { Fade, Slide } from "react-awesome-reveal";
 import Atropos from "atropos/react";
 import "atropos/css";
+import Link from "next/link";
 
 function Card({ initialSrc, hoverSrc, width, height }) {
   const [src, setSrc] = useState(initialSrc);
@@ -81,13 +82,15 @@ export default function Cards() {
                 rotateYMax="60"
                 highlight="true"
               >
-                <Image
-                  className="img1Card w-auto rounded-xl drop-shadow-lg"
-                  src="/images/cards/card1.jpg"
-                  width={206}
-                  height={284}
-                  alt="atropos"
-                />
+                <Link href="/cases">
+                  <Image
+                    className="img1Card w-auto rounded-xl drop-shadow-lg"
+                    src="/images/cards/card1.jpg"
+                    width={206}
+                    height={284}
+                    alt="atropos"
+                  />
+                </Link>
               </Atropos>
             </Slide>
 
@@ -101,13 +104,15 @@ export default function Cards() {
                 rotateYMax="60"
                 highlight="true"
               >
-                <Image
-                  className="img2Card w-auto rounded-xl drop-shadow-lg"
-                  src="/images/cards/card2.jpg"
-                  width={206}
-                  height={284}
-                  alt="atropos"
-                />
+                <Link href="/cases">
+                  <Image
+                    className="img2Card w-auto rounded-xl drop-shadow-lg"
+                    src="/images/cards/card2.jpg"
+                    width={206}
+                    height={284}
+                    alt="atropos"
+                  />
+                </Link>
               </Atropos>
             </Slide>
 
@@ -121,13 +126,15 @@ export default function Cards() {
                 rotateYMax="60"
                 highlight="true"
               >
-                <Image
-                  className="img3Card w-auto rounded-xl drop-shadow-lg"
-                  src="/images/cards/card3.jpg"
-                  width={206}
-                  height={284}
-                  alt="atropos"
-                />
+                <Link href="/cases">
+                  <Image
+                    className="img3Card w-auto rounded-xl drop-shadow-lg"
+                    src="/images/cards/card3.jpg"
+                    width={206}
+                    height={284}
+                    alt="atropos"
+                  />
+                </Link>
               </Atropos>
             </Slide>
 
@@ -141,13 +148,15 @@ export default function Cards() {
                 rotateYMax="60"
                 highlight="true"
               >
-                <Image
-                  className="img4Card w-auto rounded-xl drop-shadow-lg"
-                  src="/images/cards/card4.jpg"
-                  width={206}
-                  height={284}
-                  alt="atropos"
-                />
+                <Link href="/cases">
+                  <Image
+                    className="img4Card w-auto rounded-xl drop-shadow-lg"
+                    src="/images/cards/card4.jpg"
+                    width={206}
+                    height={284}
+                    alt="atropos"
+                  />
+                </Link>
               </Atropos>
             </Slide>
           </Fade>

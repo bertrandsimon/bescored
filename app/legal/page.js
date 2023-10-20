@@ -9,9 +9,6 @@ export default function Home() {
       <div className="-mt-[120px] z-1">
         <CasesTop />
         <Content />
-        <div className="pt-12 pb-24">
-          <Method />
-        </div>
       </div>
     </main>
   );

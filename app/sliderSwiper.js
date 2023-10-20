@@ -10,6 +10,7 @@ import "swiper/css/scrollbar";
 import Image from "next/image";
 import { Fragment } from "react";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function SliderSwiper() {
   return (
@@ -54,9 +55,11 @@ export default function SliderSwiper() {
 
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
-                      <button className="btn btn-blue cursor-pointer">
-                        en savoir +
-                      </button>
+                      <Link href="/cases">
+                        <button className="btn btn-blue cursor-pointer">
+                          en savoir +
+                        </button>
+                      </Link>
                     </div>
                   </Slide>
                 </Fade>
@@ -102,9 +105,11 @@ export default function SliderSwiper() {
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
-                      <button className="btn btn-blue cursor-pointer">
-                        en savoir +
-                      </button>
+                      <Link href="/cases">
+                        <button className="btn btn-blue cursor-pointer">
+                          en savoir +
+                        </button>
+                      </Link>
                     </div>
                   </Slide>
                 </Fade>
@@ -150,9 +155,11 @@ export default function SliderSwiper() {
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
-                      <button className="btn btn-blue cursor-pointer">
-                        en savoir +
-                      </button>
+                      <Link href="/cases">
+                        <button className="btn btn-blue cursor-pointer">
+                          en savoir +
+                        </button>
+                      </Link>
                     </div>
                   </Slide>
                 </Fade>

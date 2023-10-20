@@ -10,7 +10,7 @@ export default function TeamTop() {
         <div className="text-white uppercase oswald pl-[200px]">
           <p className="text-sm p-1">notre équipe</p>
           <p className="text-5xl p-1 font-extralight">expérience</p>
-          <p className="text-5xl p-1 font-semibold">et savoir faire</p>
+          <p className="text-5xl p-1 font-semibold">et savoir-faire</p>
         </div>
 
         <div className=""></div>
