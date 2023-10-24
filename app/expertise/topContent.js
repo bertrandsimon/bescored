@@ -120,13 +120,12 @@ export default function TopContent() {
                 </div>
                 <div className="flex flex-col">
                   <span className="font-semibold pt-4">
-                    Résultats majeurs :
+                    Objectif principal :
                   </span>
                   <span>
-                    à l’issue d’un exercice générant de fortes courbatures, les
-                    paramètres de force et de détente sont moins altérés lorsque
-                    les sportifs effectuent chaque jour une récupération en
-                    sauna infrarouges.
+                    favoriser une amélioration de la récupération en sport par
+                    l’utilisation régulière d’un dispositif infrarouges de
+                    dernière génération.
                   </span>
                 </div>
                 <div className="flex flex-col">
@@ -134,9 +133,10 @@ export default function TopContent() {
                     Résultats majeurs :
                   </span>
                   <span>
-                    la fatigue cognitive et physique sont diminuées par
-                    l’utilisation d’un automate utilisé en arthroplastie de la
-                    hanche.
+                    à l’issue d’un exercice générant de fortes courbatures, les
+                    paramètres de force et de détente sont moins altérés lorsque
+                    les sportifs effectuent chaque jour une récupération en
+                    sauna infrarouges.
                   </span>
                 </div>
               </dd>

@@ -120,7 +120,7 @@ export default function Content() {
                 </dt>
                 <dd>
                   <a className="hover:text-white" href="tel:06 86 58 46 93">
-                    06 86 58 46 93
+                    +33 (0)6 86 58 46 93
                   </a>
                 </dd>
               </div>
