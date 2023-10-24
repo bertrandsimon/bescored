@@ -7,13 +7,13 @@ export default function Content() {
         <h2>Mentions légales</h2>
         <p>
           Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004
-          pour la confiance dans l'économie numérique, il est précisé aux
+          pour la confiance dans l&apos;économie numérique, il est précisé aux
           utilisateurs du site
           <Link className="text-blue-600 px-2" href="https://www.bescored.fr">
             www.bescored.fr
           </Link>
-          l'identité des différents intervenants dans le cadre de sa réalisation
-          et de son suivi.
+          l&apos;identité des différents intervenants dans le cadre de sa
+          réalisation et de son suivi.
         </p>
 
         <h2>Éditeur du site :</h2>
@@ -106,12 +106,12 @@ export default function Content() {
         <h3>1.2. Données Collectées</h3>
         <p>
           Nous collectons différentes catégories de données personnelles,
-          notamment, mais sans s'y limiter, les informations que vous nous
-          fournissez volontairement, telles que votre nom, votre adresse email,
-          votre numéro de téléphone, etc. Nous pouvons également collecter des
-          données automatiquement à l'aide de technologies telles que les
-          cookies, les journaux de serveur et d'autres outils de suivi
-          similaires lorsque vous naviguez sur notre site.
+          notamment, les informations que vous nous fournissez volontairement,
+          telles que votre nom, votre adresse email, votre numéro de téléphone,
+          etc. Nous pouvons également collecter des données automatiquement à
+          l&apos;aide de technologies telles que les cookies, les journaux de
+          serveur et d&apos;autres outils de suivi similaires lorsque vous
+          naviguez sur notre site.
         </p>
 
         <h3>1.3. Finalités du Traitement</h3>
@@ -133,15 +133,16 @@ export default function Content() {
         <p>
           Conformément au Règlement (UE) 2016/679 du Parlement européen et du
           Conseil du 27 avril 2016 relatif à la protection des personnes
-          physiques à l'égard du traitement des données à caractère personnel et
-          à la libre circulation de ces données (RGPD) et à la loi nᵒ 78-17 du 6
-          janvier 1978 relative à l’informatique, aux fichiers et aux libertés,
-          vos données personnelles sont conservées pour une durée limitée.
+          physiques à l&apos;égard du traitement des données à caractère
+          personnel et à la libre circulation de ces données (RGPD) et à la loi
+          nᵒ 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et
+          aux libertés, vos données personnelles sont conservées pour une durée
+          limitée.
         </p>
 
         <h3>1.5. Vos Droits</h3>
         <p>
-          En tant qu'utilisateur de notre site internet, vous disposez de
+          En tant qu&apos;utilisateur de notre site internet, vous disposez de
           certains droits en ce qui concerne vos données personnelles, notamment
           un droit d’accès, d’opposition, de rectification et de suppression.
           Pour exercer ces droits ou poser vos questions concernant la collecte
