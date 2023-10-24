@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter, Work_Sans, Oswald, Poppins } from "next/font/google";
 import ToolBar from "./toolBar";
 import Nav from "./nav";
+import NavMobile from "./navMobile";
 import Footer from "./footer";
 
 const inter = Inter({
@@ -43,8 +44,11 @@ export default function RootLayout({ children }) {
         <div className="z-10">
           <ToolBar />
         </div>
+        <div className="visible sm:hidden">
+          <NavMobile />
+        </div>
 
-        <Nav className="z-9999" />
+        <Nav className="z-12" />
 
         {children}
 
