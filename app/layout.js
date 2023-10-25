@@ -31,8 +31,8 @@ const oswald = Oswald({
 // })
 
 export const metadata = {
-  title: "BeScored",
-  description: `Centre d'expertise scientifique`,
+  title: "BeScored : centre d'expertise scientifique",
+  description: `Fort de plus de 30 ans d'expérience dans l'optimisation de la performance sportive de haut niveau, beScored propose également cette expertise dans les domaines de la santé, du bien-être et de l'entreprise.`,
 };
 
 export default function RootLayout({ children }) {
