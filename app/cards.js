@@ -37,7 +37,7 @@ export default function Cards() {
       </Head>
 
       <div className="grid grid-cols-12 px-2 gap-2 justify-between">
-        <div className="order-1 col-span-12 lg:col-span-3 ">
+        <div className="order-1 col-span-12 lg:col-span-3 md:col-span-12 md:order-2 ">
           <div className="pl-10 pt-24">
             <Fade
               duration={1000}

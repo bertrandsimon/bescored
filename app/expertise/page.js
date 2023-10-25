@@ -4,6 +4,7 @@ import ExpertiseTop from "./expertiseTop";
 import Faq from "./faq";
 import TopContent from "./topContent";
 import Content from "../content";
+import Head from "next/head";
 
 export default function Home() {
   return (

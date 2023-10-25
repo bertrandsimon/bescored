@@ -32,7 +32,7 @@ export default function Content() {
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="-mx-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-4">
-            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4">
+            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
               <span>Expertise santé</span>
               <Link href="/pdf/Etude de cas_Sante_beScored.pdf" target="_blank">
@@ -41,7 +41,7 @@ export default function Content() {
                 </button>
               </Link>
             </div>
-            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4">
+            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
               <span>Expertise Sport</span>
               <Link href="/pdf/Etude de cas_Sport_beScored.pdf" target="_blank">
@@ -50,7 +50,7 @@ export default function Content() {
                 </button>
               </Link>
             </div>
-            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4">
+            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
               <span>Expertise bien-être</span>
               <Link
@@ -62,7 +62,7 @@ export default function Content() {
                 </button>
               </Link>
             </div>
-            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4">
+            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
               <span>Expertise corporate</span>
               <Link

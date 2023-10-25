@@ -66,7 +66,7 @@ export default function ToolBar() {
           </span>
           <span>
             <a href="0686584696" className="hover:text-white">
-              Téléphone: +33 (0)6 86 58 46 93
+              +33 (0)6 86 58 46 93
             </a>
           </span>
           <span>|</span>
