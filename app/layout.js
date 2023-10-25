@@ -4,6 +4,7 @@ import ToolBar from "./toolBar";
 import Nav from "./nav";
 import NavMobile from "./navMobile";
 import Footer from "./footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ export default function RootLayout({ children }) {
         {children}
 
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
