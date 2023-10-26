@@ -26,7 +26,7 @@ export default function Content() {
         </div>
       </div>
       <div className="bg-gray-900 py-24 sm:py-32m mt-24">
-        <div className="flex justify-center items-center text-white py-12 font-light text-4xl pt-4 oswald uppercase">
+        <div className="flex justify-center items-center text-center text-white py-12 font-light text-4xl pt-4 oswald uppercase">
           <span>Nos études de cas par domaine d&apos;expertise </span>
         </div>
 

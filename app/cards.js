@@ -84,7 +84,7 @@ export default function Cards() {
               >
                 <Link href="/cases">
                   <Image
-                    className="img1Card w-auto rounded-xl drop-shadow-lg"
+                    className="img1Card w-auto rounded-xl drop-shadow-lg object-cover"
                     src="/images/cards/card1.jpg"
                     width={206}
                     height={284}
@@ -106,7 +106,7 @@ export default function Cards() {
               >
                 <Link href="/cases">
                   <Image
-                    className="img2Card w-auto rounded-xl drop-shadow-lg"
+                    className="img2Card w-auto rounded-xl drop-shadow-lg "
                     src="/images/cards/card2.jpg"
                     width={206}
                     height={284}
