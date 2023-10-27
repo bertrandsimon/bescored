@@ -10,7 +10,7 @@ export default function News() {
             {posts.map((post) => (
               <article
                 key={post.id}
-                className="flex flex-col items-start justify-between"
+                className="flex flex-col items-start justify-start"
               >
                 <div className="relative w-full">
                   <Image
@@ -22,7 +22,7 @@ export default function News() {
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
-                <div className="max-w-xl">
+                <div className="max-w-xl flex flex-col justify-start items-start">
                   <div className="mt-8 flex items-center gap-x-4 text-xs">
                     <time dateTime={post.datetime} className="text-gray-500">
                       {post.date}
