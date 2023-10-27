@@ -5,17 +5,6 @@ import Nav from "./nav";
 import NavMobile from "./navMobile";
 import Footer from "./footer";
 import { Analytics } from "@vercel/analytics/react";
-import AnalyticsGoogle from "analytics";
-import googleAnalytics from "@analytics/google-analytics";
-
-const analytics = AnalyticsGoogle({
-  app: "beScored",
-  plugins: [
-    googleAnalytics({
-      measurementIds: ["G-2SL6Y5LNG1"],
-    }),
-  ],
-});
 
 const inter = Inter({
   subsets: ["latin"],
