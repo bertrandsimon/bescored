@@ -10,7 +10,7 @@ export default function News() {
             {posts.map((post) => (
               <article
                 key={post.id}
-                className="flex flex-col items-start justify-start"
+                className="flex flex-col items-start h-full justify-between"
               >
                 <div className="relative w-full">
                   <Image
