@@ -5,6 +5,7 @@ import Nav from "./nav";
 import NavMobile from "./navMobile";
 import Footer from "./footer";
 import { Analytics } from "@vercel/analytics/react";
+import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -37,11 +38,39 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const GA_TAG_ID = "G-2SL6Y5LNG1"; // Add your own Tag ID here
+  const isProductionEnv =
+    process.env.NODE_ENV && process.env.NODE_ENV !== "development";
+
   return (
     <html lang="fr">
       <body
         className={`${inter.variable} ${work_sans.variable} ${oswald.variable} container mx-auto z-10 max-w-screen-2xl`}
       >
+        <Head>
+          {/* Google Analytics -- Only Include in Production*/}
+          {isProductionEnv ? (
+            <>
+              {/* Global Site Tag (gtag.js) - Google Analytics */}
+              <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=${GA_TAG_ID}`}
+              />
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_TAG_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `,
+                }}
+              />
+            </>
+          ) : null}
+        </Head>
         <div className="z-10">
           <ToolBar />
         </div>
