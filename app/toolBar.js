@@ -8,7 +8,7 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import posts from "./datas/postsData";
+import posts from "./datas/postsData2";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Popover,

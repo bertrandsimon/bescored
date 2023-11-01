@@ -9,6 +9,7 @@ import Content from "./content";
 import Logos from "./logos";
 import Testimonials from "./testimonials";
 import News from "./news";
+import News2 from "./news2";
 import SliderSwiper from "./sliderSwiper";
 import ParticlesZone from "./particlesZone";
 import Head from "next/head";
@@ -63,7 +64,7 @@ export default function Home() {
         <Content />
         <Logos />
         <Testimonials />
-        <News />
+        <News2 />
         <ParticlesZone />
       </main>
     </>
