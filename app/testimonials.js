@@ -10,7 +10,7 @@ export default function Testimonials() {
       <section className="py-24 sm:py-32 bg-[url('/images/testimonials-bg.jpg')] bg-cover bg-center rounded-xl">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <Swiper
-            style={{ height: "580px" }}
+            style={{ height: "600px" }}
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={0}
             navigation
