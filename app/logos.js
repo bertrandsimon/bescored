@@ -41,7 +41,7 @@ export default function Logos() {
         <SwiperSlide>
           <Image
             className="mx-auto"
-            src="/images/logos/2.jpg"
+            src="/images/logos/2.png"
             alt="Mecotec"
             width={216}
             height={68}
@@ -121,7 +121,7 @@ export default function Logos() {
         <SwiperSlide>
           <Image
             className="mx-auto"
-            src="/images/logos/10.jpg"
+            src="/images/logos/10.png"
             alt="Mecotec"
             width={216}
             height={68}
@@ -173,6 +173,15 @@ export default function Logos() {
             className="mx-auto"
             src="/images/logos/15.jpg"
             alt="Mecotec"
+            width={216}
+            height={68}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            className="mx-auto"
+            src="/images/logos/16.jpg"
+            alt="CapSix"
             width={216}
             height={68}
           />

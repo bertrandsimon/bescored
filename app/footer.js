@@ -85,7 +85,7 @@ export default function Footer() {
           <div className="xl:grid xl:grid-cols-2 xl:gap-8">
             <div className="hidden lg:flex h-full w-full items-center justify-center sm:justify-between">
               <div className="grid grid-cols-2 gap-8 xl:col-span-2">
-                <div className="md:grid md:grid-cols-2 md:gap-8">
+                <div className="flex flex-row gap-8">
                   <div>
                     <h3 className="font-light text-white uppercase">
                       <Link href="/expertise">Expertise</Link>
@@ -96,16 +96,19 @@ export default function Footer() {
                       <Link href="/team">équipe</Link>
                     </h3>
                   </div>
-                </div>
-                <div className="md:grid md:grid-cols-2 md:gap-8">
                   <div>
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/cases">étude de cas</Link>
+                      <Link href="/cases">études</Link>
                     </h3>
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
                       <Link href="/news">News</Link>
+                    </h3>
+                  </div>
+                  <div className="mt-10 md:mt-0">
+                    <h3 className="font-light text-white uppercase">
+                      <Link href="/contact">Contact</Link>
                     </h3>
                   </div>
                 </div>
