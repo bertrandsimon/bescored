@@ -139,3 +139,13 @@ h1 {
   width: 206px;
   height: 284px;
 } 
+.swiper {
+  z-index: 0 !important;
+}
+
+.swiper-container {
+  z-index: 0 !important;
+}
+.hidden {
+  display: none;
+}

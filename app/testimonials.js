@@ -136,14 +136,14 @@ export default function Testimonials() {
                   <blockquote className="text-normal font-normal leading-8 text-gray-900">
                     <p>
                       La mise en place d&apos;un protocole d&apos;évaluation
-                      avec Be Scored est toujours un moment
+                      avec beScored est toujours un moment
                       &quot;d&apos;excitation technologique&quot;. La rigueur
                       scientifique et le très large spectre de connaissance du
                       Dr. Hausswirth permettent d&apos;aborder la performance et
                       la récupération par tous les prismes. <br />
                       <br />
-                      Merci Christophe d&apos;avoir sû intégré la justesse et la
-                      précision de la mesure biologique dans ton approche
+                      Merci Christophe d&apos;avoir sû intégrer la justesse et
+                      la précision de la mesure biologique dans ton approche
                       spécifique. Les plateformes techniques CERBALLIANCE sont
                       au service de Be Scored&quot;.
                     </p>

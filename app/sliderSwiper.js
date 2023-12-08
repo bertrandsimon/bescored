@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function SliderSwiper() {
   return (
-    <>
+    <div className="swiper-container">
       <Swiper
         style={{ height: "580px" }}
         modules={[Navigation, Pagination, Autoplay]}
@@ -23,7 +23,7 @@ export default function SliderSwiper() {
         navigation
         observer={true}
         observeParents={true}
-        className="aspect-auto height-[580px] bg-cover rounded-b-lg z-1"
+        className="aspect-auto height-[580px] bg-cover rounded-b-lg z-0 relative"
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
@@ -227,6 +227,6 @@ export default function SliderSwiper() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }

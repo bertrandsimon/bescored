@@ -168,9 +168,13 @@ export default function Footer() {
               ))}
             </div>
             <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0 sm:text-left text-center">
-              &copy; beScored 2023 |{" "}
+              &copy; beScored 2023 |
+              <span>
+                {" "}
+                Les Aqueducs B3 - 535 Route des Lucioles - 06560 Valbonne |
+              </span>
               <span className="hover:text-white">
-                <Link href="/legal">Mention légales</Link>
+                <Link href="/legal"> Mention légales</Link>
               </span>
             </p>
           </div>

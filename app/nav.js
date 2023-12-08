@@ -26,7 +26,7 @@ export default function Nav() {
             <div className="mx-auto px-2 py-6">
               <div className="flex h-16 justify-between px-6">
                 <div className="flex items-center justify-center sm:items-stretch sm:justify-start z-10">
-                  <div className="flex flex-shrink-0 items-center">
+                  <div className="flex flex-shrink-0 items-center drop-shadow-md">
                     <Link href="/">
                       <Image
                         className="cursor-pointer"
@@ -37,7 +37,7 @@ export default function Nav() {
                       />
                     </Link>
                   </div>
-                  <div className="hidden sm:ml-32 sm:flex sm:space-x-8 oswald text-white">
+                  <div className="hidden sm:ml-32 sm:flex sm:space-x-8 oswald text-white drop-shadow-md">
                     <Link
                       href="/expertise"
                       className="inline-flex items-center px-1 pt-1 uppercase"

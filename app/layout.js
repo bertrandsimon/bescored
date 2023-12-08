@@ -71,17 +71,17 @@ export default function RootLayout({ children }) {
             </>
           ) : null}
         </Head>
-        <div className="z-10">
+        <div className="z-99 sticky top-0">
           <ToolBar />
-        </div>
-        <div className="visible sm:hidden">
-          <NavMobile />
+          <div className="visible sm:hidden">
+            <NavMobile />
+          </div>
         </div>
 
+        <h1>APPEAR ON SCROLL</h1>
         <Nav className="z-12" />
 
-        {children}
-
+        <div className="z-0 relative">{children}</div>
         <Footer />
         <Analytics />
       </body>

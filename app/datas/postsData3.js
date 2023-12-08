@@ -26,7 +26,7 @@ const posts = [
     imageUrl: "/images/news/8.jpg",
     date: "23 novembre 2023",
     datetime: "23 novembre 2023",
-    category: { title: "Etude", href: "#" },
+    category: { title: "Conférence", href: "#" },
     author: {
       name: "Christophe Hausswirth",
       role: "beScored",
