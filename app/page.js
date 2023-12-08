@@ -42,7 +42,7 @@ export default function Home() {
         />
       </Head> */}
       <main>
-        <div className="-mt-[120px] z-0 relative">
+        <div className="-mt-[120px] z-0 relative swiper-container">
           <SliderSwiper />
         </div>
 

@@ -71,14 +71,14 @@ export default function RootLayout({ children }) {
             </>
           ) : null}
         </Head>
-        <div className="z-99 sticky top-0">
+        <div className="z-99">
           <ToolBar />
           <div className="visible sm:hidden">
             <NavMobile />
           </div>
         </div>
 
-        <h1>APPEAR ON SCROLL</h1>
+        {/* <h1>APPEAR ON SCROLL</h1> */}
         <Nav className="z-12" />
 
         <div className="z-0 relative">{children}</div>
