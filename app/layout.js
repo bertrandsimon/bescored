@@ -25,22 +25,15 @@ const oswald = Oswald({
   display: "swap",
 });
 
-// const poppins = Poppins({
-//   subsets: ['latin'],
-//   variable: '--font-poppins',
-//   weight: ["400", "500", "600", "700", "800", "900"],
-//   display: 'swap',
-// })
-
 export const metadata = {
   title: "BeScored : centre d'expertise scientifique",
   description: `Fort de plus de 30 ans d'expérience dans l'optimisation de la performance sportive de haut niveau, beScored propose également cette expertise dans les domaines de la santé, du bien-être et de l'entreprise.`,
 };
 
 export default function RootLayout({ children }) {
-  const GA_TAG_ID = "G-2SL6Y5LNG1"; // Add your own Tag ID here
+  const GA_TAG_ID = "G-2SL6Y5LNG1";
   const isProductionEnv =
-    process.env.NODE_ENV && process.env.NODE_ENV !== "development";
+    process.env.NODE_ENV && process.env.NODE_ENV !== "production";
 
   return (
     <html lang="fr">
@@ -71,15 +64,14 @@ export default function RootLayout({ children }) {
             </>
           ) : null}
         </Head>
-        <div className="z-99">
+
+        <div className="z-20 sticky top-0">
           <ToolBar />
           <div className="visible sm:hidden">
             <NavMobile />
           </div>
+          <Nav className="z-12" />
         </div>
-
-        {/* <h1>APPEAR ON SCROLL</h1> */}
-        <Nav className="z-12" />
 
         <div className="z-0 relative">{children}</div>
         <Footer />

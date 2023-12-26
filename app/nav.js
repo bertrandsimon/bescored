@@ -5,6 +5,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 import {
   Popover,
@@ -18,8 +19,27 @@ function classNames(...classes) {
 }
 
 export default function Nav() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    // Attach the event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // Define a CSS class to apply when scrollPosition is greater than or equal to 200
+  const headerClass = scrollPosition >= 200 ? "nav-background" : "";
+
   return (
-    <>
+    <div className={`${headerClass}`}>
       <Disclosure as="nav">
         {({ open }) => (
           <>
@@ -80,6 +100,6 @@ export default function Nav() {
           </>
         )}
       </Disclosure>
-    </>
+    </div>
   );
 }

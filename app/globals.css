@@ -149,3 +149,8 @@ h1 {
 .hidden {
   display: none;
 }
+
+.nav-background {
+  /* background-color: #4DB4C4; */
+  background-color: black;
+}
