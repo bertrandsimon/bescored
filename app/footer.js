@@ -174,7 +174,7 @@ export default function Footer() {
                 Les Aqueducs B3 - 535 Route des Lucioles - 06560 Valbonne |
               </span>
               <span className="hover:text-white">
-                <Link href="/legal"> Mention légales</Link>
+                <Link href="/legal"> Mentions légales</Link>
               </span>
             </p>
           </div>

@@ -65,10 +65,7 @@ export default function Content() {
             <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
               <span>Expertise corporate</span>
-              <Link
-                href="/pdf/Etude de cas_Corporate_beScored.png"
-                target="_blank"
-              >
+              <Link href="/pdf/Etude_Corporate_beScored.pdf" target="_blank">
                 <button className="btn btn-blue cursor-pointer text-xs">
                   Voir l&apos;étude
                 </button>
