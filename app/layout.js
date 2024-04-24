@@ -41,28 +41,11 @@ export default function RootLayout({ children }) {
         className={`${inter.variable} ${work_sans.variable} ${oswald.variable} container mx-auto z-10 max-w-screen-2xl`}
       >
         <Head>
-          {/* Google Analytics -- Only Include in Production*/}
-          {isProductionEnv ? (
-            <>
-              {/* Global Site Tag (gtag.js) - Google Analytics */}
-              <script
-                async
-                src={`https://www.googletagmanager.com/gtag/js?id=${GA_TAG_ID}`}
-              />
-              <script
-                dangerouslySetInnerHTML={{
-                  __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${GA_TAG_ID}', {
-                  page_path: window.location.pathname,
-                });
-              `,
-                }}
-              />
-            </>
-          ) : null}
+          <script
+            defer
+            src="https://analytics.eu.umami.is/script.js"
+            data-website-id="0fd8ce72-9e84-4aff-badd-e3f062e66218"
+          ></script>
         </Head>
 
         <div className="z-20 sticky top-0">
