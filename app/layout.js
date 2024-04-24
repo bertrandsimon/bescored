@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
 
         <div className="z-20 sticky top-0">
           <ToolBar />
-          <div className="visible sm:hidden">
+          <div className="visible sm:hidden ">
             <NavMobile />
           </div>
           <Nav className="z-12" />
