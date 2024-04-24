@@ -15,17 +15,16 @@ export default function Editorial() {
             triggerOnce
           >
             <p className="font-semibold text-base uppercase blue">
-              beScored, accélérateur de performance et de bien-être
+              Performance and well-being accelerator
             </p>
             <p className="font-light text-4xl pt-4 oswald uppercase">
-              Nous évaluons les potentiels, nous révélons les bénéfices <br />{" "}
-              et nous optimisons les différentes recommandations.{" "}
+              We assess potentials, unveil benefits, <br />
+              and optimize various recommendations.
             </p>
             <p className="font-sm font-light pt-4 max-w-2xl text-center mx-auto">
-              &ldquo;Fort de plus de 30 ans d&apos;expérience dans
-              l&apos;optimisation de la performance sportive de haut niveau,
-              beScored propose également cette expertise dans les domaines de la
-              santé, du bien-être et de l&apos;entreprise.&rdquo;
+              Drawing upon over 30 years of experience in optimizing elite
+              sports performance, beScored also offers this expertise in the
+              realms of health, wellness, and business.
             </p>
           </Fade>
         </div>
@@ -42,13 +41,13 @@ export default function Editorial() {
             </div>
             <div>
               <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
-                Expertise santé
+                Health expertise
               </p>
               <span className="font-light">
-                Notre rôle est d’évaluer notamment les différents niveaux de
-                fatigue à 360°, que cela soit mis en œuvre pour les chirurgiens
-                ou les personnels soignants. C’est l’occasion de prendre soin de
-                ceux ou celles qui prennent soin de nous !
+                Our role is to assess various levels of fatigue comprehensively,
+                whether it&apos;s implemented for surgeons or healthcare
+                personnel. It&apos;s an opportunity to take care of those who
+                take care of us!
               </span>
             </div>
           </div>
@@ -64,14 +63,13 @@ export default function Editorial() {
             </div>
             <div>
               <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
-                Expertise sport
+                Sport expertise
               </p>
               <span className="font-light">
-                Nous travaillons régulièrement sur l’optimisation de la phase de
-                récupération en sport, dans le but de prévenir l’apparition de
-                blessures. Évaluer le sportif et faciliter sa récupération par
-                des dispositifs ou des protocoles appropriés est au centre de
-                nos réflexions au quotidien.
+                We regularly work on optimizing the recovery phase in sports,
+                aiming to prevent injuries. Evaluating the athlete and
+                facilitating their recovery through appropriate devices or
+                protocols is at the center of our daily considerations.
               </span>
             </div>
           </div>
@@ -87,16 +85,14 @@ export default function Editorial() {
             </div>
             <div>
               <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
-                Expertise bien-être
+                Wellness expertise
               </p>
               <span className="font-light">
-                Des thématiques fortes s’imposent à nous depuis quelques temps,
-                à l’image de la qualité de sommeil à améliorer, de
-                l’augmentation de la vitalité en réduisant le stress, ou le
-                renforcement de nos défenses immunitaires par des procédés
-                appropriés. Notre équipe s’attache à mettre en évidence les
-                sources d’amélioration dans chaque registre, une priorité
-                évidente depuis la crise sanitaire.
+                Strong themes have been emerging for us lately, such as
+                improving sleep quality, increasing vitality by reducing stress,
+                or enhancing our immune defenses through appropriate processes.
+                Our team is committed to identifying sources of improvement in
+                each area, an evident priority since the health crisis.
               </span>
             </div>
           </div>
@@ -112,15 +108,15 @@ export default function Editorial() {
             </div>
             <div>
               <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
-                Expertise corporate
+                Corporate expertise
               </p>
               <span className="font-light">
-                Le monde de l’entreprise est quelquefois bien démuni lorsqu’il
-                s’agit de trouver des solutions pour diagnostiquer la santé
-                mentale souvent fragile de leurs salariés. Issues de nos
-                recherches, nos solutions proposent des diagnostiques pas
-                uniquement subjectifs mais essentiellement à partir de données
-                objectives et de tests faciles à mettre en œuvre.{" "}
+                At times, the corporate world finds itself quite helpless when
+                it comes to finding solutions to diagnose the often fragile
+                mental health of their employees. Stemming from our research,
+                our solutions offer diagnostics not only based on subjective
+                assessments but primarily on objective data and
+                easy-to-implement tests.
               </span>
             </div>
           </div>

@@ -1,3 +1,4 @@
+"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { Fade, Slide } from "react-awesome-reveal";
@@ -42,22 +43,22 @@ export default function SliderSwiper() {
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 ans d&apos;experience</p>
+                    <p className="text-sm p-1">30 years of experience</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
-                    <p className="text-5xl p-1 font-extralight">
-                      centre d&apos;expertise
-                    </p>
+                    <p className="text-5xl p-1 font-extralight">scientific</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
-                    <p className="text-5xl p-1 font-semibold">scientifique</p>
+                    <p className="text-5xl p-1 font-semibold">
+                      expertise center
+                    </p>
                   </Slide>
 
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
                       <Link href="/cases">
                         <button className="btn btn-blue cursor-pointer">
-                          en savoir +
+                          to know +
                         </button>
                       </Link>
                     </div>
@@ -68,8 +69,8 @@ export default function SliderSwiper() {
                 <Fade duration={1000} delay={1500}>
                   <Slide direction="up" duration={1000} delay={1500}>
                     <Image
-                      src="/images/tag1.png"
-                      width={249}
+                      src="/images/tag1-uk.png"
+                      width={202}
                       height={50}
                       alt="Tag"
                     />
@@ -99,15 +100,13 @@ export default function SliderSwiper() {
                     <p className="text-5xl p-1 font-extralight">performance</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
-                    <p className="text-5xl p-1 font-semibold">
-                      et récupération
-                    </p>
+                    <p className="text-5xl p-1 font-semibold">and recovery</p>
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
                       <Link href="/cases">
                         <button className="btn btn-blue cursor-pointer">
-                          en savoir +
+                          to know +
                         </button>
                       </Link>
                     </div>
@@ -118,8 +117,8 @@ export default function SliderSwiper() {
                 <Fade duration={1000} delay={1500}>
                   <Slide direction="up" duration={1000} delay={1500}>
                     <Image
-                      src="/images/tag2.png"
-                      width={220}
+                      src="/images/tag2-uk.png"
+                      width={202}
                       height={50}
                       alt="Tag"
                     />
@@ -147,7 +146,7 @@ export default function SliderSwiper() {
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">
-                      santé mentale
+                      mental health
                     </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
@@ -157,7 +156,7 @@ export default function SliderSwiper() {
                     <div className="pt-4">
                       <Link href="/cases">
                         <button className="btn btn-blue cursor-pointer">
-                          en savoir +
+                          to know +
                         </button>
                       </Link>
                     </div>
@@ -168,8 +167,8 @@ export default function SliderSwiper() {
                 <Fade duration={1000} delay={1500}>
                   <Slide direction="up" duration={1000} delay={1500}>
                     <Image
-                      src="/images/tag3.png"
-                      width={249}
+                      src="/images/tag3-uk.png"
+                      width={229}
                       height={50}
                       alt="Tag"
                     />
@@ -197,17 +196,19 @@ export default function SliderSwiper() {
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">
-                      validation de vos
+                      validation of
                     </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
-                    <p className="text-5xl p-1 font-semibold">dispositifs de</p>
+                    <p className="text-5xl p-1 font-semibold">
+                      your well-being
+                    </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
-                    <p className="text-5xl p-1 font-semibold">bien-être</p>
+                    <p className="text-5xl p-1 font-semibold">devices</p>
                   </Slide>
                   {/* <Slide direction="up" duration={1000} delay={800}>
-                                  <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
+                                  <div className='pt-4'><button className='btn btn-blue cursor-pointer'>to know +</button></div>
                               </Slide> */}
                 </Fade>
               </div>
@@ -215,8 +216,8 @@ export default function SliderSwiper() {
                 <Fade duration={1000} delay={1500}>
                   <Slide direction="up" duration={1000} delay={1500}>
                     <Image
-                      src="/images/tag4.png"
-                      width={220}
+                      src="/images/tag4-uk.png"
+                      width={183}
                       height={50}
                       alt="Tag"
                     />

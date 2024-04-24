@@ -40,10 +40,10 @@ export default function NavMobile() {
                   <Link href="/uk/expertise">Expertise</Link>
                 </Disclosure.Button>
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
-                  <Link href="/uk/team">équipe</Link>
+                  <Link href="/uk/team">team</Link>
                 </Disclosure.Button>
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
-                  <Link href="/uk/cases">études de cas</Link>
+                  <Link href="/uk/cases">case studies</Link>
                 </Disclosure.Button>
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
                   <Link href="/uk/news">News</Link>

@@ -69,14 +69,14 @@ export default function Nav() {
                       href="/uk/team"
                       className="inline-flex items-center px-1 pt-1 uppercase"
                     >
-                      équipe
+                      team
                     </Link>
 
                     <Link
                       href="/uk/cases"
                       className="inline-flex items-center px-1 pt-1 uppercase"
                     >
-                      études de cas
+                      case studies
                     </Link>
 
                     <Link
@@ -91,7 +91,7 @@ export default function Nav() {
                 <div className="sm:visible flex flex-col items-center justify-center z-10">
                   <button className="oswald bg-transparent hover:bg-black text-white uppercase text-sm hover:text-white hover:border-black py-2 px-4 border border-white hover:border-transparent">
                     <Link href="/uk/contact">
-                      <span>Contactez-nous !</span>
+                      <span>Contact us !</span>
                     </Link>
                   </button>
                 </div>

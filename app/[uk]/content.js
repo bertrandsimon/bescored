@@ -185,14 +185,14 @@ export default function Content() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <p className="uppercase oswald text-4xl text-center sm:text-left">
-                    <span className="pr-2 font-semibold">votre</span>
-                    <span className="font-light">rapport</span>
+                    <span className="pr-2 font-semibold">your</span>
+                    <span className="font-light">report</span>
                   </p>
 
                   <p className="relative mt-6 text-normal font-light leading-8 sm:max-w-md lg:max-w-none text-center sm:text-left">
-                    beScored Institute est un partenaire privilégié pour mettre
-                    en place les solutions de demain. Nous validons vos produits
-                    et nous les mettons en oeuvre dans des centres innovants.
+                    beScored Institute is a privileged partner for implementing
+                    tomorrow&apos;s solutions. We validate your products and
+                    implement them in innovative centers.
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

@@ -47,15 +47,14 @@ export default function Testimonials() {
                 <figure className="mt-10 flex flex-auto flex-col justify-between ">
                   <blockquote className="text-normal font-normal leading-8 text-gray-900 ">
                     <p>
-                      Christophe Hausswirth consacre sa vie au service des
-                      sportifs et de la santé plus généralement ; d’abord comme
-                      athlète de niveau international, mais surtout comme
-                      chercheur avec qui j’ai eu le plaisir de travailler
-                      l’INSEP. <br />
+                      Christophe Hausswirth dedicates his life to serving
+                      athletes and health more generally; first as an athlete at
+                      the international level, but especially as a researcher
+                      with whom I had the pleasure of working at INSEP. <br />
                       <br />
-                      Il a donc ces deux qualités rares que sont la connaissance
-                      de la pratique du haut-niveau et la rigueur scientifique
-                      mise en œuvre pour y parvenir.
+                      He possesses these two rare qualities: knowledge of
+                      high-level practice and the scientific rigor implemented
+                      to achieve it.
                     </p>
                   </blockquote>
                   <figcaption className="mt-10 flex items-center gap-x-6">
@@ -71,7 +70,7 @@ export default function Testimonials() {
                         Dr. Philippe Le Van
                       </div>
                       <div className="mt-1 text-gray-500">
-                        Directeur Médical (CMO) de Paris 2024
+                        Medical Director (CMO) Paris 2024
                       </div>
                     </div>
                   </figcaption>
@@ -91,15 +90,13 @@ export default function Testimonials() {
                 <figure className="mt-10 flex flex-auto flex-col justify-between">
                   <blockquote className="text-normal font-normal leading-8 text-gray-900">
                     <p>
-                      “Un travail exceptionnel à la fois pour la mise en place
-                      de protocoles de récupération, et pour le suivi
-                      nutritionnel des athlètes.
+                      “Exceptional work both in implementing recovery protocols
+                      and in nutritional monitoring of athletes. <br />
                       <br />
-                      <br />
-                      Tout ce qui touche de près ou de loin à l’optimisation de
-                      la performance est concerné. beScored est un interlocuteur
-                      attentif qui apporte toutes les réponses à mes attentes et
-                      à celles des sportifs.”
+                      Anything related to the optimization of performance is
+                      addressed. beScored is an attentive partner that provides
+                      all the answers to my expectations and those of the
+                      athletes.”
                     </p>
                   </blockquote>
                   <figcaption className="mt-10 flex items-center gap-x-6">
@@ -135,17 +132,16 @@ export default function Testimonials() {
                 <figure className="mt-10 flex flex-auto flex-col justify-between">
                   <blockquote className="text-normal font-normal leading-8 text-gray-900">
                     <p>
-                      La mise en place d&apos;un protocole d&apos;évaluation
-                      avec beScored est toujours un moment
-                      &quot;d&apos;excitation technologique&quot;. La rigueur
-                      scientifique et le très large spectre de connaissance du
-                      Dr. Hausswirth permettent d&apos;aborder la performance et
-                      la récupération par tous les prismes. <br />
+                      The implementation of an evaluation protocol with beScored
+                      is always a moment of technological excitement. Dr.
+                      Hausswirth&apos;s scientific rigor and extensive knowledge
+                      allow us to approach performance and recovery from all
+                      angles. <br />
                       <br />
-                      Merci Christophe d&apos;avoir sû intégrer la justesse et
-                      la précision de la mesure biologique dans ton approche
-                      spécifique. Les plateformes techniques CERBALLIANCE sont
-                      au service de Be Scored&quot;.
+                      Thank you, Christophe, for integrating the accuracy and
+                      precision of biological measurement into your specific
+                      approach. The CERBALLIANCE technical platforms are at the
+                      service of Be Scored..
                     </p>
                   </blockquote>
                   <figcaption className="mt-10 flex items-center gap-x-6">
@@ -160,9 +156,7 @@ export default function Testimonials() {
                       <div className="font-semibold text-gray-900">
                         Dr. Vincent RAIMONDI
                       </div>
-                      <div className="mt-1 text-gray-500">
-                        DG de Cerballiance
-                      </div>
+                      <div className="mt-1 text-gray-500">Cerballiance CEO</div>
                     </div>
                   </figcaption>
                 </figure>
@@ -181,16 +175,14 @@ export default function Testimonials() {
                 <figure className="mt-10 flex flex-auto flex-col justify-between ">
                   <blockquote className="text-normal font-normal leading-8 text-gray-900 ">
                     <p>
-                      Nous travaillons aux côtés de beScored et son fondateur
-                      depuis 2020 et la facilité d&apos;exécution des recherches
-                      est remarquable. <br />
-                      <br />
-                      Je n&apos;ai jamais vu une société pouvant être aussi
-                      précise dans la livraison des rapports, et
-                      l&apos;accompagnement des domaines d&apos;application est
-                      encore aujourd&apos;hui d&apos;un très grand soutien au
-                      quotidien pour notre société. Nous sommes partis ensemble
-                      pour plusieurs années de collaboration.
+                      We have been working alongside beScored and its founder
+                      since 2020, and the ease of executing research is
+                      remarkable. <br />
+                      <br />I have never seen a company that can be as precise
+                      in delivering reports, and the support provided for the
+                      application domains is still of great assistance to our
+                      company on a daily basis. We have embarked together on
+                      several years of collaboration.
                     </p>
                   </blockquote>
                   <figcaption className="mt-10 flex items-center gap-x-6">

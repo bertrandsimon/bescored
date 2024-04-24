@@ -9,8 +9,8 @@ export default function Logos() {
     <>
       <div className="text-center pb-20">
         <p className="uppercase oswald text-4xl ">
-          <span className="pr-2 font-semibold">ils nous font</span>
-          <span className="font-light">confiance</span>
+          <span className="pr-2 font-semibold">they trust</span>
+          <span className="font-light">us</span>
         </p>
       </div>
 

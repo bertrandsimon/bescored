@@ -16,17 +16,17 @@ export default function TopContent() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="text-center pt-20">
           <p className="font-semibold text-lg blue">
-            Activités et expertises scientifiques
+            Scientific activities and expertise
           </p>
           <p className="font-light text-4xl pt-4 oswald uppercase">
-            beScored se positionne au coeur des facteurs <br /> de la
-            performance humaine
+            beScored positions itself at the heart of factors <br /> of human
+            performance
           </p>
           <p className="font-sm font-extralight pt-4 max-w-xl mx-auto text-center">
-            Les expertises et programmes de recherche menés par beScored, allant
-            de la validation de dispositifs jusqu’à l’utilisation de matériel,
-            s’adressent aux entreprises désireuses d’en observer les réelles
-            applications dans le monde du sport, du bien-être et de la santé.
+            The expertise and research programs conducted by beScored, ranging
+            from device validation to equipment utilization, are aimed at
+            companies interested in observing their real-world applications in
+            the fields of sports, wellness, and health.
           </p>
         </div>
 
@@ -40,30 +40,25 @@ export default function TopContent() {
                     aria-hidden="true"
                   />
                 </div>
-                Expertise santé
+                Health expertise
               </dt>
               <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
                 <div className="flex">
-                  <span>Collaboration avec : </span>
+                  <span>Collaboration with : </span>
                   <span className="font-semibold pl-2">JOHNSON & JOHNSON</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold pt-4">
-                    Objectif principal :
-                  </span>
+                  <span className="font-semibold pt-4">Main objective :</span>
                   <span>
-                    mesurer les états de fatigue des chirurgiens orthopédiques
-                    qui utilisent des dispositifs automatisés ou conventionnels
+                    To measure the fatigue levels of orthopedic surgeons using
+                    automated or conventional devices.
                   </span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold pt-4">
-                    Résultats majeurs :
-                  </span>
+                  <span className="font-semibold pt-4">Achievements :</span>
                   <span>
-                    la fatigue cognitive et physique sont diminuées par
-                    l’utilisation d’un automate utilisé en arthroplastie de la
-                    hanche.
+                    Cognitive and physical fatigue are reduced by the use of an
+                    automated system in hip arthroplasty.
                   </span>
                 </div>
               </dd>
@@ -74,33 +69,27 @@ export default function TopContent() {
                 <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DB4C4]">
                   <MoonIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>
-                Expertise bien-être
+                Wellness expertise
               </dt>
               <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
                 <div className="flex">
-                  <span>Collaboration avec : </span>
+                  <span>Collaboration with : </span>
                   <span className="font-semibold pl-2">LPG Medical</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold pt-4">
-                    Objectif principal :
-                  </span>
+                  <span className="font-semibold pt-4">Main objective :</span>
                   <span>
-                    proposer un programme de soins qui permet d’améliorer la
-                    qualité de sommeil, de diminuer le stress et de booster les
-                    défenses immunitaires.
+                    To propose a care program that improves sleep quality,
+                    reduces stress, and boosts immune defenses.
                   </span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold pt-4">
-                    Résultats majeurs :
-                  </span>
+                  <span className="font-semibold pt-4">Achievements :</span>
                   <span>
-                    à l’issue d’un programme de 10 séances, le sommeil des
-                    personnes est moins fragmenté et elles restent plus
-                    longtemps immobiles dans leur sommeil, le stress est diminué
-                    et la vitalité augmentée dans le groupe expérimental, et ce
-                    en comparaison avec le groupe Placebo.
+                    At the end of a 10-session program, participants experience
+                    less fragmented sleep and remain more immobile during sleep.
+                    Stress is reduced, and vitality is increased in the
+                    experimental group compared to the Placebo group.
                   </span>
                 </div>
               </dd>
@@ -111,32 +100,26 @@ export default function TopContent() {
                 <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DB4C4]">
                   <BoltIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>
-                Expertise sport
+                Sport expertise
               </dt>
               <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
                 <div className="flex">
-                  <span>Collaboration avec : </span>
+                  <span>Collaboration with : </span>
                   <span className="font-semibold pl-2"> INFRACAB’IN</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold pt-4">
-                    Objectif principal :
-                  </span>
+                  <span className="font-semibold pt-4">Main objective :</span>
                   <span>
-                    favoriser une amélioration de la récupération en sport par
-                    l’utilisation régulière d’un dispositif infrarouges de
-                    dernière génération.
+                    To promote an improvement in sports recovery through the
+                    regular use of a state-of-the-art infrared device.
                   </span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold pt-4">
-                    Résultats majeurs :
-                  </span>
+                  <span className="font-semibold pt-4">Achievements :</span>
                   <span>
-                    à l’issue d’un exercice générant de fortes courbatures, les
-                    paramètres de force et de détente sont moins altérés lorsque
-                    les sportifs effectuent chaque jour une récupération en
-                    sauna infrarouges.
+                    At the end of an exercise generating strong muscle soreness,
+                    strength and relaxation parameters are less affected when
+                    athletes undergo daily recovery in infrared sauna.
                   </span>
                 </div>
               </dd>
@@ -150,31 +133,27 @@ export default function TopContent() {
                     aria-hidden="true"
                   />
                 </div>
-                Expertise corporate
+                Corporate expertise
               </dt>
               <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
                 <div className="flex">
-                  <span>Collaboration avec : </span>
+                  <span>Collaboration with : </span>
                   <span className="font-semibold pl-2">CERBALLIANCE</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold pt-4">
-                    Objectif principal :
-                  </span>
+                  <span className="font-semibold pt-4">Main objective :</span>
                   <span>
-                    mettre en œuvre une évaluation de la santé mentale en
-                    entreprise afin de cibler les axes d’amélioration.
+                    To implement a mental health assessment in the company to
+                    target areas for improvement.
                   </span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-semibold pt-4">
-                    Résultats majeurs :
-                  </span>
+                  <span className="font-semibold pt-4">Achievements :</span>
                   <span>
-                    la fatigue mentale est l’un des paramètres les plus
-                    pertinents pour tenir compte du bien-être des salariés en
-                    entreprise. Nous sommes désormais en mesure de donner un
-                    score objectif à cette notion souvent subjective.
+                    Mental fatigue is one of the most relevant parameters to
+                    consider for the well-being of employees in a company. We
+                    are now able to provide an objective score to this often
+                    subjective concept.
                   </span>
                 </div>
               </dd>

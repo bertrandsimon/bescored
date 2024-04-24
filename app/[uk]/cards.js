@@ -48,13 +48,13 @@ export default function Cards() {
             >
               <Slide direction="up" duration={500} delay={1000} triggerOnce>
                 <p className="font-light italic">
-                  “Après 6 jeux olympiques où j&apos;ai dirigé les recherches
-                  pour nos athlètes à l&rsquo;Institut National du Sport
-                  (INSEP), j’ai fondé beScored Institute. <br />
+                  “After 6 Olympic Games where I led research for our athletes
+                  at the National Institute of Sport (INSEP), I founded beScored
+                  Institute. <br />
                   <br />
-                  Tirer le meilleur de vos dispositifs ou de vos salariés est
-                  notre priorité“
-                </p>{" "}
+                  Extracting the best from your devices or your employees is our
+                  priority.“
+                </p>
               </Slide>
               <Slide direction="up" duration={500} delay={1200} triggerOnce>
                 <Image
@@ -63,7 +63,7 @@ export default function Cards() {
                   width={252}
                   height={90}
                   alt="Signature"
-                />{" "}
+                />
               </Slide>
             </Fade>
           </div>

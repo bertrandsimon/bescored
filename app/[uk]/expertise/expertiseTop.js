@@ -8,9 +8,9 @@ export default function ExpertiseTop() {
     >
       <div className="flex pt-[160px] w-full justify-start items-center ">
         <div className="text-white uppercase oswald sm:pl-[200px] text-center sm:text-left mx-auto sm:mx-0">
-          <p className="text-sm p-1">notre expertise</p>
-          <p className="text-5xl p-1 font-extralight">renommée </p>
-          <p className="text-5xl p-1 font-semibold">internationale</p>
+          <p className="text-sm p-1">our expertise</p>
+          <p className="text-5xl p-1 font-extralight">international </p>
+          <p className="text-5xl p-1 font-semibold">renown</p>
         </div>
 
         <div className=""></div>

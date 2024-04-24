@@ -14,19 +14,17 @@ export default function Method() {
 
       <div className="text-center pt-20 px-10">
         <p className="uppercase oswald text-4xl ">
-          <span className="pr-2 font-semibold">notre</span>
-          <span className="font-light">méthode</span>
+          <span className="pr-2 font-semibold">our</span>
+          <span className="font-light">method</span>
         </p>
 
         <div className="flex justify-center ">
           <p className="font-light pt-4 max-w-[800px] tracking-tight">
-            Les expertises, les programmes de recherche et les recommandations
-            men&eacute;s par beScored Institute, allant de la validation de
-            dispositifs jusqu&rsquo;&agrave; l&rsquo;utilisation de
-            mat&eacute;riel, s&rsquo;adressent aux entreprises d&eacute;sireuses
-            d&rsquo;observer les r&eacute;elles applications dans le monde du
-            sport, du bien-&ecirc;tre, de la sant&eacute; et de
-            l&rsquo;entreprise.
+            The expertise, research programs, and recommendations conducted by
+            beScored Institute, ranging from device validation to material
+            utilization, are aimed at companies wishing to observe real-world
+            applications in the fields of sports, wellness, health, and
+            business.
           </p>
         </div>
 
@@ -39,12 +37,9 @@ export default function Method() {
               alt="etape"
               className="sm:pt-[55px] img1Method cursor-pointer"
             />
-            <p className="font-semibold text-lg pt-5">
-              <span className="uppercase">é</span>
-              <span>couter</span>
-            </p>
+            <p className="font-semibold text-lg pt-5">Listen</p>
             <p className="pt-5 max-w-[135px] font-light">
-              Recueil de vos attentes.
+              Gathering your expectations.
             </p>
           </div>
 
@@ -66,11 +61,10 @@ export default function Method() {
               className="sm:pt-[22px] img2Method cursor-pointer"
             />
             <p className="font-semibold text-lg pt-5">
-              <span className="uppercase">é</span>
-              <span>changer</span>
+              <span>Build together</span>
             </p>
             <p className="pt-5 max-w-[135px] font-light">
-              Ensemble, élaborons la meilleure approche.
+              Together, we develop the best approach.
             </p>
           </div>
 
@@ -92,11 +86,10 @@ export default function Method() {
               className="sm:pt-[40px] img3Method cursor-pointer"
             />
             <p className="font-semibold text-lg pt-5">
-              <span className="uppercase">é</span>
-              <span>valuer</span>
+              <span>Evaluate</span>
             </p>
             <p className="pt-5 max-w-[135px] font-light">
-              Un protocole de test qui a fait ses preuves.
+              A proven testing protocol.
             </p>
           </div>
 
@@ -117,16 +110,16 @@ export default function Method() {
               alt="etape"
               className="sm:pt-[16px] img4Method cursor-pointer"
             />
-            <p className="font-semibold text-lg pt-5">Rapporter</p>
+            <p className="font-semibold text-lg pt-5">Report</p>
             <p className="pt-5 max-w-[135px] font-light">
-              Nos rapports sont clairs et ultra détaillés.
+              Our reports are clear and extremely detailed.
             </p>
           </div>
         </div>
 
         <div className="flex justify-center pt-10">
           <button className="btn btn-blue oswald">
-            <Link href="/uk/contact">contactez-nous !</Link>
+            <Link href="/uk/contact">contactez us !</Link>
           </button>
         </div>
       </div>
