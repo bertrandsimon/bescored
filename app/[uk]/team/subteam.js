@@ -4,53 +4,53 @@ export default function Subteam() {
   const people = [
     {
       name: "Dr. Cyril SCHMIT, PhD.",
-      role: "Scientifique psycho-physiologiste",
+      role: "Psycho-physiologist scientist",
       imageUrl: "/images/team/5.jpg",
     },
     {
       name: "Dr. François DUFOREZ, MD.",
-      role: "Médecin clinicien du sommeil",
+      role: "Clinical sleep physician",
       imageUrl: "/images/team/6.jpg",
     },
     {
       name: "Dr. Anis ALOULOU, PhD.",
-      role: "Scientifique du sport et du sommeil",
+      role: "Sports and sleep scientist",
       imageUrl: "/images/team/7.jpg",
     },
     {
       name: "Prof. Damien Léger, PU-PH.",
-      role: "Médecin du sommeil",
+      role: "Sleep physician",
       imageUrl: "/images/team/8.jpg",
     },
     {
       name: "Prof. CY. Guezennec, MD., PhD.",
-      role: "Médecin, Professeur agrégé de physiologie",
+      role: "Physician, Professor of Physiology",
       imageUrl: "/images/team/9.jpg",
     },
     {
       name: "Prof. AX. BIGARD, MD., PhD.",
-      role: "Médecin, Professeur agrégé du Val-de-Grâce",
+      role: "Physician, Professor of Val-de-Grâce",
       imageUrl: "/images/team/10.jpg",
     },
     {
       name: "Dr. Vincent RAIMONDI, MD., PhD.",
-      role: "Médecin biologiste",
+      role: "Biologist physician",
       imageUrl: "/images/team/11.jpg",
     },
 
     {
       name: "Dr. Eve TIOLLIER, PhD.",
-      role: "Nutritionniste du sport",
+      role: "Sports nutritionist",
       imageUrl: "/images/team/12.jpg",
     },
     {
       name: "Aurélien BROUSSAL-DERVAL",
-      role: "Formateur et préparateur physique",
+      role: "Trainer and physical preparer",
       imageUrl: "/images/team/13.jpg",
     },
     {
       name: "Dr. Edith PERREAUT-PIERRE, MD., PhD.",
-      role: "Médecin du sport et préparation mentale",
+      role: "Sports physician and mental preparation",
       imageUrl: "/images/team/14.jpg",
     },
   ];

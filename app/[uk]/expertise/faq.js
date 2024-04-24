@@ -6,50 +6,47 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 export default function Faq() {
   const faqs = [
     {
-      question: "Comment savoir si mon dispositif apporte des bénéfices ? ",
+      question: "How do I know if my device brings benefits?",
       answer:
-        "Nous sommes là pour vous aider à organiser les programmes d’évaluation nécessaires et mettre en œuvre tous les outils pour décrire au mieux d’éventuels bénéfices.",
+        "We are here to help you organize the necessary evaluation programs and implement all the tools to best describe any potential benefits.",
+    },
+    {
+      question: "What is the minimum time for an evaluation or research?",
+      answer:
+        "At the protocol validation stage, it takes about 3 to 4 months to conduct the various tests in real-life situations.",
+    },
+    {
+      question: "When can I receive a complete report with the results?",
+      answer:
+        "In most cases, we never exceed the overall study or evaluation duration to deliver our report, which is usually around 3 months.",
+    },
+    {
+      question: "Is the final report delivered in multiple languages?",
+      answer:
+        "It is provided in French by default, but it is also often done in English upon request.",
     },
     {
       question:
-        "Quel est le temps minimal pour une évaluation ou une recherche ?",
+        "Do you help companies interpret the results from your tests or research?",
       answer:
-        "À la validation du protocole, il faut compter environ 3 à 4 mois pour réaliser les différents tests en situation. ",
+        "Yes, we are here to support you even beyond the simple results related to our evaluation.",
     },
     {
       question:
-        "À partir de quand puis-je recevoir un rapport complet avec les résultats ?",
-      answer:
-        "Dans la majorité de cas, nous ne dépassons jamais la durée globale de l’étude ou de l’évaluation pour livrer notre rapport, soit 3 mois la plupart du temps.",
+        "Is it possible to conduct simple tests initially to target our hypotheses and direct the benefits related to our product?",
+      answer: "This is entirely possible and often recommended.",
     },
     {
       question:
-        "Est-ce que le rapport final est délivré en plusieurs langues ?",
+        "Is it possible to conduct mental health tests in my company with over 100 employees and how long does it take?",
       answer:
-        "Il est fourni de base en langue française mais il est également souvent réalisé en langue anglaise sur simple demande.",
+        "We have a mobile evaluation unit and we are able to travel to assess the mental health of your employees. For 100 employees, it will take about 3 days on site.",
     },
     {
       question:
-        "Est-ce que vous aidez les entreprises à interpréter les résultats issus de vos tests ou de vos recherches ?",
+        "I have a product to test in the sports industry: do you handle athlete recruitment?",
       answer:
-        "Oui, nous sommes présents à vos côtés même au-delà des simples résultats liés à notre évaluation. ",
-    },
-    {
-      question:
-        "Est-il possible de faire de simples tests au début pour cibler nos hypothèses et orienter les bénéfices liés à notre produit ?",
-      answer: "Cela est tout à fait envisageable voire souvent recommandé. ",
-    },
-    {
-      question:
-        "Est-il possible d’effectuer des tests de santé mentale dans mon entreprise de plus de 100 salariés et en combien de temps ?",
-      answer:
-        "Nous avons une unité mobile d’évaluation et nous sommes en mesure de nous déplacer pour évaluer la santé mentale de vos salariés. Pour 100 salariés, il faudra compter environ 3 jours sur place.",
-    },
-    {
-      question:
-        "J’ai un produit à tester dans le monde du sport : est-ce que vous vous chargez du recrutement des sportifs ?",
-      answer:
-        "Oui, nous faisons le recrutement et la pré-sélection en fonction des critères spécifiques et en accord avec votre produit et ses exigences.",
+        "Yes, we handle recruitment and pre-selection based on specific criteria and in agreement with your product and its requirements.",
     },
   ];
 
@@ -58,8 +55,8 @@ export default function Faq() {
       <div className="mx-auto max-w-4xl px-6 py-12 sm:py-32 lg:px-8 lg:py-14 ">
         <div className="mx-auto max-w-4xl divide-y divide-white/10">
           <p className="uppercase oswald text-4xl text-white text-center">
-            <span className="pr-2 font-semibold">questions</span>
-            <span className="font-light">fréquentes</span>
+            <span className="pr-2 font-semibold">Fréquently</span>
+            <span className="font-light">Asked Questions</span>
           </p>
 
           <dl className="mt-10 space-y-6 divide-y divide-white/10">

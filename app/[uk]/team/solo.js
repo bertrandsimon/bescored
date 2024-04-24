@@ -6,12 +6,12 @@ export default function Solo() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
           <p className="uppercase oswald text-4xl ">
-            <span className="pr-2 font-semibold">notre</span>
-            <span className="font-light">équipe</span>
+            <span className="pr-2 font-semibold">our</span>
+            <span className="font-light">team</span>
           </p>
 
           <p className="mt-6 text-light">
-            Des experts à votre écoute pour vous accompagner dans vos projets.
+            Experts at your service to accompany you in your projects.
           </p>
         </div>
 
@@ -30,21 +30,20 @@ export default function Solo() {
           </h3>
           <p className="text-base leading-7 text-gray-600">CEO and Founder</p>
           <p className="mt-6 text-base leading-7 text-gray-600 text-justify">
-            Au cours de ses 20 années passées à l’INSEP en tant que chercheur et
-            Directeur du Département de la Recherche et fort de six olympiades,
-            Christophe HAUSSWIRTH a développé une expertise dans le sport de
-            haut niveau qu’il met aujourd’hui à profit dans beScored Institute.
-            En parallèle, Christophe Hausswirth a réalisé 7 ouvrages de
-            référence dont « Améliorer sa Récupération en Sport » ou « Nutrition
-            et Performance en Sport ». Il possède également une liste élargie de
-            plus de 150 publications scientifiques pour des revues spécialisées
-            à impact scientifique élevé. Il a écrit 18 chapitres d’ouvrages sur
-            invitation et est aussi intervenu dans près de 180 conférences et
-            séminaires en France et à l’international sur la physiologie et
-            l’entraînement sportif, ainsi que sur la santé et le bien-être de
-            l’individu. De plus, il est actuellement chercheur et membre associé
-            au LAMHESS (Université Côte d’azur) et Professeur à l’Université
-            technologique de Sydney (UTS).
+            During his 20 years at INSEP as a researcher and Director of the
+            Research Department, and with six Olympic Games under his belt,
+            Christophe HAUSSWIRTH has developed expertise in high-level sports
+            which he now leverages in beScored Institute. In parallel,
+            Christophe Hausswirth has authored 7 reference books including
+            &apos&Improving Recovery in Sports&apos& and &apos&Nutrition and
+            Performance in Sports&apos&. He also has an extensive list of over
+            150 scientific publications in high-impact specialized journals. He
+            has written 18 book chapters by invitation and has also spoken at
+            nearly 180 conferences and seminars in France and internationally on
+            physiology and sports training, as well as on individual health and
+            well-being. Additionally, he is currently a researcher and associate
+            member at LAMHESS (Université Côte d&apos&Azur) and a Professor at
+            the University of Technology Sydney (UTS).
           </p>
         </div>
       </div>
