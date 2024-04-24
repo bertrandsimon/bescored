@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+body {
+  font-family: var(--font-work-sans);
+  /* font-family: var(--font-poppins-sans); */
+  font-size:16px;
+  
+}
+
+/* images preload */
+body::after {
+  content: url("/images/cards/card1b.jpg") url("/images/cards/card2b.jpg") url("/images/cards/card3b.jpg") url("/images/cards/card4b.jpg");
+  display: none; 
+  /* opacity: 0; */
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-oswald);    
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  padding-bottom: 20px;
+  /* font-weight: lighter; */
+}
+
+.oswald {
+  font-family: var(--font-oswald);
+}
+
+.btn {
+  @apply font-normal py-2 px-4 rounded;
+  text-transform: uppercase;
+}
+
+.blue {color:#4DB4C4;}
+
+.btn-blue {
+  background-color:#4DB4C4; 
+  color:white;
+}
+.btn-blue:hover {
+  background-color:#178090; 
+  color:white;
+  outline: 2px solid cyan;
+  outline-offset: 2px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: red;
+}
+
+.img1Method:hover {
+  content: url("/images/method/step1b.jpg");
+} 
+
+.img2Method:hover {
+  content: url("/images/method/step2b.jpg");
+} 
+
+.img3Method:hover {
+  content: url("/images/method/step3b.jpg");
+} 
+
+.img4Method:hover {
+  content: url("/images/method/step4b.jpg");
+} 
+
+.swiper-button-next, .swiper-button-prev {
+  background-color: rgba(0,0,0,0.0) !important; /* Adds a semi-transparent black background */
+  width: 40px !important; /* Adjusts the width */
+  height: 40px !important; /* Adjusts the height */
+  color: white !important; /* Changes the arrow color */
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px !important; /* Adjusts the arrow size */
+}
+
+.swiper-pagination-bullet-active {background-color: #4DB4C4 !important;}
+
+.my-atropos {
+  width: 230px;
+  height: 314px;
+}
+
+.img1Card {
+  transition: all 0.5s ease; /* Adjust the time (0.3s) to your liking */
+}
+
+.img1Card:hover {
+  content: url("/images/cards/card1b.jpg");
+  width: 206px;
+  height: 284px;
+} 
+
+.img2Card {
+  transition: all 0.5s ease; /* Adjust the time (0.3s) to your liking */
+}
+
+.img2Card:hover {
+  content: url("/images/cards/card2b.jpg");
+  width: 206px;
+  height: 284px;
+} 
+
+.img3Card {
+  transition: all 0.5s ease; /* Adjust the time (0.3s) to your liking */
+}
+
+.img3Card:hover {
+  content: url("/images/cards/card3b.jpg");
+  width: 206px;
+  height: 284px;
+} 
+
+.img4Card {
+  transition: all 0.5s ease; /* Adjust the time (0.3s) to your liking */
+}
+
+.img4Card:hover {
+  content: url("/images/cards/card4b.jpg");
+  width: 206px;
+  height: 284px;
+} 
+.swiper {
+  z-index: 0 !important;
+}
+
+.swiper-container {
+  z-index: 0 !important;
+}
+.hidden {
+  display: none;
+}
+
+.nav-background {
+  /* background-color: #4DB4C4; */
+  background-color: black;
+}
