@@ -17,6 +17,7 @@ import ToolBar from "./toolBar";
 import NavMobile from "./navMobile";
 import Head from "next/head";
 import { Fragment } from "react";
+import Footer from "./footer";
 // import { Metadata } from 'next'
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
         <Logos />
         <Testimonials />
         <News3 />
+        <Footer />
       </main>
     </>
   );

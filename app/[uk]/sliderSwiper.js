@@ -94,7 +94,7 @@ export default function SliderSwiper() {
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 ans d&rsquo;experience</p>
+                    <p className="text-sm p-1">30 years of experience</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">performance</p>
@@ -142,7 +142,7 @@ export default function SliderSwiper() {
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 ans d&rsquo;experience</p>
+                    <p className="text-sm p-1">30 years of experience</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">
@@ -150,7 +150,9 @@ export default function SliderSwiper() {
                     </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
-                    <p className="text-5xl p-1 font-semibold">en entreprise</p>
+                    <p className="text-5xl p-1 font-semibold">
+                      within companies
+                    </p>
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
@@ -192,7 +194,7 @@ export default function SliderSwiper() {
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 ans d&rsquo;experience</p>
+                    <p className="text-sm p-1">30 years of experience</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">

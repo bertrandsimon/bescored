@@ -31,10 +31,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const GA_TAG_ID = "G-2SL6Y5LNG1";
-  const isProductionEnv =
-    process.env.NODE_ENV && process.env.NODE_ENV !== "production";
-
   return (
     <html lang="fr">
       <body
@@ -57,7 +53,7 @@ export default function RootLayout({ children }) {
         </div>
 
         <div className="z-0 relative">{children}</div>
-        <Footer />
+
         <Analytics />
       </body>
     </html>

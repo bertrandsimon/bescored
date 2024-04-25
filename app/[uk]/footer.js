@@ -88,27 +88,52 @@ export default function Footer() {
                 <div className="flex flex-row gap-8">
                   <div>
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/uk/expertise">Expertise</Link>
+                      <Link
+                        href="/uk/expertise"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        Expertise
+                      </Link>
                     </h3>
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/uk/team">équipe</Link>
+                      <Link
+                        href="/uk/team"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        team
+                      </Link>
                     </h3>
                   </div>
                   <div>
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/uk/cases">études</Link>
+                      <Link
+                        href="/uk/cases"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        studies
+                      </Link>
                     </h3>
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/uk/news">News</Link>
+                      <Link
+                        href="/uk/news"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        News
+                      </Link>
                     </h3>
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/uk/contact">Contact</Link>
+                      <Link
+                        href="/uk/contact"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        Contact
+                      </Link>
                     </h3>
                   </div>
                 </div>
@@ -116,10 +141,10 @@ export default function Footer() {
             </div>
             <div className="mt-10 xl:mt-0">
               <h3 className="font-normal leading-6 text-white text-center sm:text-left">
-                On vous rappelle
+                We call you back
               </h3>
               <p className="mt-2 leading-6 text-gray-300  text-center sm:text-left">
-                Prenez contact avec nous pour plus informations
+                Get in touch with us for more information
               </p>
 
               {!success ? (
@@ -142,14 +167,14 @@ export default function Footer() {
                       type="submit"
                       className="flex w-full items-center justify-center rounded-md bg-[#4DB4C4] px-3 py-2 text-sm font-light text-white shadow-sm hover:bg-[#4DB4C4] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#4DB4C4] uppercase"
                     >
-                      Envoyer
+                      Send
                     </button>
                   </div>
                 </form>
               ) : (
                 // success msg
                 <div className="mt-6 flex justify-left items-center mx-auto text-white">
-                  Merci, nous vous recontactons rapidement.
+                  Merci, we&apos;ll get in touch.
                 </div>
               )}
             </div>
@@ -174,7 +199,7 @@ export default function Footer() {
                 Les Aqueducs B3 - 535 Route des Lucioles - 06560 Valbonne |
               </span>
               <span className="hover:text-white">
-                <Link href="/uk/uk/legal"> Mentions légales</Link>
+                <Link href="/uk/legal"> Legal notice</Link>
               </span>
             </p>
           </div>

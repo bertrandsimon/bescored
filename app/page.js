@@ -12,20 +12,16 @@ import News from "./news";
 import News2 from "./news2";
 import News3 from "./news3";
 import SliderSwiper from "./sliderSwiper";
-// import ParticlesZone from "./particlesZone";
 import ToolBar from "./toolBar";
 import NavMobile from "./navMobile";
 import Head from "next/head";
 import { Fragment } from "react";
-// import { Metadata } from 'next'
-import Lottie from "lottie-react";
-import dna from "../public/lotties/dna.json";
+import Footer from "./footer";
 
 export default function Home() {
   const options = {
     loop: true,
     autoplay: true,
-    animationData: dna,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -33,12 +29,6 @@ export default function Home() {
 
   return (
     <>
-      {/* <div className="z-20 sticky top-0">
-        <ToolBar />
-        <div className="visible sm:hidden">
-          <NavMobile />
-        </div>
-      </div> */}
       <main>
         <div className="-mt-[120px] z-0 relative swiper-container">
           <SliderSwiper />
@@ -56,6 +46,7 @@ export default function Home() {
         <Logos />
         <Testimonials />
         <News3 />
+        <Footer />
       </main>
     </>
   );

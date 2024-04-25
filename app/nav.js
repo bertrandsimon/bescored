@@ -57,31 +57,31 @@ export default function Nav() {
                       />
                     </Link>
                   </div>
-                  <div className="hidden sm:ml-32 sm:flex sm:space-x-8 oswald text-white drop-shadow-md">
+                  <div className="hidden sm:ml-32 sm:flex sm:space-x-8 oswald text-white drop-shadow-md ">
                     <Link
                       href="/expertise"
-                      className="inline-flex items-center px-1 pt-1 uppercase"
+                      className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                     >
                       Expertise
                     </Link>
 
                     <Link
                       href="/team"
-                      className="inline-flex items-center px-1 pt-1 uppercase"
+                      className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                     >
                       équipe
                     </Link>
 
                     <Link
                       href="/cases"
-                      className="inline-flex items-center px-1 pt-1 uppercase"
+                      className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                     >
                       études de cas
                     </Link>
 
                     <Link
                       href="/news"
-                      className="inline-flex items-center px-1 pt-1 uppercase"
+                      className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                     >
                       News
                     </Link>

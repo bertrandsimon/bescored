@@ -26,45 +26,16 @@ const oswald = Oswald({
 });
 
 export const metadata = {
-  title: "BeScored : centre d'expertise scientifique",
+  title: "BeScored : english",
   description: `Fort de plus de 30 ans d'expérience dans l'optimisation de la performance sportive de haut niveau, beScored propose également cette expertise dans les domaines de la santé, du bien-être et de l'entreprise.`,
 };
 
 export default function RootLayout({ children }) {
-  const GA_TAG_ID = "G-2SL6Y5LNG1";
-  const isProductionEnv =
-    process.env.NODE_ENV && process.env.NODE_ENV !== "production";
-
   return (
     <html lang="fr">
       <body
         className={`${inter.variable} ${work_sans.variable} ${oswald.variable} container mx-auto z-10 max-w-screen-2xl`}
       >
-        <Head>
-          {/* Google Analytics -- Only Include in Production*/}
-          {isProductionEnv ? (
-            <>
-              {/* Global Site Tag (gtag.js) - Google Analytics */}
-              <script
-                async
-                src={`https://www.googletagmanager.com/gtag/js?id=${GA_TAG_ID}`}
-              />
-              <script
-                dangerouslySetInnerHTML={{
-                  __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${GA_TAG_ID}', {
-                  page_path: window.location.pathname,
-                });
-              `,
-                }}
-              />
-            </>
-          ) : null}
-        </Head>
-
         <div className="z-20 sticky top-0">
           <ToolBar />
           <div className="visible sm:hidden ">
@@ -74,7 +45,7 @@ export default function RootLayout({ children }) {
         </div>
 
         <div className="z-0 relative">{children}</div>
-        <Footer />
+
         <Analytics />
       </body>
     </html>

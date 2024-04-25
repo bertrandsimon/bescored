@@ -88,27 +88,52 @@ export default function Footer() {
                 <div className="flex flex-row gap-8">
                   <div>
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/expertise">Expertise</Link>
+                      <Link
+                        href="/expertise"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        Expertise
+                      </Link>
                     </h3>
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/team">équipe</Link>
+                      <Link
+                        href="/team"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        équipe
+                      </Link>
                     </h3>
                   </div>
                   <div>
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/cases">études</Link>
+                      <Link
+                        href="/cases"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        études
+                      </Link>
                     </h3>
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/news">News</Link>
+                      <Link
+                        href="/news"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        News
+                      </Link>
                     </h3>
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
-                      <Link href="/contact">Contact</Link>
+                      <Link
+                        href="/contact"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        Contact
+                      </Link>
                     </h3>
                   </div>
                 </div>
@@ -119,7 +144,7 @@ export default function Footer() {
                 On vous rappelle
               </h3>
               <p className="mt-2 leading-6 text-gray-300  text-center sm:text-left">
-                Prenez contact avec nous pour plus informations
+                Prenez contact avec nous pour plus d&apos;informations
               </p>
 
               {!success ? (

@@ -1,14 +1,14 @@
 const posts = [
   {
     id: 1,
-    title: "ECA : European Club Association",
+    title: "ECA: European Club Association",
     href: "#",
     description:
-      "Christophe Hausswirth a été élu le 7 septembre 2023 au Board Medical & Performance de l’ECA (comprenant les 250 meilleurs clubs de football européen) et ce pour une durée de 4 ans. ",
+      "Christophe Hausswirth was elected on September 7, 2023, to the Board Medical & Performance of the ECA (comprising the top 250 European football clubs) for a duration of 4 years.",
     imageUrl: "/images/news/1bis.jpg",
-    date: "7 Septembre 2023",
+    date: "7 September 2023",
     datetime: "7 Sept 2023",
-    category: { title: "Partenaire", href: "#" },
+    category: { title: "Partner", href: "#" },
     author: {
       name: "Christophe Hausswirth",
       role: "beScored",
@@ -21,11 +21,11 @@ const posts = [
     title: "Johnson & Johnson",
     href: "#",
     description:
-      "Après une étude conduite sur la fatigue des chirurgiens orthopédiques avec le groupe Johnson & Johnson, les données issues de cette recherche ont été acceptées pour publication dans la revue Journal of Othopaedic Experience and Innovation (JOEI) le 1er septembre 2023.",
+      "After a study conducted on the fatigue of orthopedic surgeons with the Johnson & Johnson group, the data from this research was accepted for publication in the Journal of Orthopaedic Experience and Innovation (JOEI) on September 1, 2023.",
     imageUrl: "/images/news/2.jpg",
-    date: "4 Octobre 2023",
+    date: "4 October 2023",
     datetime: "04-10-2023",
-    category: { title: "Etude", href: "#" },
+    category: { title: "Study", href: "#" },
     author: {
       name: "Christophe Hausswirth",
       role: "beScored",
@@ -38,11 +38,11 @@ const posts = [
     title: "Info",
     href: "#",
     description:
-      "Nous sommes désormais en mesure d’évaluer avec objectivité la fatigue mentale des personnels soignants et des chirurgiens. C’est ce que nous réalisons au pôle santé Saint-Jean jusqu’à la Toussaint 2023, en partenariat avec le laboratoire d’analyses Cerballiance. ",
+      "We are now able to objectively assess the mental fatigue of healthcare workers and surgeons. This is what we are accomplishing at the Saint-Jean health center until November 2023, in partnership with the Cerballiance analysis laboratory.",
     imageUrl: "/images/news/3.jpg",
-    date: "12 Octobre 2023",
+    date: "12 October 2023",
     datetime: "16-03-2023",
-    category: { title: "Etude", href: "#" },
+    category: { title: "Study", href: "#" },
     author: {
       name: "Christophe Hausswirth",
       role: "beScored",

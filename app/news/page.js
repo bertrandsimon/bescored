@@ -3,6 +3,8 @@ import NewsTop from "./newsTop";
 import News from ".";
 import News2 from "../news2";
 import News3 from "../news3";
+import Footer from "../footer";
+
 export default function Home() {
   return (
     <main>
@@ -12,6 +14,7 @@ export default function Home() {
       <News3 />
       <News2 />
       <News />
+      <Footer />
     </main>
   );
 }

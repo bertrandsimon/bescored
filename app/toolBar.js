@@ -78,6 +78,11 @@ export default function ToolBar() {
               contact@bescored.fr
             </a>
           </span>
+          <span>|</span>
+
+          <Link href="/uk">
+            <span>English</span>
+          </Link>
         </div>
       </div>
     </div>

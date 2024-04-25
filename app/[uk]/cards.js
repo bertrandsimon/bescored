@@ -30,10 +30,10 @@ export default function Cards() {
   return (
     <>
       <Head>
-        <link rel="preload" href="uk/images/cards/card1b.jpg" as="image" />
-        <link rel="preload" href="uk/images/cards/card2b.jpg" as="image" />
-        <link rel="preload" href="uk/images/cards/card3b.jpg" as="image" />
-        <link rel="preload" href="uk/images/cards/card4b.jpg" as="image" />
+        <link rel="preload" href="uk/images/cards/card1b-uk.jpg" as="image" />
+        <link rel="preload" href="uk/images/cards/card2b-uk.jpg" as="image" />
+        <link rel="preload" href="uk/images/cards/card3b-uk.jpg" as="image" />
+        <link rel="preload" href="uk/images/cards/card4b-uk.jpg" as="image" />
       </Head>
 
       <div className="grid grid-cols-12 px-2 gap-2 justify-between">
@@ -85,7 +85,7 @@ export default function Cards() {
                 <Link href="/uk/cases">
                   <Image
                     className="img1Card w-auto rounded-xl drop-shadow-lg object-cover"
-                    src="/images/cards/card1.jpg"
+                    src="/images/cards/card1-uk.jpg"
                     width={206}
                     height={284}
                     alt="atropos"
@@ -107,7 +107,7 @@ export default function Cards() {
                 <Link href="/uk/cases">
                   <Image
                     className="img2Card w-auto rounded-xl drop-shadow-lg "
-                    src="/images/cards/card2.jpg"
+                    src="/images/cards/card2-uk.jpg"
                     width={206}
                     height={284}
                     alt="atropos"
@@ -129,7 +129,7 @@ export default function Cards() {
                 <Link href="/uk/cases">
                   <Image
                     className="img3Card w-auto rounded-xl drop-shadow-lg"
-                    src="/images/cards/card3.jpg"
+                    src="/images/cards/card3-uk.jpg"
                     width={206}
                     height={284}
                     alt="atropos"
@@ -151,7 +151,7 @@ export default function Cards() {
                 <Link href="/uk/cases">
                   <Image
                     className="img4Card w-auto rounded-xl drop-shadow-lg"
-                    src="/images/cards/card4.jpg"
+                    src="/images/cards/card4-uk.jpg"
                     width={206}
                     height={284}
                     alt="atropos"
@@ -167,26 +167,26 @@ export default function Cards() {
       <div className="flex justify-around items-center sm:hidden pt-10">
         <div className="grid grid-cols-2 gap-6">
           <Card
-            initialSrc="/images/cards/card1.jpg"
-            hoverSrc="/images/cards/card1b.jpg"
+            initialSrc="/images/cards/card1-uk.jpg"
+            hoverSrc="/images/cards/card1b-uk.jpg"
             width={206}
             height={284}
           />
           <Card
-            initialSrc="/images/cards/card2.jpg"
-            hoverSrc="/images/cards/card2b.jpg"
+            initialSrc="/images/cards/card2-uk.jpg"
+            hoverSrc="/images/cards/card2b-uk.jpg"
             width={206}
             height={239}
           />
           <Card
-            initialSrc="/images/cards/card3.jpg"
-            hoverSrc="/images/cards/card3b.jpg"
+            initialSrc="/images/cards/card3-uk.jpg"
+            hoverSrc="/images/cards/card3b-uk.jpg"
             width={206}
             height={284}
           />
           <Card
-            initialSrc="/images/cards/card4.jpg"
-            hoverSrc="/images/cards/card4b.jpg"
+            initialSrc="/images/cards/card4-uk.jpg"
+            hoverSrc="/images/cards/card4b-uk.jpg"
             width={206}
             height={284}
           />

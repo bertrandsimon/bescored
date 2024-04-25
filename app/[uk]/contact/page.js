@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ContactTop from "./contactTop";
 import Content from "./content";
+import Footer from "../footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </div>
 
       <Content />
+      <Footer />
     </main>
   );
 }

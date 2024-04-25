@@ -2,6 +2,7 @@ import Image from "next/image";
 import CasesTop from "./casesTop";
 import Content from "./content";
 import Method from "../method";
+import Footer from "../footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           <Method />
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

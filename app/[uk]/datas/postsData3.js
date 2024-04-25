@@ -2,14 +2,14 @@ const posts = [
   {
     id: 1,
     title:
-      "Conférence au Luxembourg Institute for High Performance in Sports (LIHPS)",
+      "Conference at the Luxembourg Institute for High Performance in Sports (LIHPS)",
     href: "#",
     description:
-      "C. Hausswirth a été invité par le LIHPS pour traiter de la façon de récupérer en sport. Un état actuel des connaissances a été proposé à l’ensemble des entraîneurs et des kinésithérapeutes des différentes fédérations sportives.",
+      "C. Hausswirth was invited by LIHPS to discuss sports recovery methods. A current state of knowledge was presented to all coaches and physiotherapists from various sports federations.",
     imageUrl: "/images/news/7.jpg",
-    date: "7 novembre 2023",
-    datetime: "7 novembre 2023",
-    category: { title: "Parution", href: "#" },
+    date: "November 7, 2023",
+    datetime: "November 7, 2023",
+    category: { title: "Publication", href: "#" },
     author: {
       name: "Christophe Hausswirth",
       role: "beScored",
@@ -19,14 +19,14 @@ const posts = [
   },
   {
     id: 2,
-    title: "Conférence-débat: célébration des 30 ans de Trans-Faire Groupe",
+    title: "Conference-Debate: Celebrating 30 years of Trans-Faire Group",
     href: "#",
     description:
-      "À l’issue des 30 ans de la société Trans-Faire, organisme de formation réputé à Paris, C. Hausswirth a participé à une conférence-débat sur le thème: «Être à sa place».  Thème peu banal qui a suscité l’intérêt de plus de 150 personnes.",
+      "At the end of the 30th anniversary of the Trans-Faire company, a renowned training organization in Paris, C. Hausswirth participated in a conference-debate on the theme: 'Being in one's place.' An unusual theme that sparked the interest of more than 150 people.",
     imageUrl: "/images/news/8.jpg",
-    date: "23 novembre 2023",
-    datetime: "23 novembre 2023",
-    category: { title: "Conférence", href: "#" },
+    date: "November 23, 2023",
+    datetime: "November 23, 2023",
+    category: { title: "Conference", href: "#" },
     author: {
       name: "Christophe Hausswirth",
       role: "beScored",
@@ -36,14 +36,14 @@ const posts = [
   },
   {
     id: 3,
-    title: "Signature des accords entre Be-Bô et beScored",
+    title: "Signing of Agreements between Be-Bô and beScored",
     href: "#",
     description:
-      "Lors de la réunion annuelle de la Fédération Internationale de Football (IFFHS) à Genève, a été signée la collaboration entre la société Suisse Be-Bô et beScored. Débutera ces jours-ci une nouvelle étude descriptive sur les ultrasons SLIM SONIC et leurs impacts sur le tissu adipeux abdominal.",
+      "During the annual meeting of the International Football Federation (IFFHS) in Geneva, the collaboration between the Swiss company Be-Bô and beScored was signed. A new descriptive study on SLIM SONIC ultrasound and its impact on abdominal adipose tissue will begin in the coming days.",
     imageUrl: "/images/news/9.jpg",
-    date: "1er décembre 2023",
-    datetime: "1er décembre 2023",
-    category: { title: "Etude", href: "#" },
+    date: "December 1, 2023",
+    datetime: "December 1, 2023",
+    category: { title: "Study", href: "#" },
     author: {
       name: "Christophe Hausswirth",
       role: "beScored",
