@@ -19,14 +19,6 @@ import { Fragment } from "react";
 import Footer from "./footer";
 
 export default function Home() {
-  const options = {
-    loop: true,
-    autoplay: true,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   return (
     <>
       <main>

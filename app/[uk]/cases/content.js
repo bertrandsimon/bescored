@@ -34,10 +34,7 @@ export default function Content() {
             <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
               <span>Health expertise</span>
-              <Link
-                href="/uk/pdf/Case_Study_Health_beScored.pdf"
-                target="_blank"
-              >
+              <Link href="/pdf/Case_Study_Health_beScored.pdf" target="_blank">
                 <button className="btn btn-blue cursor-pointer text-xs">
                   See study
                 </button>
@@ -46,10 +43,7 @@ export default function Content() {
             <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
               <span>Sports expertise</span>
-              <Link
-                href="/uk/pdf/Case_Study_Sports_beScored.pdf"
-                target="_blank"
-              >
+              <Link href="/pdf/Case_Study_Sports_beScored.pdf" target="_blank">
                 <button className="btn btn-blue cursor-pointer text-xs">
                   See study
                 </button>
