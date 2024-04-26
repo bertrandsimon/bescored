@@ -7,6 +7,8 @@ import Footer from "./footer";
 import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 
+// Mark this component as a client entry
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",

@@ -80,7 +80,7 @@ export default function ToolBar() {
           </span>
           <span>|</span>
 
-          <Link href="https://bescored.fr/">
+          <Link href="https://bescored.fr/expertise">
             <span>Français</span>
           </Link>
         </div>

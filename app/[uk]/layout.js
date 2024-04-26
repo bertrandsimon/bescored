@@ -26,8 +26,9 @@ const oswald = Oswald({
 });
 
 export const metadata = {
-  title: "BeScored : english",
-  description: `Fort de plus de 30 ans d'expérience dans l'optimisation de la performance sportive de haut niveau, beScored propose également cette expertise dans les domaines de la santé, du bien-être et de l'entreprise.`,
+  title: "BeScored: Scientific Expertise Center",
+  description:
+    "With over 30 years of experience in optimizing high-level sports performance, beScored also offers expertise in the fields of health, wellness, and business.",
 };
 
 export default function RootLayout({ children }) {
