@@ -17,8 +17,6 @@ export default function Content() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    //console.log(form.current.name.value)
-
     emailjs
       .sendForm(
         "service_uvsxn6b",
@@ -88,10 +86,10 @@ export default function Content() {
               </div>
             </div>
             <h2 className="text-3xl font-light text-white oswald uppercase">
-              Prenons contact
+              Get in touch
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Nous étudions chaque projet avec la plus grande attention.
+              We study each project with the utmost care.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
               <div className="flex gap-x-4">
@@ -159,7 +157,7 @@ export default function Content() {
                     htmlFor="name"
                     className="block text-sm font-semibold leading-6 text-white"
                   >
-                    Nom
+                    Name
                   </label>
                   <div className="mt-2.5">
                     <input
@@ -175,7 +173,7 @@ export default function Content() {
                     htmlFor="surname"
                     className="block text-sm font-semibold leading-6 text-white"
                   >
-                    Prénom
+                    Surname
                   </label>
                   <div className="mt-2.5">
                     <input
@@ -222,7 +220,7 @@ export default function Content() {
                     htmlFor="message"
                     className="block text-sm font-semibold leading-6 text-white"
                   >
-                    Votre message
+                    Your message
                   </label>
                   <div className="mt-2.5">
                     <textarea
@@ -237,7 +235,7 @@ export default function Content() {
               </div>
               <div className="mt-8 flex justify-end">
                 <button className="btn btn-blue px-3.5 py-2.5" type="submit">
-                  Envoyer
+                  Send
                 </button>
               </div>
             </div>
@@ -265,10 +263,8 @@ export default function Content() {
                   />
                 </svg>
               </div>
-              <p class=" text-white font-normal">
-                Votre message a été envoyé !
-              </p>
-              <p class="text-sm py-4">Nous revenons vers vous rapidement.</p>
+              <p class=" text-white font-normal">Your message has been sent.</p>
+              <p class="text-sm py-4">We&apos;ll come back to you shortly</p>
             </div>
           </div>
         )}
