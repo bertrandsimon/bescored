@@ -16,8 +16,21 @@ import {
   PopoverContent,
   Button,
 } from "@nextui-org/react";
+import { useEffect } from "react";
+import { useState } from "react";
 
 export default function ToolBar() {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const importedData = await import("./datas/postsData3");
+      setPosts(importedData.default); // Assuming the data is exported as default
+    };
+
+    fetchData(); // Call the async function
+  }, []); // Empty dependency array to run the effect only once
+
   return (
     <div className="h-14 bg-black flex items-center">
       <div className="flex items-center w-full justify-between px-8 gap-2 text-white">

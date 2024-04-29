@@ -19,8 +19,8 @@ export default function TopContent() {
             Scientific activities and expertise
           </p>
           <p className="font-light text-4xl pt-4 oswald uppercase">
-            beScored positions itself at the heart of factors <br /> of human
-            performance
+            beScored positions itself at the heart <br /> of human performance
+            factors
           </p>
           <p className="font-sm font-extralight pt-4 max-w-xl mx-auto text-center">
             The expertise and research programs conducted by beScored, ranging

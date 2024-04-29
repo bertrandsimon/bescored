@@ -55,7 +55,7 @@ export default function Trio() {
               <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
                 Dr. Jacques GUENERON, MD.
               </h3>
-              <p className="text-base leading-7 text-gray-600">Cardiologue</p>
+              <p className="text-base leading-7 text-gray-600">Cardiologist</p>
             </div>
           </div>
         </div>

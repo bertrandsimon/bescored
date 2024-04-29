@@ -35,15 +35,15 @@ export default function Solo() {
             Christophe HAUSSWIRTH has developed expertise in high-level sports
             which he now leverages in beScored Institute. In parallel,
             Christophe Hausswirth has authored 7 reference books including
-            &apos&Improving Recovery in Sports&apos& and &apos&Nutrition and
-            Performance in Sports&apos&. He also has an extensive list of over
-            150 scientific publications in high-impact specialized journals. He
-            has written 18 book chapters by invitation and has also spoken at
-            nearly 180 conferences and seminars in France and internationally on
-            physiology and sports training, as well as on individual health and
-            well-being. Additionally, he is currently a researcher and associate
-            member at LAMHESS (Université Côte d&apos&Azur) and a Professor at
-            the University of Technology Sydney (UTS).
+            Improving Recovery in Sports and Nutrition and Performance in
+            Sports. He also has an extensive list of over 150 scientific
+            publications in high-impact specialized journals. He has written 18
+            book chapters by invitation and has also spoken at nearly 180
+            conferences and seminars in France and internationally on physiology
+            and sports training, as well as on individual health and well-being.
+            Additionally, he is currently a researcher and associate member at
+            LAMHESS (Université Côte d&apsos;Azur) and a Professor at the
+            University of Technology Sydney (UTS).
           </p>
         </div>
       </div>

@@ -61,13 +61,12 @@ export default function Subteam() {
         <div className="lg:mx-0 flex justify-center">
           <div className="flex flex-col justify-center items-center">
             <p className="uppercase oswald text-4xl ">
-              <span className="pr-2 font-semibold">ils font aussi partie</span>
-              <span className="font-light">de l équipe</span>
+              <span className="pr-2 font-semibold">they are part</span>
+              <span className="font-light">of the team</span>
             </p>
 
             <p className="mt-6 text-light">
-              Reconnus pour leurs compétences, en France et à
-              l&apos;international.
+              Recognized for their skills, in France and internationally.
             </p>
           </div>
         </div>
