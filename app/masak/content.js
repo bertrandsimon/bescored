@@ -46,7 +46,7 @@ export default function Content() {
                   <div className="flex flex-col">
                     <span className="font-semibold pt-4">Conséquences :</span>
                     <span>
-                      risque de biais important pouvant entraîner une
+                      Risque de biais important pouvant entraîner une
                       sous-estimation ou une surestimation des problèmes de
                       santé mentale.
                     </span>
@@ -73,7 +73,7 @@ export default function Content() {
                   <div className="flex flex-col">
                     <span className="font-semibold pt-4">Conséquences :</span>
                     <span>
-                      retard dans la prise en charge, entraînant une
+                      Retard dans la prise en charge, entraînant une
                       augmentation des coûts de santé et une diminution de la
                       qualité de vie et de la productivité au travail des
                       personnes concernées.
@@ -104,7 +104,7 @@ export default function Content() {
                   <div className="flex flex-col">
                     <span className="font-semibold pt-4">Conséquences :</span>
                     <span>
-                      difficulté à individualiser la prise en charge et à
+                      Difficulté à individualiser la prise en charge et à
                       mesurer les bénéfices réels de l’offre de soins.
                     </span>
                   </div>
@@ -128,7 +128,7 @@ export default function Content() {
                   </div>
                   <div className="flex flex-col">
                     <span className="font-semibold pt-4">Conséquences :</span>
-                    <span>retard dans la prise en charge</span>
+                    <span>Retard dans la prise en charge</span>
                   </div>
                 </dd>
               </div>
