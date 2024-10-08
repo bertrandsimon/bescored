@@ -25,10 +25,60 @@ export default function SliderSwiper() {
         observeParents={true}
         className="aspect-auto height-[580px] bg-cover rounded-b-lg z-0 relative"
         autoplay={{
-          delay: 5000,
+          delay: 7000,
           disableOnInteraction: false,
         }}
       >
+        {/* slide 0 */}
+        <SwiperSlide>
+          <div
+            style={{
+              backgroundImage: `url('/images/masak-bg2.jpg')`,
+              height: "580px",
+            }}
+            className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center"
+          >
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+              <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
+                <Fade duration={1000} delay={500} cascade damping={0.2}>
+                  <Slide direction="down" duration={1000} delay={500}>
+                    <p className="text-sm p-1">30 ans d&rsquo;experience</p>
+                  </Slide>
+                  <Slide direction="down" duration={1000} delay={600}>
+                    <p className="text-5xl p-1 font-extralight">
+                      santé mentale et physique
+                    </p>
+                  </Slide>
+                  <Slide direction="down" duration={1000} delay={700}>
+                    <p className="text-5xl p-1 font-semibold">en entreprise</p>
+                  </Slide>
+                  <Slide direction="up" duration={1000} delay={800}>
+                    <div className="pt-4">
+                      <Link href="/masak">
+                        <button className="btn btn-blue cursor-pointer">
+                          en savoir +
+                        </button>
+                      </Link>
+                    </div>
+                  </Slide>
+                </Fade>
+              </div>
+              <div className="sm:flex-shrink-0 hidden sm:flex">
+                {/* <Fade duration={1000} delay={1500}>
+                  <Slide direction="up" duration={1000} delay={1500}>
+                    <Image
+                      src="/images/tag3.png"
+                      width={249}
+                      height={50}
+                      alt="Tag"
+                    />
+                  </Slide>
+                </Fade> */}
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
         {/* slide 1 */}
         <SwiperSlide>
           <div
