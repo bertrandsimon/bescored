@@ -71,7 +71,7 @@ export default function Content() {
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
               <span>Corporate expertise</span>
               <Link
-                href="https://bescored.fr/pdf/Brochure__Santé_Mentale_Positive.pdf"
+                href="https://bescored.fr/pdf/Brochure__Sante_Mentale_Positive.pdf"
                 target="_blank"
               >
                 <button className="btn btn-blue cursor-pointer text-xs">
