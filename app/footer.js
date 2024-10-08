@@ -61,8 +61,15 @@ export default function Footer() {
         name: "Twitter",
         href: "https://twitter.com/hausswirthc",
         icon: (props) => (
-          <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+          <svg
+            fill="currentColor"
+            width="20"
+            height="20"
+            viewBox="0 0 300 300"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M178.57 127.15 290.27 0h-26.46l-97.03 110.38L89.34 0H0l117.13 166.93L0 300.25h26.46l102.4-116.59 81.8 116.59h89.34M36.01 19.54H76.66l187.13 262.13h-40.66" />
           </svg>
         ),
       },
@@ -129,6 +136,17 @@ export default function Footer() {
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
                       <Link
+                        href="/masak"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        Masak
+                      </Link>
+                    </h3>
+                  </div>
+
+                  <div className="mt-10 md:mt-0">
+                    <h3 className="font-light text-white uppercase">
+                      <Link
                         href="/contact"
                         className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                       >
@@ -186,9 +204,13 @@ export default function Footer() {
                   key={item.name}
                   href={item.href}
                   target="_blank"
-                  className="text-gray-500 hover:text-gray-400"
+                  className="text-gray-500 hover:text-gray-400 flex items-center"
                 >
-                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                  <item.icon
+                    className="h-6 w-6"
+                    aria-hidden="true"
+                    style={{ verticalAlign: "middle" }}
+                  />
                 </a>
               ))}
             </div>

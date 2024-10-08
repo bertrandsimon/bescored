@@ -45,12 +45,12 @@ export default function SliderSwiper() {
                     <p className="text-sm p-1">30 ans d&rsquo;experience</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
-                    <p className="text-5xl p-1 font-extralight">
-                      santé mentale et physique
-                    </p>
+                    <p className="text-5xl p-1 font-extralight">diagnostic</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
-                    <p className="text-5xl p-1 font-semibold">en entreprise</p>
+                    <p className="text-5xl p-1 font-semibold">
+                      forme & bien-être
+                    </p>
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
@@ -181,7 +181,7 @@ export default function SliderSwiper() {
         </SwiperSlide>
 
         {/* slide 3 */}
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             style={{
               backgroundImage: `url('/images/corporate-bg.jpg')`,
@@ -228,7 +228,7 @@ export default function SliderSwiper() {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         {/* slide 4 */}
         <SwiperSlide>

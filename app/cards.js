@@ -148,7 +148,7 @@ export default function Cards() {
                 rotateYMax="60"
                 highlight="true"
               >
-                <Link href="/cases">
+                <Link href="/masak">
                   <Image
                     className="img4Card w-auto rounded-xl drop-shadow-lg"
                     src="/images/cards/card4.jpg"
