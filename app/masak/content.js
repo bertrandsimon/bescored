@@ -31,7 +31,7 @@ export default function Content() {
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DB4C4]">
                     <span className="text-white">1</span>
                   </div>
-                  évaluation
+                  Évaluation et objectivation
                 </dt>
                 <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
                   <div className="flex flex-col">
@@ -59,7 +59,7 @@ export default function Content() {
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DB4C4]">
                     <span className="text-white">2</span>
                   </div>
-                  Détection santé mentale
+                  Détection
                 </dt>
                 <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
                   <div className="flex flex-col">
@@ -155,12 +155,26 @@ export default function Content() {
           <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-[800px] py-10">
             <div className="flex flex-col items-start justify-center">
               <p className="text-base font-semibold leading-7 blue uppercase pb-4">
-                Kit d’évaluation
+                UNE SOLUTION DIGITALE INNOVANTE
               </p>
               <p className="font-light tracking-tight text-justify">
-                Un kit d’évaluation complet pour évaluer l’état mental (fatigue
-                mentale, qualité cérébrale), les niveaux de douleurs et de
-                stress, ainsi que la qualité de sommeil des personnes.
+                <ul>
+                  <li>
+                    Évaluation comprenant une douzaine de tests cognitifs,
+                    mentaux et de vitalité en moins de 20 minutes, avec rapport
+                    immédiat.
+                  </li>
+                  <li>
+                    Un scoring intelligent pour chaque indice, alimenté par un
+                    puissant algorithme.
+                  </li>
+                  <li>
+                    Plus de 118 000 données agrégées, issues de la littérature
+                    et de nos études, définissent les valeurs normatives
+                    couvrant les deux sexes de 18 à 85 ans.
+                  </li>
+                  <li>Une innovation 100% machine learning évolutive.</li>
+                </ul>
               </p>
             </div>
 
@@ -188,7 +202,7 @@ export default function Content() {
 
             <div className="flex flex-col items-start justify-center">
               <p className="text-base font-semibold leading-7 blue uppercase pb-4">
-                Exemple de bilan “Forme & Bien-être”
+                BILAN FORME & BIEN-ÊTRE COMPLET EN MOINS DE 20 MINUTES
               </p>
               <ul className="list-disc pl-6 font-light tracking-tight text-justify">
                 <li>Fruit de plus de cinq années de R&D.</li>
