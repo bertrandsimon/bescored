@@ -157,53 +157,6 @@ export default function Content() {
               <p className="text-base font-semibold leading-7 blue uppercase pb-4">
                 UNE SOLUTION DIGITALE INNOVANTE
               </p>
-              <p className="font-light tracking-tight text-justify">
-                <ul>
-                  <li>
-                    Évaluation comprenant une douzaine de tests cognitifs,
-                    mentaux et de vitalité en moins de 20 minutes, avec rapport
-                    immédiat.
-                  </li>
-                  <li>
-                    Un scoring intelligent pour chaque indice, alimenté par un
-                    puissant algorithme.
-                  </li>
-                  <li>
-                    Plus de 118 000 données agrégées, issues de la littérature
-                    et de nos études, définissent les valeurs normatives
-                    couvrant les deux sexes de 18 à 85 ans.
-                  </li>
-                  <li>Une innovation 100% machine learning évolutive.</li>
-                </ul>
-              </p>
-            </div>
-
-            <div className="flex items-center justify-center">
-              <Image
-                src="/images/masak/masak-solution.jpg"
-                width="264"
-                height="207"
-                alt="screen"
-              />
-            </div>
-          </div>
-        </section>
-
-        <section id="ecran">
-          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-[800px] py-10">
-            <div className="flex items-center justify-center">
-              <Image
-                src="/images/masak/ecran.jpg"
-                width="264"
-                height="207"
-                alt="screen"
-              />
-            </div>
-
-            <div className="flex flex-col items-start justify-center">
-              <p className="text-base font-semibold leading-7 blue uppercase pb-4">
-                BILAN FORME & BIEN-ÊTRE COMPLET EN MOINS DE 20 MINUTES
-              </p>
               <ul className="list-disc pl-6 font-light tracking-tight text-justify">
                 <li>Fruit de plus de cinq années de R&D.</li>
                 <li>
@@ -217,6 +170,38 @@ export default function Content() {
                 </li>
                 <li>Innovation 100% machine learning évolutive.</li>
               </ul>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <Image
+                src="/images/masak/masak-solution2.jpg"
+                width="399"
+                height="302"
+                alt="screen"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="ecran">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-[800px] py-10">
+            <div className="flex items-center justify-center">
+              <Image
+                src="/images/masak/ecran2.jpg"
+                width="527"
+                height="415"
+                alt="screen"
+              />
+            </div>
+
+            <div className="flex flex-col items-start justify-center">
+              <p className="text-base font-semibold leading-7 blue uppercase pb-4">
+                BILAN FORME & BIEN-ÊTRE COMPLET EN MOINS DE 20 MINUTES
+              </p>
+              <p className="font-light tracking-tight text-justify">
+                Évaluation comprenant une douzaine de tests cognitifs, mentaux
+                et de vitalité en moins de 20 minutes, avec rapport immédiat.
+              </p>
             </div>
           </div>
         </section>
