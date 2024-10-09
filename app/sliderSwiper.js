@@ -25,7 +25,7 @@ export default function SliderSwiper() {
         observeParents={true}
         className="aspect-auto height-[580px] bg-cover rounded-b-lg z-0 relative"
         autoplay={{
-          delay: 7000,
+          delay: 700000,
           disableOnInteraction: false,
         }}
       >
@@ -38,7 +38,7 @@ export default function SliderSwiper() {
             }}
             className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center"
           >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
@@ -88,7 +88,7 @@ export default function SliderSwiper() {
             }}
             className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-right"
           >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
@@ -139,7 +139,7 @@ export default function SliderSwiper() {
             }}
             className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center"
           >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
@@ -189,7 +189,7 @@ export default function SliderSwiper() {
             }}
             className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center"
           >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
@@ -239,7 +239,7 @@ export default function SliderSwiper() {
             }}
             className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center"
           >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>

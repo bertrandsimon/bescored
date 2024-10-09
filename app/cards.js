@@ -84,7 +84,7 @@ export default function Cards() {
               >
                 <Link href="/cases">
                   <Image
-                    className="img1Card w-auto rounded-xl drop-shadow-lg object-cover"
+                    className="img1Card w-auto rounded-xl drop-shadow-lg"
                     src="/images/cards/card1.jpg"
                     width={206}
                     height={284}
@@ -166,30 +166,39 @@ export default function Cards() {
       {/* mobile */}
       <div className="flex justify-around items-center sm:hidden pt-10">
         <div className="grid grid-cols-2 gap-6">
-          <Card
-            initialSrc="/images/cards/card1.jpg"
-            hoverSrc="/images/cards/card1b.jpg"
-            width={206}
-            height={284}
-          />
-          <Card
-            initialSrc="/images/cards/card2.jpg"
-            hoverSrc="/images/cards/card2b.jpg"
-            width={206}
-            height={239}
-          />
-          <Card
-            initialSrc="/images/cards/card3.jpg"
-            hoverSrc="/images/cards/card3b.jpg"
-            width={206}
-            height={284}
-          />
-          <Card
-            initialSrc="/images/cards/card4.jpg"
-            hoverSrc="/images/cards/card4b.jpg"
-            width={206}
-            height={284}
-          />
+          <Link href="/cases">
+            <Card
+              initialSrc="/images/cards/card1.jpg"
+              hoverSrc="/images/cards/card1b.jpg"
+              width={206}
+              height={284}
+            />
+          </Link>
+
+          <Link href="/cases">
+            <Card
+              initialSrc="/images/cards/card2.jpg"
+              hoverSrc="/images/cards/card2b.jpg"
+              width={206}
+              height={239}
+            />
+          </Link>
+          <Link href="/cases">
+            <Card
+              initialSrc="/images/cards/card3.jpg"
+              hoverSrc="/images/cards/card3b.jpg"
+              width={206}
+              height={284}
+            />
+          </Link>
+          <Link href="/masak">
+            <Card
+              initialSrc="/images/cards/card4.jpg"
+              hoverSrc="/images/cards/card4b.jpg"
+              width={206}
+              height={284}
+            />
+          </Link>
         </div>
       </div>
     </>
