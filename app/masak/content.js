@@ -17,7 +17,7 @@ export default function Content() {
     <>
       <div className="py-10 px-10 mx-auto">
         <section id="top1">
-          <p className="uppercase oswald text-4xl text-center ">
+          <p className="uppercase oswald text-4xl text-center pb-20 md:pb-0">
             <span className="pr-2 font-semibold">le problème</span>
             {/* <span className="font-light">à résoudre</span> */}
           </p>
