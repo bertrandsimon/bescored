@@ -25,7 +25,7 @@ export default function SliderSwiper() {
         observeParents={true}
         className="aspect-auto height-[580px] bg-cover rounded-b-lg z-0 relative"
         autoplay={{
-          delay: 700000,
+          delay: 7000,
           disableOnInteraction: false,
         }}
       >
