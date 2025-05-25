@@ -66,6 +66,13 @@ export default function Nav() {
                     </Link>
 
                     <Link
+                      href="/uk/masak"
+                      className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                    >
+                      Masak
+                    </Link>
+
+                    <Link
                       href="/uk/team"
                       className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                     >
