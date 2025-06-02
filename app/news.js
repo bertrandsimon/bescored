@@ -39,7 +39,7 @@ export default function News() {
                       <span className="absolute inset-0" />
                       {post.title}
                     </h3>
-                    <p className="mt-5 line-clamp-6 text-sm leading-6 text-gray-600">
+                    <p className="mt-5 line-clamp-7 text-sm leading-6 text-gray-600">
                       {post.description}
                     </p>
                   </div>

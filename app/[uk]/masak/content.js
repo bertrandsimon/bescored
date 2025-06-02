@@ -164,7 +164,7 @@ export default function Content() {
           <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-[800px] py-10">
             <div className="flex items-center justify-center">
               <Image
-                src="/images/masak/ecran2.jpg"
+                src="/images/masak/ecran2-uk.jpg"
                 width="527"
                 height="415"
                 alt="screen"
