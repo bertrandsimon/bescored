@@ -150,7 +150,7 @@ export default function TopContent() {
                     aria-hidden="true"
                   />
                 </div>
-                Expertise corporate
+                Expertise entreprise
               </dt>
               <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
                 <div className="flex">

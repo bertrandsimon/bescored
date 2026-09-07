@@ -112,7 +112,7 @@ export default function Editorial() {
             </div>
             <div>
               <p className="font-semibold text-base uppercase blue pb-3 text-center sm:text-left">
-                Expertise corporate
+                Expertise entreprise
               </p>
               <span className="font-light">
                 Le monde de l’entreprise est quelquefois bien démuni lorsqu’il

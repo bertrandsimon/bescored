@@ -99,7 +99,7 @@ export default function Footer() {
                         href="/expertise"
                         className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                       >
-                        Expertise
+                        Recherche
                       </Link>
                     </h3>
                   </div>

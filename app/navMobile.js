@@ -37,7 +37,7 @@ export default function NavMobile() {
               <div className="space-y-1 pb-4 pt-2 flex flex-col justify-center items-center">
                 {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-white uppercase text-sm hover:bg-gray-50  hover:text-black" */}
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
-                  <Link href="/expertise">Expertise</Link>
+                  <Link href="/expertise">Recherche</Link>
                 </Disclosure.Button>
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
                   <Link href="/masak">Masak</Link>

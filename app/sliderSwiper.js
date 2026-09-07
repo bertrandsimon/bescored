@@ -42,14 +42,16 @@ export default function SliderSwiper() {
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 ans d&rsquo;experience</p>
+                    <p className="text-sm p-1">Dispositif médical</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
-                    <p className="text-5xl p-1 font-extralight">diagnostic</p>
+                    <p className="text-5xl p-1 font-extralight">
+                      Bilan Bien-être
+                    </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
                     <p className="text-5xl p-1 font-semibold">
-                      forme & bien-être
+                      Mental &amp; Physique
                     </p>
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
@@ -91,9 +93,6 @@ export default function SliderSwiper() {
             <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
-                  <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 ans d&apos;experience</p>
-                  </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">
                       centre d&apos;expertise
@@ -105,7 +104,7 @@ export default function SliderSwiper() {
 
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
-                      <Link href="/cases">
+                      <Link href="/expertise">
                         <button className="btn btn-blue cursor-pointer">
                           en savoir +
                         </button>
@@ -142,9 +141,6 @@ export default function SliderSwiper() {
             <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
-                  <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 ans d&rsquo;experience</p>
-                  </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">performance</p>
                   </Slide>
@@ -155,7 +151,7 @@ export default function SliderSwiper() {
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
-                      <Link href="/cases">
+                      <Link href="/expertise">
                         <button className="btn btn-blue cursor-pointer">
                           en savoir +
                         </button>
@@ -242,9 +238,6 @@ export default function SliderSwiper() {
             <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
-                  <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 ans d&rsquo;experience</p>
-                  </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">
                       validation de vos
@@ -256,9 +249,15 @@ export default function SliderSwiper() {
                   <Slide direction="down" duration={1000} delay={700}>
                     <p className="text-5xl p-1 font-semibold">bien-être</p>
                   </Slide>
-                  {/* <Slide direction="up" duration={1000} delay={800}>
-                                  <div className='pt-4'><button className='btn btn-blue cursor-pointer'>en savoir +</button></div>
-                              </Slide> */}
+                  <Slide direction="up" duration={1000} delay={800}>
+                    <div className="pt-4">
+                      <Link href="/expertise">
+                        <button className="btn btn-blue cursor-pointer">
+                          en savoir +
+                        </button>
+                      </Link>
+                    </div>
+                  </Slide>
                 </Fade>
               </div>
               <div className="sm:flex-shrink-0 hidden sm:flex mb-14">

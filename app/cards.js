@@ -33,11 +33,10 @@ export default function Cards() {
         <link rel="preload" href="/images/cards/card1b.jpg" as="image" />
         <link rel="preload" href="/images/cards/card2b.jpg" as="image" />
         <link rel="preload" href="/images/cards/card3b.jpg" as="image" />
-        <link rel="preload" href="/images/cards/card4b.jpg" as="image" />
       </Head>
 
       <div className="grid grid-cols-12 px-2 gap-2 justify-between">
-        <div className="order-1 col-span-12 lg:col-span-3 md:col-span-12 md:order-2 ">
+        <div className="order-1 col-span-12 lg:col-span-5 md:col-span-12 md:order-2 ">
           <div className="pl-10 pt-24">
             <Fade
               duration={1000}
@@ -52,7 +51,7 @@ export default function Cards() {
                   pour nos athlètes à l&rsquo;Institut National du Sport
                   (INSEP), j’ai fondé beScored Institute. <br />
                   <br />
-                  Tirer le meilleur de vos dispositifs ou de vos salariés est
+                  Tirer le meilleur de vos dispositifs ou de vos collaborateurs est
                   notre priorité“
                 </p>{" "}
               </Slide>
@@ -70,94 +69,72 @@ export default function Cards() {
         </div>
 
         {/* dektop */}
-        <div className="hidden order-2 col-span-12 lg:col-span-9 sm:flex sm:flex-row gap-2 sm:gap-6 justify-end">
+        <div className="hidden order-2 col-span-12 lg:col-span-7 sm:flex sm:flex-row gap-2 sm:gap-6 justify-end">
           <Fade duration={1000} delay={1000} cascade damping={0.2} triggerOnce>
             <Slide direction="right" duration={500} delay={1000} triggerOnce>
-              <Atropos
-                className="my-atropos cursor-pointer"
-                shadow="false"
-                shadowScale="0.7"
-                shadowOffset="30"
-                rotateXMax="30"
-                rotateYMax="60"
-                highlight="true"
-              >
-                <Link href="/cases">
+              <Link href="/expertise">
+                <Atropos
+                  className="my-atropos cursor-pointer"
+                  shadow="false"
+                  shadowScale="0.7"
+                  shadowOffset="30"
+                  rotateXMax="30"
+                  rotateYMax="60"
+                  highlight="true"
+                >
                   <Image
                     className="img1Card w-auto rounded-xl drop-shadow-lg"
                     src="/images/cards/card1.jpg"
                     width={206}
                     height={284}
-                    alt="atropos"
+                    alt="Santé"
                   />
-                </Link>
-              </Atropos>
+                </Atropos>
+              </Link>
             </Slide>
 
             <Slide direction="right" duration={500} delay={1200} triggerOnce>
-              <Atropos
-                className="my-atropos cursor-pointer"
-                shadow="false"
-                shadowScale="0.7"
-                shadowOffset="30"
-                rotateXMax="30"
-                rotateYMax="60"
-                highlight="true"
-              >
-                <Link href="/cases">
+              <Link href="/expertise">
+                <Atropos
+                  className="my-atropos cursor-pointer"
+                  shadow="false"
+                  shadowScale="0.7"
+                  shadowOffset="30"
+                  rotateXMax="30"
+                  rotateYMax="60"
+                  highlight="true"
+                >
                   <Image
                     className="img2Card w-auto rounded-xl drop-shadow-lg "
                     src="/images/cards/card2.jpg"
                     width={206}
                     height={284}
-                    alt="atropos"
+                    alt="Sport"
                   />
-                </Link>
-              </Atropos>
+                </Atropos>
+              </Link>
             </Slide>
 
             <Slide direction="right" duration={500} delay={1400} triggerOnce>
-              <Atropos
-                className="my-atropos cursor-pointer"
-                shadow="false"
-                shadowScale="0.7"
-                shadowOffset="30"
-                rotateXMax="30"
-                rotateYMax="60"
-                highlight="true"
-              >
-                <Link href="/cases">
+              <Link href="/expertise">
+                <Atropos
+                  className="my-atropos cursor-pointer"
+                  shadow="false"
+                  shadowScale="0.7"
+                  shadowOffset="30"
+                  rotateXMax="30"
+                  rotateYMax="60"
+                  highlight="true"
+                >
                   <Image
                     className="img3Card w-auto rounded-xl drop-shadow-lg"
                     src="/images/cards/card3.jpg"
                     width={206}
                     height={284}
-                    alt="atropos"
+                    alt="Bien-être"
                   />
-                </Link>
-              </Atropos>
-            </Slide>
-
-            <Slide direction="right" duration={500} delay={1600} triggerOnce>
-              <Atropos
-                className="my-atropos cursor-pointer"
-                shadow="false"
-                shadowScale="0.7"
-                shadowOffset="30"
-                rotateXMax="30"
-                rotateYMax="60"
-                highlight="true"
-              >
-                <Link href="/masak">
-                  <Image
-                    className="img4Card w-auto rounded-xl drop-shadow-lg"
-                    src="/images/cards/card4.jpg"
-                    width={206}
-                    height={284}
-                    alt="atropos"
-                  />
-                </Link>
-              </Atropos>
+                </Atropos>
+              </Link>
             </Slide>
           </Fade>
         </div>
@@ -166,7 +143,7 @@ export default function Cards() {
       {/* mobile */}
       <div className="flex justify-around items-center sm:hidden pt-10">
         <div className="grid grid-cols-2 gap-6">
-          <Link href="/cases">
+          <Link href="/expertise">
             <Card
               initialSrc="/images/cards/card1.jpg"
               hoverSrc="/images/cards/card1b.jpg"
@@ -175,7 +152,7 @@ export default function Cards() {
             />
           </Link>
 
-          <Link href="/cases">
+          <Link href="/expertise">
             <Card
               initialSrc="/images/cards/card2.jpg"
               hoverSrc="/images/cards/card2b.jpg"
@@ -183,18 +160,10 @@ export default function Cards() {
               height={239}
             />
           </Link>
-          <Link href="/cases">
+          <Link href="/expertise">
             <Card
               initialSrc="/images/cards/card3.jpg"
               hoverSrc="/images/cards/card3b.jpg"
-              width={206}
-              height={284}
-            />
-          </Link>
-          <Link href="/masak">
-            <Card
-              initialSrc="/images/cards/card4.jpg"
-              hoverSrc="/images/cards/card4b.jpg"
               width={206}
               height={284}
             />

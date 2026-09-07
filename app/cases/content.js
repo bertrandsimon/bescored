@@ -64,7 +64,7 @@ export default function Content() {
             </div>
             <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
               <DocumentChartBarIcon className="h-10 w-10 text-white" />
-              <span>Expertise corporate</span>
+              <span>Expertise entreprise</span>
               <Link
                 href="/pdf/Brochure__Sante_Mentale_Positive.pdf"
                 target="_blank"
