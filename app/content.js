@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-export default function Content() {
+export default function Content({ description }) {
   const navigation = [
     { name: "Product", href: "#" },
     { name: "Features", href: "#" },
@@ -190,9 +190,8 @@ export default function Content() {
                   </p>
 
                   <p className="relative mt-6 text-normal font-light leading-8 sm:max-w-md lg:max-w-none text-center sm:text-left">
-                    beScored Institute est un partenaire privilégié pour mettre
-                    en place les solutions de demain. Nous validons vos produits
-                    et nous les mettons en oeuvre dans des centres innovants.
+                    {description ||
+                      "beScored Institute est un partenaire privilégié pour mettre en place les solutions de demain. Nous validons vos produits et nous les mettons en oeuvre dans des centres innovants."}
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

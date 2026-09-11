@@ -51,6 +51,9 @@ export default function NavMobile() {
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
                   <Link href="/news">News</Link>
                 </Disclosure.Button>
+                <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
+                  <Link href="/chroniques">Chroniques</Link>
+                </Disclosure.Button>
               </div>
             </Disclosure.Panel>
           </>

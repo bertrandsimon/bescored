@@ -1,8 +1,6 @@
 import "./globals.css";
 import { Inter, Work_Sans, Oswald, Poppins } from "next/font/google";
-import ToolBar from "./toolBar";
-import Nav from "./nav";
-import NavMobile from "./navMobile";
+import SiteHeader from "./SiteHeader";
 import Footer from "./footer";
 import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
@@ -46,13 +44,7 @@ export default function RootLayout({ children }) {
           ></script>
         </Head>
 
-        <div className="z-20 sticky top-0">
-          <ToolBar />
-          <div className="visible sm:hidden ">
-            <NavMobile />
-          </div>
-          <Nav className="z-12" />
-        </div>
+        <SiteHeader />
 
         <div className="z-0 relative">{children}</div>
 

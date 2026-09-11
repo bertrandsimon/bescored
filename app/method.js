@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
-export default function Method() {
+export default function Method({ showContact = true, description, className = "" }) {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Method() {
         <link rel="preload" href="/images/method/step4b.jpg" as="image" />
       </Head>
 
-      <div className="text-center pt-20 px-10">
+      <div className={`text-center px-10 ${className || "pt-20"}`}>
         <p className="uppercase oswald text-4xl ">
           <span className="pr-2 font-semibold">notre</span>
           <span className="font-light">méthode</span>
@@ -20,13 +20,17 @@ export default function Method() {
 
         <div className="flex justify-center ">
           <p className="font-light pt-4 max-w-[800px] tracking-tight">
-            Les expertises, les programmes de recherche et les recommandations
-            men&eacute;s par beScored Institute, allant de la validation de
-            dispositifs jusqu&rsquo;&agrave; l&rsquo;utilisation de
-            mat&eacute;riel, s&rsquo;adressent aux entreprises d&eacute;sireuses
-            d&rsquo;observer les r&eacute;elles applications dans le monde du
-            sport, du bien-&ecirc;tre, de la sant&eacute; et de
-            l&rsquo;entreprise.
+            {description || (
+              <>
+                Les expertises, les programmes de recherche et les
+                recommandations men&eacute;s par beScored Institute, allant de
+                la validation de dispositifs jusqu&rsquo;&agrave;
+                l&rsquo;utilisation de mat&eacute;riel, s&rsquo;adressent aux
+                entreprises d&eacute;sireuses d&rsquo;observer les r&eacute;elles
+                applications dans le monde du sport, du bien-&ecirc;tre, de la
+                sant&eacute; et de l&rsquo;entreprise.
+              </>
+            )}
           </p>
         </div>
 
@@ -124,11 +128,13 @@ export default function Method() {
           </div>
         </div>
 
-        <div className="flex justify-center pt-10">
-          <button className="btn btn-blue oswald">
-            <Link href="/contact">contactez-nous !</Link>
-          </button>
-        </div>
+        {showContact && (
+          <div className="flex justify-center pt-10">
+            <button className="btn btn-blue oswald">
+              <Link href="/contact">contactez-nous !</Link>
+            </button>
+          </div>
+        )}
       </div>
     </>
   );

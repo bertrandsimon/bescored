@@ -1,0 +1,482 @@
+[
+  {
+    "uid": "2026-7",
+    "publishedAt": "2026-07-20",
+    "imageUrl": "/images/news/18.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Nouvelle publication scientifique : la dilatation pupillaire, un marqueur sensible du stress aigu",
+        "description": "Une nouvelle étude publiée dans Comprehensive Psychoneuroendocrinology met en évidence l'intérêt de la dilatation pupillaire comme marqueur objectif du stress aigu. Ces travaux ouvrent de nouvelles perspectives dans les domaines de l'entreprise, du bien-être et du sport, où l'évaluation objective du stress constitue un enjeu majeur. Ils s'inscrivent dans la démarche scientifique de développement du MASAK, visant à proposer des outils fiables et innovants pour l'évaluation de la santé mentale.",
+        "dateLabel": "Juillet 2026",
+        "category": "Parution"
+      },
+      "en": {
+        "title": "New scientific publication: pupillary dilation, a sensitive marker of acute stress",
+        "description": "A new study published in Comprehensive Psychoneuroendocrinology highlights the value of pupillary dilation as an objective marker of acute stress. This work opens new perspectives in corporate, wellness and sports settings, where the objective assessment of stress is a major challenge. It forms part of the scientific development of MASAK, aimed at providing reliable and innovative tools for the assessment of mental health.",
+        "dateLabel": "July 2026",
+        "category": "Publication"
+      }
+    }
+  },
+  {
+    "uid": "2026-6",
+    "publishedAt": "2026-07-15",
+    "imageUrl": "/images/news/19.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence : les nouveaux enjeux de la longévité",
+        "description": "À l'occasion d'une conférence consacrée à la longévité, Christophe est intervenu sur les dernières avancées scientifiques en matière de vieillissement en bonne santé. Les recherches montrent que l'activité physique, le sommeil, la nutrition et la gestion du stress sont de véritables leviers biologiques capables d'influencer notre âge biologique. Les interventions non médicamenteuses occupent désormais une place centrale dans cette approche préventive, avec une efficacité de plus en plus étayée par les études cliniques.",
+        "dateLabel": "Juillet 2026",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "Conference: the new challenges of longevity",
+        "description": "At a conference dedicated to longevity, Christophe presented the latest scientific advances in healthy ageing. Research shows that physical activity, sleep, nutrition and stress management are genuine biological levers capable of influencing our biological age. Non-pharmacological interventions now play a central role in this preventive approach, with growing evidence of their effectiveness from clinical studies.",
+        "dateLabel": "July 2026",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "uid": "2026-5",
+    "publishedAt": "2026-07-10",
+    "imageUrl": "/images/news/20.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence au Sénat : prévenir plutôt que subir",
+        "description": "À l'occasion d'une conférence organisée au Sénat sur le thème de la santé mentale en entreprise, beScored est intervenu pour mettre en lumière les parallèles entre les athlètes de haut niveau et les dirigeants d'entreprise. À l'image du sport, où les outils de mesure permettent aujourd'hui de prévenir les blessures, les organisations disposent désormais de solutions pour objectiver le stress, la fatigue mentale ou encore les douleurs. Une approche scientifique qui contribue à détecter les signaux précoces et à mieux préserver la santé mentale et physique des décideurs.",
+        "dateLabel": "Juillet 2026",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "Conference at the Senate: prevent rather than endure",
+        "description": "At a conference held at the French Senate on mental health in the workplace, beScored highlighted the parallels between elite athletes and business leaders. Just as in sport, where measurement tools now help prevent injuries, organisations now have solutions to objectify stress, mental fatigue and pain. A scientific approach that helps detect early warning signs and better protect the mental and physical health of decision-makers.",
+        "dateLabel": "July 2026",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "uid": "2026-4",
+    "publishedAt": "2026-04-20",
+    "imageUrl": "/images/news/21.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Installation dans le centre MoodHouse",
+        "description": "Nous sommes heureux de collaborer avec le centre MoodHouse, spécialisé dans la récupération physique, mentale et émotionnelle. Le centre intègre désormais le MASAK afin d'objectiver l'état de santé global de personnes exposées à une forte charge mentale dans leur environnement professionnel.",
+        "dateLabel": "Avril 2026",
+        "category": "Installation"
+      },
+      "en": {
+        "title": "Installation at the MoodHouse centre",
+        "description": "We are pleased to collaborate with MoodHouse, a centre specialised in physical, mental and emotional recovery. The centre now integrates MASAK to objectify the overall health of people exposed to a high mental load in their professional environment.",
+        "dateLabel": "April 2026",
+        "category": "Installation"
+      }
+    }
+  },
+  {
+    "uid": "2026-3",
+    "publishedAt": "2026-04-10",
+    "imageUrl": "/images/news/22.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Le MASAK rejoint la Maison EPIGENETIC",
+        "description": "Le MASAK est désormais installé au sein de la Maison EPIGENETIC à Paris, un espace dédié à la santé intégrative et à l'innovation. Grâce à une évaluation objective du bien-être mental et physique, le MASAK permet de personnaliser la prise en charge et d'objectiver les bénéfices des soins proposés. Cette collaboration s'inscrit pleinement dans l'approche de la Maison EPIGENETIC, qui place l'épigénétique et les interventions sur le mode de vie au cœur de l'accompagnement des patients.",
+        "dateLabel": "Avril 2026",
+        "category": "Installation"
+      },
+      "en": {
+        "title": "MASAK joins Maison EPIGENETIC",
+        "description": "MASAK is now installed at Maison EPIGENETIC in Paris, a space dedicated to integrative health and innovation. Through an objective assessment of mental and physical well-being, MASAK makes it possible to personalise care and objectify the benefits of the treatments offered. This collaboration is fully in line with Maison EPIGENETIC's approach, which places epigenetics and lifestyle interventions at the heart of patient support.",
+        "dateLabel": "April 2026",
+        "category": "Installation"
+      }
+    }
+  },
+  {
+    "uid": "2026-2",
+    "publishedAt": "2026-03-15",
+    "imageUrl": "/images/news/23.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence Care by BMC",
+        "description": "Notre dispositif MASAK a été présenté lors de la conférence Care by BMC, dédiée aux innovations technologiques pour la performance sportive et la santé, organisée par Isabelle Damoisaux-Delnoy sous l'impulsion de Marc et Jacques Borlée. À cette occasion, trois communications orales et une présentation sur stand ont permis de faire découvrir le MASAK au public. Cette rencontre marque également le déploiement de notre dispositif médical en Belgique au sein du centre sportif Boost by Borlée.",
+        "dateLabel": "Mars 2026",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "Care by BMC conference",
+        "description": "Our MASAK device was presented at the Care by BMC conference, dedicated to technological innovations for sports performance and health, organised by Isabelle Damoisaux-Delnoy at the initiative of Marc and Jacques Borlée. On this occasion, three oral presentations and a booth demonstration introduced MASAK to the audience. This meeting also marks the deployment of our medical device in Belgium at the Boost by Borlée sports centre.",
+        "dateLabel": "March 2026",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "uid": "2026-1",
+    "publishedAt": "2026-02-15",
+    "imageUrl": "/images/news/24.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "MASAK arrive en Suisse",
+        "description": "Le premier MASAK a été installé en Suisse, au sein du centre Cryocenter Basel dédié à la récupération et au bien-être. Fondé et dirigé par Angelo Lavanga, ancien boxeur professionnel, le centre intègre désormais le MASAK pour le diagnostic initial et l'évaluation de ses programmes. Cette première installation en Suisse marque une nouvelle étape dans le développement international de MASAK auprès des acteurs du sport, de la santé et du bien-être.",
+        "dateLabel": "Février 2026",
+        "category": "Installation"
+      },
+      "en": {
+        "title": "MASAK arrives in Switzerland",
+        "description": "The first MASAK has been installed in Switzerland, at Cryocenter Basel, a centre dedicated to recovery and wellness. Founded and directed by Angelo Lavanga, a former professional boxer, the centre now integrates MASAK for initial diagnosis and the evaluation of its programmes. This first installation in Switzerland marks a new step in the international development of MASAK among sports, health and wellness stakeholders.",
+        "dateLabel": "February 2026",
+        "category": "Installation"
+      }
+    }
+  },
+  {
+    "uid": "2025-10",
+    "publishedAt": "2025-10-15",
+    "imageUrl": "/images/news/25.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Vainqueur de l'European Spas Innovation Awards 2026 - Congrès de l'ESPA, Estonie",
+        "description": "Notre dispositif médical MASAK (Mental and Stress Assessment Kit) vient d'être récompensé au niveau international au congrès European Spas Association (ESPA). Plus qu'un trophée, c'est le travail de toute une équipe de chercheurs et de médecins qui est mis en avant pour venir désormais quantifier l'efficacité des parcours de soins (SPA, stations thermales, centres de bien-être, thalassothérapie, etc.).",
+        "dateLabel": "Octobre 2025",
+        "category": "Événement"
+      },
+      "en": {
+        "title": "Winner of the European Spas Innovation Awards 2026 – ESPA Congress, Estonia",
+        "description": "Our MASAK medical device (Mental and Stress Assessment Kit) has just been recognised internationally at the European Spas Association (ESPA) congress. More than a trophy, it highlights the work of an entire team of researchers and physicians, now able to quantify the effectiveness of care pathways (spas, thermal resorts, wellness centres, thalassotherapy, and more).",
+        "dateLabel": "October 2025",
+        "category": "Event"
+      }
+    }
+  },
+  {
+    "uid": "2025-9",
+    "publishedAt": "2025-09-15",
+    "imageUrl": "/images/news/26.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Soirée Parlons Santé Mentale",
+        "description": "Nous avons été ravis d'être labellisés « Parlons Santé Mentale » par le ministère du Travail et de la Santé dans le cadre de l'événement organisé en collaboration avec AMETRA06. Lorsqu'un service de santé au travail s'associe à un dispositif médical innovant en santé mentale, cela en dit long sur ses ambitions et la volonté de détecter les premiers signes d'un mal-être mental et physique chez les employés ou dirigeants.",
+        "dateLabel": "Septembre 2025",
+        "category": "Événement"
+      },
+      "en": {
+        "title": "Parlons Santé Mentale evening",
+        "description": "We were delighted to receive the “Parlons Santé Mentale” label from the Ministry of Labour and Health at an event organised in collaboration with AMETRA06. When an occupational health service partners with an innovative mental-health medical device, it says a great deal about its ambitions and its determination to detect the first signs of mental and physical distress among employees and leaders.",
+        "dateLabel": "September 2025",
+        "category": "Event"
+      }
+    }
+  },
+  {
+    "uid": "2025-8",
+    "publishedAt": "2025-05-20",
+    "imageUrl": "/images/news/17.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Visite et réunion au Campus PSG",
+        "description": "C. Hausswirth a été invité par le Chef Médical, Dr. Hakim CHALABI, à une réunion d'échanges sur la récupération sportive. Les préparateurs physiques (Maxime Coulerot en pilote), les kinésithérapeutes, les médecins, les nutritionnistes et le Staff sont au cœur des échanges pour ce projet transversal.",
+        "dateLabel": "Mai 2025",
+        "category": "Réunion"
+      },
+      "en": {
+        "title": "Visit and meeting at the PSG Campus",
+        "description": "C. Hausswirth was invited by Head of Medical, Dr. Hakim CHALABI, to a meeting on sports recovery. Physical trainers (led by Maxime Coulerot), physiotherapists, doctors, nutritionists and the staff are at the heart of this cross-functional project.",
+        "dateLabel": "May 2025",
+        "category": "Meeting"
+      }
+    }
+  },
+  {
+    "uid": "2025-7",
+    "publishedAt": "2025-05-05",
+    "imageUrl": "/images/news/16.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Kick-off de l'étude sur l'impact des massages robotisés sur la récupération sportive du golfeur",
+        "description": "Ce début Mai a été marqué par le lancement de notre nouvelle étude réalisée au Golf de la Grande bastide (Châteauneuf-de-grasse). Nous allons étudier avec la société CAPSIX les effets des massages journaliers sur la récupération et la performance des golfeurs et golfeuses séniors (65 ans). Merci à Alexis Davet, directeur du golf, pour cet accueil et cette collaboration.",
+        "dateLabel": "Mai 2025",
+        "category": "Étude"
+      },
+      "en": {
+        "title": "Kick-off of the study on robotic massages and golfers’ recovery",
+        "description": "Early May marked the launch of our new study at Golf de la Grande Bastide (Châteauneuf-de-Grasse). Together with CAPSIX, we will study the effects of daily massages on recovery and performance of senior golfers (65 years). Thanks to Alexis Davet, golf director, for this welcome and collaboration.",
+        "dateLabel": "May 2025",
+        "category": "Study"
+      }
+    }
+  },
+  {
+    "uid": "2025-6",
+    "publishedAt": "2025-04-28",
+    "imageUrl": "/images/news/15.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Participation au Medi-Wellness Congress (MWC), Genève",
+        "description": "Alexandre Coste et Geoffrey Millour ont pu proposer de tester notre solution MASAK au monde du SPA au niveau européen notamment. Ce fut l'occasion d'échanger avec de grands groupes comme Valmont ou La Prairie. Merci aux organisateurs de ce bel évènement.",
+        "dateLabel": "Avril 2025",
+        "category": "Événement"
+      },
+      "en": {
+        "title": "Participation in the Medi-Wellness Congress (MWC), Geneva",
+        "description": "Alexandre Coste and Geoffrey Millour were able to offer the European SPA world the chance to try our MASAK solution. It was an opportunity to exchange with major groups such as Valmont and La Prairie. Thanks to the organisers of this fine event.",
+        "dateLabel": "April 2025",
+        "category": "Event"
+      }
+    }
+  },
+  {
+    "uid": "2025-5",
+    "publishedAt": "2025-04-15",
+    "imageUrl": "/images/news/14.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Collaboration avec la station thermale Avène",
+        "description": "Ce mois d'avril a été riche dans les installations de notre solution digitale MASAK. Le centre thermal vient de s'équiper de notre système d'évaluation objective du bien-être mental et physique. Ce sera pour eux l'occasion de mettre en avant l'efficacité de leurs cures thermales sur mesure, notamment autour des maladies de peau.",
+        "dateLabel": "Avril 2025",
+        "category": "Collaboration"
+      },
+      "en": {
+        "title": "Collaboration with the Avène thermal spa",
+        "description": "April was rich in MASAK digital solution installations. The thermal centre has just equipped itself with our system for the objective assessment of mental and physical well-being. This will allow them to highlight the effectiveness of their tailored thermal treatments, particularly around skin conditions.",
+        "dateLabel": "April 2025",
+        "category": "Collaboration"
+      }
+    }
+  },
+  {
+    "uid": "2025-3",
+    "publishedAt": "2025-02-15",
+    "imageUrl": "/images/news/12.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Installation du MASAK dans la station thermale d'Ax-Les-Thermes",
+        "description": "C'est la station thermale d'Ax-les-Thermes (en Ariège) qui aura été la première station thermale à nous faire confiance. Nous avons installé et formé le personnel sur la méthodologie de notre solution digitale MASAK. Un nouveau moyen d'évaluer avec objectivité la pertinence des cures thermales et les soins du SPA thermal. Merci à sa Directrice générale, Anne Chevalier, pour sa confiance.",
+        "dateLabel": "Février 2025",
+        "category": "Installation"
+      },
+      "en": {
+        "title": "MASAK installed at the Ax-Les-Thermes spa",
+        "description": "The Ax-les-Thermes spa (Ariège) was the first thermal spa to place its trust in us. We installed the system and trained the staff on the MASAK digital solution methodology. A new way to objectively assess the relevance of thermal treatments and SPA care. Thanks to Managing Director Anne Chevalier for her trust.",
+        "dateLabel": "February 2025",
+        "category": "Installation"
+      }
+    }
+  },
+  {
+    "uid": "2025-2",
+    "publishedAt": "2025-01-23",
+    "imageUrl": "/images/news/11.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence de C. Hausswirth au salon des Thermalies, Paris",
+        "description": "Ce mois de janvier a permis de proposer un stand montrant notre solution MASAK pour la première fois : clients et professionnels des soins (thermalisme, thalassothérapie, SPA, etc.) ont pu être évalués. En marge du salon, C. Hausswirth a pu donner 1h30 de conférence autour du stress, du vieillissement et du sommeil.",
+        "dateLabel": "Janvier 2025",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "C. Hausswirth conference at the Thermalies exhibition, Paris",
+        "description": "This January we presented a stand showcasing our MASAK solution for the first time: clients and care professionals (thermalism, thalassotherapy, SPA, etc.) were able to be assessed. Alongside the exhibition, C. Hausswirth gave a 1h30 conference on stress, ageing and sleep.",
+        "dateLabel": "January 2025",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "uid": "2025-1",
+    "publishedAt": "2025-01-10",
+    "imageUrl": "/images/news/10.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Début officiel de la collaboration entre Relais Thalasso group et beScored",
+        "description": "Avec 4 sites d'exception, les Relais Thalasso sont des pionniers dans la thalassothérapie. Ils ont décidé de travailler avec nous et d'utiliser sur chaque site notre solution digitale MASAK afin de quantifier les effets des cures Equilibre Thalavie. Merci à Jean-pascal et Anne Phelippeau, ainsi qu'a son Directeur général Jean-luc Pleuvry.",
+        "dateLabel": "Janvier 2025",
+        "category": "Collaboration"
+      },
+      "en": {
+        "title": "Official start of the collaboration between Relais Thalasso group and beScored",
+        "description": "With 4 exceptional sites, Relais Thalasso are pioneers in thalassotherapy. They decided to work with us and use our MASAK digital solution on each site to quantify the effects of Equilibre Thalavie treatments. Thanks to Jean-Pascal and Anne Phelippeau, as well as Managing Director Jean-Luc Pleuvry.",
+        "dateLabel": "January 2025",
+        "category": "Collaboration"
+      }
+    }
+  },
+  {
+    "uid": "2023c-2",
+    "publishedAt": "2023-11-23",
+    "imageUrl": "/images/news/8.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence-débat: célébration des 30 ans de Trans-Faire Groupe",
+        "description": "À l’issue des 30 ans de la société Trans-Faire, organisme de formation réputé à Paris, C. Hausswirth a participé à une conférence-débat sur le thème: «Être à sa place».  Thème peu banal qui a suscité l’intérêt de plus de 150 personnes.",
+        "dateLabel": "23 novembre 2023",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "Conference-Debate: Celebrating 30 years of Trans-Faire Group",
+        "description": "At the end of the 30th anniversary of the Trans-Faire company, a renowned training organization in Paris, C. Hausswirth participated in a conference-debate on the theme: 'Being in one's place.' An unusual theme that sparked the interest of more than 150 people.",
+        "dateLabel": "November 23, 2023",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "uid": "2023c-1",
+    "publishedAt": "2023-11-07",
+    "imageUrl": "/images/news/7.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence au Luxembourg Institute for High Performance in Sports (LIHPS)",
+        "description": "C. Hausswirth a été invité par le LIHPS pour traiter de la façon de récupérer en sport. Un état actuel des connaissances a été proposé à l’ensemble des entraîneurs et des kinésithérapeutes des différentes fédérations sportives.",
+        "dateLabel": "7 novembre 2023",
+        "category": "Parution"
+      },
+      "en": {
+        "title": "Conference at the Luxembourg Institute for High Performance in Sports (LIHPS)",
+        "description": "C. Hausswirth was invited by LIHPS to discuss sports recovery methods. A current state of knowledge was presented to all coaches and physiotherapists from various sports federations.",
+        "dateLabel": "November 7, 2023",
+        "category": "Publication"
+      }
+    }
+  },
+  {
+    "uid": "2023b-2",
+    "publishedAt": "2023-11-01",
+    "imageUrl": "/images/news/5.jpg",
+    "link": "https://www.cryomanufacturers.org/",
+    "locale": {
+      "fr": {
+        "title": "Conférence internationale à Dubaï",
+        "description": "C. Hausswirth présentera une synthèse sur la cryothérapie corps entier au travers une synthèse de la littérature scientifique des 20 dernières années. Cette conférence regroupera notamment les 15 compagnies internationales produisant les systèmes de cryothérapie au niveau mondial.",
+        "dateLabel": "1er au 5 novembre 2023",
+        "category": "Etude"
+      },
+      "en": {
+        "title": "International Conference in Dubai",
+        "description": "C. Hausswirth will present a synthesis on whole-body cryotherapy through a review of the scientific literature from the past 20 years. This conference will bring together the 15 international companies producing cryotherapy systems worldwide.",
+        "dateLabel": "November 1-5, 2023",
+        "category": "Study"
+      }
+    }
+  },
+  {
+    "uid": "2023b-3",
+    "publishedAt": "2023-10-30",
+    "imageUrl": "/images/news/6.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Collaboration avec les chirurgiens pôle Saint-Jean",
+        "description": "Un mois d’octobre où nous avons mené des évaluations au bloc opératoire sur les chirurgiens opérant avec ou sans assistant robotisé. Ce furent les premiers tests de ce type menés à partir du robot DA VINCI (Intuitive Surgical) afin d’étudier la répercussion sur la fatigue globale des chirurgiens. Collaboration avec Cerballiance Saint-Jean.",
+        "dateLabel": "1er au 30 octobre 2023",
+        "category": "Etude"
+      },
+      "en": {
+        "title": "Collaboration with Surgeons at Saint-Jean Center",
+        "description": "In October, we conducted evaluations in the operating room on surgeons operating with or without robotic assistance. These were the first tests of this kind conducted using the DA VINCI robot (Intuitive Surgical) to study the impact on the overall fatigue of surgeons. Collaboration with Cerballiance Saint-Jean.",
+        "dateLabel": "October 1-30, 2023",
+        "category": "Study"
+      }
+    }
+  },
+  {
+    "uid": "2023b-1",
+    "publishedAt": "2023-10-20",
+    "imageUrl": "/images/news/4.jpg",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9858974/pdf/ijerph-20-01361.pdf",
+    "locale": {
+      "fr": {
+        "title": "Parution d’un article scientifique",
+        "description": "Un programme de neurorelaxation par coaching guidé permet d’améliorer la fonction cognitive des personnes atteintes de COVID-long et de diminuer leur brouillard mental.",
+        "dateLabel": "20 octobre 2023",
+        "category": "Parution"
+      },
+      "en": {
+        "title": "Publication of a Scientific Article",
+        "description": "A neurorelaxation program through guided coaching improves cognitive function in individuals with long COVID and reduces their brain fog.",
+        "dateLabel": "October 20, 2023",
+        "category": "Publication"
+      }
+    }
+  },
+  {
+    "uid": "2023a-3",
+    "publishedAt": "2023-10-12",
+    "imageUrl": "/images/news/3.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Info",
+        "description": "Nous sommes désormais en mesure d’évaluer avec objectivité la fatigue mentale des personnels soignants et des chirurgiens. C’est ce que nous réalisons au pôle santé Saint-Jean jusqu’à la Toussaint 2023, en partenariat avec le laboratoire d’analyses Cerballiance.",
+        "dateLabel": "12 Octobre 2023",
+        "category": "Etude"
+      },
+      "en": {
+        "title": "Info",
+        "description": "We are now able to objectively assess the mental fatigue of healthcare workers and surgeons. This is what we are accomplishing at the Saint-Jean health center until November 2023, in partnership with the Cerballiance analysis laboratory.",
+        "dateLabel": "12 October 2023",
+        "category": "Study"
+      }
+    }
+  },
+  {
+    "uid": "2023a-2",
+    "publishedAt": "2023-10-04",
+    "imageUrl": "/images/news/2.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Johnson & Johnson",
+        "description": "Après une étude conduite sur la fatigue des chirurgiens orthopédiques avec le groupe Johnson & Johnson, les données issues de cette recherche ont été acceptées pour publication dans la revue Journal of Othopaedic Experience and Innovation (JOEI) le 1er septembre 2023.",
+        "dateLabel": "4 Octobre 2023",
+        "category": "Etude"
+      },
+      "en": {
+        "title": "Johnson & Johnson",
+        "description": "After a study conducted on the fatigue of orthopedic surgeons with the Johnson & Johnson group, the data from this research was accepted for publication in the Journal of Orthopaedic Experience and Innovation (JOEI) on September 1, 2023.",
+        "dateLabel": "4 October 2023",
+        "category": "Study"
+      }
+    }
+  },
+  {
+    "uid": "2023a-1",
+    "publishedAt": "2023-09-07",
+    "imageUrl": "/images/news/1bis.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "ECA : European Club Association",
+        "description": "Christophe Hausswirth a été élu le 7 septembre 2023 au Board Medical & Performance de l’ECA (comprenant les 250 meilleurs clubs de football européen) et ce pour une durée de 4 ans.",
+        "dateLabel": "7 Septembre 2023",
+        "category": "Partenaire"
+      },
+      "en": {
+        "title": "ECA: European Club Association",
+        "description": "Christophe Hausswirth was elected on September 7, 2023, to the Board Medical & Performance of the ECA (comprising the top 250 European football clubs) for a duration of 4 years.",
+        "dateLabel": "7 September 2023",
+        "category": "Partner"
+      }
+    }
+  }
+]

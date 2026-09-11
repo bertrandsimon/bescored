@@ -1,217 +1,129 @@
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  EyeDropperIcon,
-  BuildingOfficeIcon,
-  BoltIcon,
-  MoonIcon,
-} from "@heroicons/react/24/outline";
+
+const universes = [
+  {
+    title: "Entreprises & médecine du travail",
+    subtitle: "Mesurer pour agir sur le bien-être de vos collaborateurs",
+    text: "Le MASAK fournit une évaluation objective du stress, de la fatigue mentale et de la vitalité afin d'identifier les leviers d'action prioritaires et d'accompagner les démarches de prévention des RPS et TMS au sein de votre organisation.",
+    href: "/pdf/2026/MASAK_entreprise.pdf",
+  },
+  {
+    title: "Centres de bien-être & thermalisme",
+    subtitle: "Mesurer les bénéfices de vos parcours de soin",
+    text: "Le MASAK aide les équipes à construire un parcours de soins personnalisé, adapté aux besoins de chaque client. Grâce à une évaluation réalisée avant et après la prise en charge, il permet de mesurer les progrès accomplis et d'objectiver les bénéfices des soins proposés.",
+    href: "/pdf/2026/MASAK_wellness.pdf",
+  },
+  {
+    title: "Clubs & fédérations sportives",
+    subtitle:
+      "Mesurer pour optimiser la performance et le bien-être des athlètes",
+    text: "Le MASAK fournit une évaluation objective de la fatigue physique, de la charge mentale et des douleurs musculaires afin d’identifier les leviers d’optimisation de la performance et d’assurer un suivi individualisé des athlètes tout au long de la saison.",
+    href: "/pdf/2026/MASAK_sport.pdf",
+  },
+];
+
+const awards = [
+  {
+    title: "Labellisation par le Ministère du Travail et de la Santé",
+    detail: "septembre 2025",
+    image: "/images/masak/editorial2.jpg",
+    alt: "Parlons santé mentale — Grande cause nationale",
+  },
+  {
+    title:
+      "Prix de l’innovation de la recherche scientifique et médicale dans les SPA",
+    detail: "octobre 2025",
+    image: "/images/masak/innovation.jpg",
+    alt: "ESPA Innovation Awards",
+  },
+];
 
 export default function Content() {
   return (
-    <>
-      <div className="py-10 px-10 mx-auto">
-        <section id="top1">
-          <p className="uppercase oswald text-4xl text-center pb-20 md:pb-0">
-            <span className="pr-2 font-semibold">le problème</span>
-            {/* <span className="font-light">à résoudre</span> */}
-          </p>
-        </section>
-
-        <section id="probleme">
-          <div className="mx-auto max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl pb-20">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-              <div className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 blue uppercase">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DB4C4]">
-                    <span className="text-white">1</span>
-                  </div>
-                  Évaluation et objectivation
-                </dt>
-                <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
-                  <div className="flex flex-col">
-                    <span className="font-semibold pt-4">Problème :</span>
-                    <span>
-                      Difficulté à évaluer de manière précise et holistique
-                      l’état de forme physique et mental des personnes. Les
-                      méthodes traditionnelles reposent souvent sur des
-                      questionnaires et manquent de données objectives.
-                    </span>
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="font-semibold pt-4">Conséquences :</span>
-                    <span>
-                      Risque de biais important pouvant entraîner une
-                      sous-estimation ou une surestimation des problèmes de
-                      santé mentale.
-                    </span>
-                  </div>
-                </dd>
-              </div>
-
-              <div className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 blue uppercase">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DB4C4]">
-                    <span className="text-white">2</span>
-                  </div>
-                  Détection
-                </dt>
-                <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
-                  <div className="flex flex-col">
-                    <span className="font-semibold pt-4">Problème :</span>
-                    <span>
-                      Difficulté à détecter les problèmes de santé mentale
-                      (e.g., syndrome d’ épuisement professionnel) de manière
-                      précoce.
-                    </span>
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="font-semibold pt-4">Conséquences :</span>
-                    <span>
-                      Retard dans la prise en charge, entraînant une
-                      augmentation des coûts de santé et une diminution de la
-                      qualité de vie et de la productivité au travail des
-                      personnes concernées.
-                    </span>
-                  </div>
-                </dd>
-              </div>
-
-              <div className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 blue uppercase">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DB4C4]">
-                    <span className="text-white">3</span>
-                  </div>
-                  <p>Outils d&apos;évaluation</p>
-                </dt>
-                <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
-                  <div className="flex flex-col">
-                    <span className="font-semibold pt-4">Problème :</span>
-                    <span>
-                      Accès limité à des outils d&apos;évaluation simples et
-                      rapides pour objectiver l’état de bien-être physique et
-                      mental des personnes, ou pour quantifier les bénéfices
-                      réels liés à un parcours de soins spécifique (par ex. une
-                      cure thermale ou un parcours de soins en
-                      thalassothérapie).
-                    </span>
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="font-semibold pt-4">Conséquences :</span>
-                    <span>
-                      Difficulté à individualiser la prise en charge et à
-                      mesurer les bénéfices réels de l’offre de soins.
-                    </span>
-                  </div>
-                </dd>
-              </div>
-
-              <div className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 blue uppercase">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DB4C4]">
-                    <span className="text-white">4</span>
-                  </div>
-                  <p>Suivi de l&apos;état de forme</p>
-                </dt>
-                <dd className="mt-2 text-sm leading-7 text-black flex flex-col divide-y gap-4">
-                  <div className="flex flex-col">
-                    <span className="font-semibold pt-4">Problème :</span>
-                    <p>
-                      Difficulté à assurer un suivi régulier de l&apos;état de
-                      forme physique (incluant le niveau de douleurs) et mental.
-                    </p>
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="font-semibold pt-4">Conséquences :</span>
-                    <span>Retard dans la prise en charge</span>
-                  </div>
-                </dd>
-              </div>
-            </dl>
-          </div>
-        </section>
-
-        <section id="top2">
-          <p className="uppercase oswald text-4xl text-center ">
-            <span className="pr-2 font-semibold">la solution</span>
-            <span className="font-light">MASAK</span>
-          </p>
-
-          <div className="flex justify-center ">
-            <p className="font-light pt-4 max-w-[800px] tracking-tight">
-              Un kit d’évaluation complet pour évaluer l’état mental (fatigue
-              mentale, qualité cérébrale), les niveaux de douleurs et de stress,
-              ainsi que la qualité de sommeil des personnes.
-            </p>
-          </div>
-        </section>
-
-        <section id="solution">
-          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-[800px] py-10">
-            <div className="flex flex-col items-start justify-center">
-              <p className="text-base font-semibold leading-7 blue uppercase pb-4">
-                UNE SOLUTION DIGITALE INNOVANTE
-              </p>
-              <ul className="list-disc pl-6 font-light tracking-tight text-justify">
-                <li>Fruit de plus de cinq années de R&D.</li>
-                <li>
-                  Un scoring intelligent pour chaque indice, alimenté par un
-                  puissant algorithme.
-                </li>
-                <li>
-                  Plus de 118 000 données agrégées, issues de la littérature et
-                  de nos études, définissent les valeurs normatives couvrant les
-                  deux sexes de 18 à 85 ans.
-                </li>
-                <li>Innovation 100% machine learning évolutive.</li>
-              </ul>
-            </div>
-
-            <div className="flex items-center justify-center">
-              <Image
-                src="/images/masak/masak-solution2.jpg"
-                width="399"
-                height="302"
-                alt="screen"
-              />
-            </div>
-          </div>
-        </section>
-
-        <section id="ecran">
-          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-[800px] py-10">
-            <div className="flex items-center justify-center">
-              <Image
-                src="/images/masak/ecran2.jpg"
-                width="527"
-                height="415"
-                alt="screen"
-              />
-            </div>
-
-            <div className="flex flex-col items-start justify-center">
-              <p className="text-base font-semibold leading-7 blue uppercase pb-4">
-                BILAN FORME & BIEN-ÊTRE COMPLET EN MOINS DE 20 MINUTES
-              </p>
-              <p className="font-light tracking-tight text-justify">
-                Évaluation comprenant une douzaine de tests cognitifs, mentaux
-                et de vitalité en moins de 20 minutes, avec rapport immédiat.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <div className="flex justify-center pt-10">
-          <button className="btn btn-blue oswald">
-            <Link href="/contact">contactez-nous !</Link>
-          </button>
+    <div className="py-16 px-6 sm:px-10 mx-auto">
+      <section className="max-w-6xl mx-auto py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-[900px] mx-auto pb-16">
+          <Image
+            src="/images/masak/masak-solution2.jpg"
+            width={399}
+            height={302}
+            alt="Solution MASAK"
+            className="mx-auto"
+          />
+          <Image
+            src="/images/masak/ecran2.jpg"
+            width={399}
+            height={302}
+            alt="Écran MASAK"
+            className="mx-auto"
+          />
         </div>
+      </section>
+
+      <section>
+        <p className="uppercase oswald text-4xl text-center">
+          <span className="pr-2 font-semibold">Une solution</span>
+          <span className="font-light">au service de 3 univers</span>
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto pt-12">
+          {universes.map((item) => (
+            <div
+              key={item.title}
+              className="flex flex-col rounded-xl border-2 border-[#4DB4C4] p-8 bg-white"
+            >
+              <p className="text-base font-semibold leading-7 blue uppercase">
+                {item.title}
+              </p>
+              <p className="font-semibold pt-3">{item.subtitle}</p>
+              <p className="font-light pt-4 text-sm leading-6 flex-1">
+                {item.text}
+              </p>
+              <div className="pt-8">
+                <Link href={item.href} target="_blank">
+                  <button className="btn btn-blue cursor-pointer">
+                    En savoir +
+                  </button>
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="pt-24">
+        <p className="uppercase oswald text-4xl text-center">
+          <span className="pr-2 font-semibold">Une solution</span>
+          <span className="font-light">innovante récompensée</span>
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto pt-12">
+          {awards.map((award) => (
+            <div
+              key={award.title}
+              className="flex flex-col items-center text-center rounded-xl border-2 border-[#4DB4C4] bg-white p-8"
+            >
+              <Image
+                src={award.image}
+                alt={award.alt}
+                width={280}
+                height={180}
+                className="h-40 w-auto object-contain"
+              />
+              <p className="oswald uppercase text-lg blue leading-snug pt-6">
+                {award.title}
+              </p>
+              <p className="font-light pt-2 text-sm">{award.detail}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <div className="flex justify-center pt-16">
+        <button className="btn btn-blue oswald">
+          <Link href="/contact">contactez-nous !</Link>
+        </button>
       </div>
-    </>
+    </div>
   );
 }

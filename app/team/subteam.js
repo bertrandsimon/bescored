@@ -3,6 +3,16 @@ import Image from "next/image";
 export default function Subteam() {
   const people = [
     {
+      name: "Marc Laidet",
+      role: "CEO Secteur Santé, Président FHP psy, Vice-président Acteurs de la Prévention",
+      imageUrl: "/images/team/laidet.jpg",
+    },
+    {
+      name: "Dr. Laurent Morasz, MD",
+      role: "Médecin Psychiatre, Fondateur du Groupe Clinipsy et du groupe Ykoé",
+      imageUrl: "/images/team/morasz.jpg",
+    },
+    {
       name: "Dr. Cyril SCHMIT, PhD.",
       role: "Scientifique psycho-physiologiste",
       imageUrl: "/images/team/5.jpg",

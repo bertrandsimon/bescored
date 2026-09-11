@@ -9,8 +9,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 import Image from "next/image";
-import { Fragment } from "react";
-import { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function SliderSwiper() {
@@ -26,12 +24,11 @@ export default function SliderSwiper() {
         observeParents={true}
         className="aspect-auto height-[580px] bg-cover rounded-b-lg z-0 relative"
         autoplay={{
-          delay: 5000,
+          delay: 7000,
           disableOnInteraction: false,
         }}
       >
-          {/* slide 0 */}
-          <SwiperSlide>
+        <SwiperSlide>
           <div
             style={{
               backgroundImage: `url('/images/masak-bg2.jpg')`,
@@ -43,43 +40,35 @@ export default function SliderSwiper() {
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 years of experience</p>
+                    <p className="text-sm p-1">Medical device</p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
-                    <p className="text-5xl p-1 font-extralight">scientific</p>
+                    <p className="text-5xl p-1 font-extralight">
+                      Mental &amp; Physical
+                    </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
                     <p className="text-5xl p-1 font-semibold">
-                    expertise center
+                      Well-being Report
                     </p>
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
-                      <Link href="/masak">
-                        <button className="btn btn-blue cursor-pointer">
-                        to know +
-                        </button>
+                      <Link
+                        href="/uk/masak"
+                        className="btn btn-blue cursor-pointer inline-block relative z-20"
+                      >
+                        Learn more
                       </Link>
                     </div>
                   </Slide>
                 </Fade>
               </div>
-              <div className="sm:flex-shrink-0 hidden sm:flex">
-                {/* <Fade duration={1000} delay={1500}>
-                  <Slide direction="up" duration={1000} delay={1500}>
-                    <Image
-                      src="/images/tag3.png"
-                      width={249}
-                      height={50}
-                      alt="Tag"
-                    />
-                  </Slide>
-                </Fade> */}
-              </div>
+              <div className="sm:flex-shrink-0 hidden sm:flex"></div>
             </div>
           </div>
         </SwiperSlide>
-        {/* slide 1 */}
+
         <SwiperSlide>
           <div
             style={{
@@ -88,12 +77,9 @@ export default function SliderSwiper() {
             }}
             className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-right"
           >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
-                  <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 years of experience</p>
-                  </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">scientific</p>
                   </Slide>
@@ -102,13 +88,13 @@ export default function SliderSwiper() {
                       expertise center
                     </p>
                   </Slide>
-
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
-                      <Link href="/cases">
-                        <button className="btn btn-blue cursor-pointer">
-                          to know +
-                        </button>
+                      <Link
+                        href="/uk/expertise"
+                        className="btn btn-blue cursor-pointer inline-block relative z-20"
+                      >
+                        Learn more
                       </Link>
                     </div>
                   </Slide>
@@ -130,7 +116,6 @@ export default function SliderSwiper() {
           </div>
         </SwiperSlide>
 
-        {/* slide 2 */}
         <SwiperSlide>
           <div
             style={{
@@ -139,12 +124,9 @@ export default function SliderSwiper() {
             }}
             className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center"
           >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
-                  <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 years of experience</p>
-                  </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">performance</p>
                   </Slide>
@@ -153,10 +135,11 @@ export default function SliderSwiper() {
                   </Slide>
                   <Slide direction="up" duration={1000} delay={800}>
                     <div className="pt-4">
-                      <Link href="/cases">
-                        <button className="btn btn-blue cursor-pointer">
-                          to know +
-                        </button>
+                      <Link
+                        href="/uk/expertise"
+                        className="btn btn-blue cursor-pointer inline-block relative z-20"
+                      >
+                        Learn more
                       </Link>
                     </div>
                   </Slide>
@@ -178,59 +161,6 @@ export default function SliderSwiper() {
           </div>
         </SwiperSlide>
 
-        {/* slide 3 */}
-        <SwiperSlide>
-          <div
-            style={{
-              backgroundImage: `url('/images/corporate-bg.jpg')`,
-              height: "580px",
-            }}
-            className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center"
-          >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
-              <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
-                <Fade duration={1000} delay={500} cascade damping={0.2}>
-                  <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 years of experience</p>
-                  </Slide>
-                  <Slide direction="down" duration={1000} delay={600}>
-                    <p className="text-5xl p-1 font-extralight">
-                      mental health
-                    </p>
-                  </Slide>
-                  <Slide direction="down" duration={1000} delay={700}>
-                    <p className="text-5xl p-1 font-semibold">
-                      within companies
-                    </p>
-                  </Slide>
-                  <Slide direction="up" duration={1000} delay={800}>
-                    <div className="pt-4">
-                      <Link href="/cases">
-                        <button className="btn btn-blue cursor-pointer">
-                          to know +
-                        </button>
-                      </Link>
-                    </div>
-                  </Slide>
-                </Fade>
-              </div>
-              <div className="sm:flex-shrink-0 hidden sm:flex">
-                <Fade duration={1000} delay={1500}>
-                  <Slide direction="up" duration={1000} delay={1500}>
-                    <Image
-                      src="/images/tag3-uk.png"
-                      width={229}
-                      height={50}
-                      alt="Tag"
-                    />
-                  </Slide>
-                </Fade>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        {/* slide 4 */}
         <SwiperSlide>
           <div
             style={{
@@ -239,42 +169,35 @@ export default function SliderSwiper() {
             }}
             className="aspect-auto max-h-128 bg-cover rounded-b-lg z-1 bg-center"
           >
-            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around">
+            <div className="flex pt-[230px] w-full items-center justify-center sm:justify-around text-center md:text-left">
               <div className="text-white uppercase oswald sm:pl-[60px] drop-shadow-md">
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
-                  <Slide direction="down" duration={1000} delay={500}>
-                    <p className="text-sm p-1">30 years of experience</p>
-                  </Slide>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">
-                      validation of
+                      assessing the benefits
                     </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
                     <p className="text-5xl p-1 font-semibold">
-                      your well-being
+                      of your wellness
                     </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
                     <p className="text-5xl p-1 font-semibold">devices</p>
                   </Slide>
-                  {/* <Slide direction="up" duration={1000} delay={800}>
-                                  <div className='pt-4'><button className='btn btn-blue cursor-pointer'>to know +</button></div>
-                              </Slide> */}
-                </Fade>
-              </div>
-              <div className="sm:flex-shrink-0 hidden sm:flex mb-14">
-                <Fade duration={1000} delay={1500}>
-                  <Slide direction="up" duration={1000} delay={1500}>
-                    <Image
-                      src="/images/tag4-uk.png"
-                      width={183}
-                      height={50}
-                      alt="Tag"
-                    />
+                  <Slide direction="up" duration={1000} delay={800}>
+                    <div className="pt-4">
+                      <Link
+                        href="/uk/expertise"
+                        className="btn btn-blue cursor-pointer inline-block relative z-20"
+                      >
+                        Learn more
+                      </Link>
+                    </div>
                   </Slide>
                 </Fade>
               </div>
+              <div className="sm:flex-shrink-0 hidden sm:flex mb-14"></div>
             </div>
           </div>
         </SwiperSlide>

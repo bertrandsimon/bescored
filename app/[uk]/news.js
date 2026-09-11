@@ -36,25 +36,11 @@ export default function News() {
                   </div>
                   <div className="group relative">
                     <h3 className="mt-3 text-lg font-semibold leading-6">
-                      <span className="absolute inset-0" />
                       {post.title}
                     </h3>
                     <p className="mt-5 line-clamp-6 text-sm leading-6 text-gray-600">
                       {post.description}
                     </p>
-                  </div>
-                  <div className="relative mt-8 flex items-center gap-x-4">
-                    <img
-                      src={post.author.imageUrl}
-                      className="h-10 w-10 rounded-full bg-gray-100"
-                    />
-                    <div className="text-sm leading-6">
-                      <p className="font-semibold text-gray-900">
-                        <span className="absolute inset-0" />
-                        {post.author.name}
-                      </p>
-                      <p className="text-gray-600">{post.author.role}</p>
-                    </div>
                   </div>
                 </div>
               </article>

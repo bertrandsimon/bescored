@@ -1,9 +1,10 @@
+"use client";
 import Image from "next/image";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-export default function Content() {
+export default function Content({ description }) {
   const navigation = [
     { name: "Product", href: "#" },
     { name: "Features", href: "#" },
@@ -190,9 +191,8 @@ export default function Content() {
                   </p>
 
                   <p className="relative mt-6 text-normal font-light leading-8 sm:max-w-md lg:max-w-none text-center sm:text-left">
-                    beScored Institute is a privileged partner for implementing
-                    tomorrow&apos;s solutions. We validate your products and
-                    implement them in innovative centers.
+                    {description ||
+                      "beScored Institute is a privileged partner for implementing tomorrow's solutions. We validate your products and implement them in innovative centers."}
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

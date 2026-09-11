@@ -103,7 +103,7 @@ export default function Content() {
                   />
                 </dt>
                 <dd>
-                  LES AQUEDUCS B3 SOPHIA ANTIPOLIS
+                  LES AQUEDUCS BÂT. 1
                   <br />
                   535 ROUTE DES LUCIOLES
                   <br />

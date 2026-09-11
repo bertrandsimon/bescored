@@ -1,85 +1,97 @@
-import Image from "next/image";
-import { Fragment } from "react";
-import { DocumentChartBarIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+
+const studies = [
+  {
+    title: "Healthcare Expertise",
+    partner: "JOHNSON & JOHNSON",
+    objective:
+      "To assess the physical and cognitive fatigue experienced by orthopedic surgeons using automated or conventional surgical devices.",
+    results:
+      "The use of an automated system during hip arthroplasty significantly reduces surgeons’ cognitive and physical fatigue.",
+    href: "https://doi.org/10.60118/001c.87622",
+  },
+  {
+    title: "Wellness Expertise",
+    partner: "LPG Medical",
+    objective:
+      "To evaluate the impact of a care program designed to improve sleep quality, reduce stress and enhance overall vitality.",
+    results:
+      "Following a 10-session program, participants in the experimental group showed reduced sleep fragmentation and longer periods of immobility during sleep. In addition, stress levels decreased and vitality improved compared with a placebo group (article under review).",
+    href: "https://www.lpg-group.com/media/wysiwyg/PDF/Medical/Etudes/Bien-etre/20231107_Rapport_final_IC_LPG_en_V3.pdf",
+  },
+  {
+    title: "Sports Expertise",
+    partner: "ORTHONOV",
+    objective:
+      "To evaluate the effects of recovery sessions using CryoPush® technology compared with passive recovery following intense physical exercise designed to induce localized muscle fatigue.",
+    results:
+      "This study demonstrates the effectiveness of CryoPush® in improving muscle recovery kinetics after intense and strenuous exercise. Significant reductions in inflammation, fatigue and muscle soreness were observed, alongside improved performance outcomes, including increased isometric knee extensor strength.",
+    href: "https://doi.org/10.3389/fphys.2025.1598075",
+  },
+];
 
 export default function Content() {
   return (
     <>
-      <div className="pt-20 sm:pt-20 flex flex-col items-center justify-center">
-        <div>
-          <div className="text-center px-10">
-            <p className="font-semibold text-base uppercase blue">
-              beScored, performance and well-being accelerator
-            </p>
-            <p className="font-light text-4xl pt-4 oswald uppercase">
-              We assess potentials, reveal benefits <br /> and optimize various
-              recommendations.{" "}
-            </p>
-            <p className="font-sm font-light pt-4 max-w-2xl text-center mx-auto">
-              &ldquo;With over 30 years of experience in optimizing high-level
-              sports performance, beScored also offers this expertise in the
-              fields of health, well-being, and business.&rdquo;
-            </p>
-          </div>
+      <div className="pt-20 flex flex-col items-center justify-center">
+        <div className="text-center px-10">
+          <p className="font-semibold text-base uppercase blue">Case studies</p>
+          <p className="font-light text-4xl pt-4 oswald uppercase max-w-4xl mx-auto">
+            White papers and publications highlighting our scientific approach
+          </p>
+          <p className="font-sm font-light pt-4 max-w-3xl text-center mx-auto">
+            &ldquo;Explore a selection of studies across our fields of
+            expertise, illustrating our scientific approach. Each project
+            results in a comprehensive white paper detailing the methodology,
+            analyses and key findings. Depending on the objectives of the study
+            and the outcomes obtained, some projects may also lead to
+            publications in international peer-reviewed scientific
+            journals.&rdquo;
+          </p>
         </div>
       </div>
-      <div className="bg-gray-900 py-24 sm:py-32m mt-24">
-        <div className="flex justify-center items-center text-center text-white py-12 font-light text-4xl pt-4 oswald uppercase">
-          <span>Our case studies by area of expertise</span>
+
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {studies.map((study) => (
+            <div
+              key={study.title}
+              className="flex flex-col rounded-xl border-2 border-[#4DB4C4] bg-white p-8"
+            >
+              <p className="text-base font-semibold leading-7 blue uppercase">
+                {study.title}
+              </p>
+              <div className="mt-4 text-sm leading-7 text-black flex flex-col gap-4 flex-1">
+                <p>
+                  Collaboration with:{" "}
+                  <span className="font-semibold">{study.partner}</span>
+                </p>
+                <p>
+                  <span className="font-semibold">Main objective: </span>
+                  {study.objective}
+                </p>
+                <p>
+                  <span className="font-semibold">Key findings: </span>
+                  {study.results}
+                </p>
+              </div>
+              <div className="pt-8">
+                <Link
+                  href={study.href}
+                  target="_blank"
+                  className="btn btn-blue cursor-pointer inline-block"
+                >
+                  Read the study
+                </Link>
+              </div>
+            </div>
+          ))}
         </div>
 
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="-mx-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-4">
-            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
-              <DocumentChartBarIcon className="h-10 w-10 text-white" />
-              <span>Health expertise</span>
-              <Link
-                href="https://bescored.fr/pdf/Etude%20de%20cas_Sante_beScored.pdf"
-                target="_blank"
-              >
-                <button className="btn btn-blue cursor-pointer text-xs">
-                  See study
-                </button>
-              </Link>
-            </div>
-            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
-              <DocumentChartBarIcon className="h-10 w-10 text-white" />
-              <span>Sports expertise</span>
-              <Link
-                href="https://bescored.fr/pdf/Etude%20de%20cas_Sport_beScored.pdf"
-                target="_blank"
-              >
-                <button className="btn btn-blue cursor-pointer text-xs">
-                  See study
-                </button>
-              </Link>
-            </div>
-            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
-              <DocumentChartBarIcon className="h-10 w-10 text-white" />
-              <span>Wellness expertise</span>
-              <Link
-                href="https://bescored.fr/pdf/Etude%20de%20cas_Bien-etre_beScored.pdf"
-                target="_blank"
-              >
-                <button className="btn btn-blue cursor-pointer text-xs">
-                  See study
-                </button>
-              </Link>
-            </div>
-            <div className="bg-white/5 p-8 sm:p-10 flex flex-col justify-center items-center text-white text-lg uppercase gap-4 text-center">
-              <DocumentChartBarIcon className="h-10 w-10 text-white" />
-              <span>Corporate expertise</span>
-              <Link
-                href="https://bescored.fr/pdf/Brochure__Sante_Mentale_Positive.pdf"
-                target="_blank"
-              >
-                <button className="btn btn-blue cursor-pointer text-xs">
-                  See study
-                </button>
-              </Link>
-            </div>
-          </div>
+        <div className="flex justify-center pt-16">
+          <Link href="/uk/contact" className="btn btn-blue oswald">
+            Contact us
+          </Link>
         </div>
       </div>
     </>

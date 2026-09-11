@@ -37,7 +37,10 @@ export default function NavMobile() {
               <div className="space-y-1 pb-4 pt-2 flex flex-col justify-center items-center">
                 {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-white uppercase text-sm hover:bg-gray-50  hover:text-black" */}
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
-                  <Link href="/uk/expertise">Expertise</Link>
+                  <Link href="/uk/expertise">Research</Link>
+                </Disclosure.Button>
+                <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
+                  <Link href="/uk/masak">Masak</Link>
                 </Disclosure.Button>
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
                   <Link href="/uk/team">team</Link>
@@ -47,6 +50,9 @@ export default function NavMobile() {
                 </Disclosure.Button>
                 <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
                   <Link href="/uk/news">News</Link>
+                </Disclosure.Button>
+                <Disclosure.Button className="block border-l-4 border-transparent py-2 pl-3 pr-4 font-light text-white uppercase text-sm  hover:bg-gray-50 hover:text-black">
+                  <Link href="/uk/chroniques">Columns</Link>
                 </Disclosure.Button>
               </div>
             </Disclosure.Panel>

@@ -9,11 +9,13 @@ export default function MasakTop() {
       <div className="flex pt-[160px] w-full justify-start items-center ">
         <div className="text-white uppercase oswald sm:pl-[200px] text-center sm:text-left mx-auto sm:mx-0">
           <p className="text-sm p-1">MASAK</p>
-          <p className="text-5xl p-1 font-extralight">Mental Health </p>
-          <p className="text-5xl p-1 font-semibold">Assessment Kit</p>
+          <p className="text-4xl sm:text-5xl p-1 font-extralight">
+            Mental &amp; Physical
+          </p>
+          <p className="text-4xl sm:text-5xl p-1 font-semibold">
+            Well-being Report
+          </p>
         </div>
-
-        <div className=""></div>
       </div>
     </div>
   );

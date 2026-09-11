@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function TeamTop() {
   return (
     <div
@@ -8,12 +6,11 @@ export default function TeamTop() {
     >
       <div className="flex pt-[160px] w-full justify-start items-center ">
         <div className="text-white uppercase oswald sm:pl-[200px] text-center sm:text-left mx-auto sm:mx-0">
-          <p className="text-sm p-1">our team</p>
-          <p className="text-5xl p-1 font-extralight">experience</p>
-          <p className="text-5xl p-1 font-semibold">and expertise</p>
+          <p className="text-4xl sm:text-5xl p-1 font-extralight">our</p>
+          <p className="text-4xl sm:text-5xl p-1 font-semibold">
+            medical &amp; scientific team
+          </p>
         </div>
-
-        <div className=""></div>
       </div>
     </div>
   );

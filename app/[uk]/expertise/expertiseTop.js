@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function ExpertiseTop() {
   return (
     <div
@@ -8,12 +6,10 @@ export default function ExpertiseTop() {
     >
       <div className="flex pt-[160px] w-full justify-start items-center ">
         <div className="text-white uppercase oswald sm:pl-[200px] text-center sm:text-left mx-auto sm:mx-0">
-          <p className="text-sm p-1">our expertise</p>
-          <p className="text-5xl p-1 font-extralight">international </p>
+          <p className="text-sm p-1">research</p>
+          <p className="text-5xl p-1 font-extralight">international</p>
           <p className="text-5xl p-1 font-semibold">renown</p>
         </div>
-
-        <div className=""></div>
       </div>
     </div>
   );

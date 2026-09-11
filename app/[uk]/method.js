@@ -2,17 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
-export default function Method() {
+export default function Method({
+  showContact = true,
+  description,
+  className = "",
+}) {
   return (
     <>
       <Head>
-        <link rel="preload" href="/uk/images/method/step1b.jpg" as="image" />
-        <link rel="preload" href="/uk/images/method/step2b.jpg" as="image" />
-        <link rel="preload" href="/uk/images/method/step3b.jpg" as="image" />
-        <link rel="preload" href="/uk/images/method/step4b.jpg" as="image" />
+        <link rel="preload" href="/images/method/step1b.jpg" as="image" />
+        <link rel="preload" href="/images/method/step2b.jpg" as="image" />
+        <link rel="preload" href="/images/method/step3b.jpg" as="image" />
+        <link rel="preload" href="/images/method/step4b.jpg" as="image" />
       </Head>
 
-      <div className="text-center pt-20 px-10">
+      <div className={`text-center px-10 ${className || "pt-20"}`}>
         <p className="uppercase oswald text-4xl ">
           <span className="pr-2 font-semibold">our</span>
           <span className="font-light">method</span>
@@ -20,11 +24,15 @@ export default function Method() {
 
         <div className="flex justify-center ">
           <p className="font-light pt-4 max-w-[800px] tracking-tight">
-            The expertise, research programs, and recommendations conducted by
-            beScored Institute, ranging from device validation to material
-            utilization, are aimed at companies wishing to observe real-world
-            applications in the fields of sports, wellness, health, and
-            business.
+            {description || (
+              <>
+                The expertise, research programs, and recommendations conducted
+                by beScored Institute, ranging from device validation to
+                material utilization, are aimed at companies wishing to observe
+                real-world applications in the fields of sports, wellness,
+                health, and business.
+              </>
+            )}
           </p>
         </div>
 
@@ -34,7 +42,7 @@ export default function Method() {
               src="/images/method/step1.jpg"
               width={135}
               height={135}
-              alt="etape"
+              alt="step"
               className="sm:pt-[55px] img1Method cursor-pointer"
             />
             <p className="font-semibold text-lg pt-5">Listen</p>
@@ -48,7 +56,7 @@ export default function Method() {
               src="/images/method/img1.jpg"
               width={110}
               height={146}
-              alt="methode"
+              alt="method"
             />
           </div>
 
@@ -57,12 +65,10 @@ export default function Method() {
               src="/images/method/step2.jpg"
               width={135}
               height={135}
-              alt="etape"
+              alt="step"
               className="sm:pt-[22px] img2Method cursor-pointer"
             />
-            <p className="font-semibold text-lg pt-5">
-              <span>Build together</span>
-            </p>
+            <p className="font-semibold text-lg pt-5">Build together</p>
             <p className="pt-5 max-w-[135px] font-light">
               Together, we develop the best approach.
             </p>
@@ -73,7 +79,7 @@ export default function Method() {
               src="/images/method/arrow.jpg"
               width={110}
               height={146}
-              alt="methode"
+              alt="method"
             />
           </div>
 
@@ -82,12 +88,10 @@ export default function Method() {
               src="/images/method/step3.jpg"
               width={135}
               height={135}
-              alt="etape"
+              alt="step"
               className="sm:pt-[40px] img3Method cursor-pointer"
             />
-            <p className="font-semibold text-lg pt-5">
-              <span>Evaluate</span>
-            </p>
+            <p className="font-semibold text-lg pt-5">Evaluate</p>
             <p className="pt-5 max-w-[135px] font-light">
               A proven testing protocol.
             </p>
@@ -98,7 +102,7 @@ export default function Method() {
               src="/images/method/img2.jpg"
               width={110}
               height={146}
-              alt="methode"
+              alt="method"
             />
           </div>
 
@@ -107,7 +111,7 @@ export default function Method() {
               src="/images/method/step4.jpg"
               width={135}
               height={135}
-              alt="etape"
+              alt="step"
               className="sm:pt-[16px] img4Method cursor-pointer"
             />
             <p className="font-semibold text-lg pt-5">Report</p>
@@ -117,11 +121,13 @@ export default function Method() {
           </div>
         </div>
 
-        <div className="flex justify-center pt-10">
-          <button className="btn btn-blue oswald">
-            <Link href="/uk/contact">contact us !</Link>
-          </button>
-        </div>
+        {showContact && (
+          <div className="flex justify-center pt-10">
+            <Link href="/uk/contact" className="btn btn-blue oswald">
+              Contact us
+            </Link>
+          </div>
+        )}
       </div>
     </>
   );

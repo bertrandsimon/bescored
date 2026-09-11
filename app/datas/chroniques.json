@@ -1,0 +1,56 @@
+[
+  {
+    "uid": "2026-09-07-chronique-du-lundi-performance-humaine",
+    "publishedAt": "2026-09-07",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7502619355248054272/",
+    "author": "Dr. Christophe Hausswirth",
+    "locale": {
+      "fr": {
+        "title": "CHRONIQUE DU LUNDI : \"PERFORMANCE HUMAINE\"",
+        "dateLabel": "Lundi 7 septembre 2026",
+        "body": "Et si dormir plus le week-end ne suffisait pas à effacer notre dette de sommeil ?\nWhat if sleeping more on weekends wasn’t enough to erase our sleep debt?\n\nLundi matin.\nLe réveil sonne. Une nouvelle semaine commence.\n\nAprès plusieurs nuits trop courtes, nous sommes nombreux à nous faire la même promesse :\n« Ce week-end, je récupère. »\nAlors, le samedi et le dimanche, nous dormons plus longtemps.\n\nBonne idée ?\nProbablement.\n\nSuffisant ?\nPas forcément.\n\nCar notre sommeil ne fonctionne pas tout à fait comme un compte bancaire sur lequel quelques heures supplémentaires permettraient d’effacer automatiquement les nuits trop courtes de la semaine.\n\nLe sommeil de récupération peut être bénéfique. Mais les études récentes nous rappellent qu’une autre dimension compte tout autant : la régularité de notre sommeil.\nLorsque nos horaires de coucher et de lever changent fortement entre la semaine et le week-end, nous décalons aussi nos rythmes biologiques.\n\nFinalement, la meilleure stratégie n’est peut-être pas de chercher à dormir beaucoup plus le dimanche matin.\n\nElle consiste d’abord à avoir moins de sommeil à rattraper.\n\nDormir suffisamment.\nDormir régulièrement.\nEt utiliser le week-end pour récupérer lorsque cela est nécessaire — plutôt que pour réparer systématiquement cinq nuits trop courtes.\n\nLe sommeil du week-end peut réparer une partie de la semaine.\nIl ne devrait pas devenir l’excuse pour mal dormir du lundi au vendredi."
+      },
+      "en": {
+        "title": "MONDAY COLUMN: \"HUMAN PERFORMANCE\"",
+        "dateLabel": "Monday 7 September 2026",
+        "body": "What if sleeping more on weekends wasn’t enough to erase our sleep debt?\n\nMonday morning.\nThe alarm rings. A new week begins.\n\nAfter several short nights, many of us make the same promise:\n“This weekend, I’ll catch up.”\nSo on Saturday and Sunday, we sleep longer.\n\nA good idea?\nProbably.\n\nEnough?\nNot necessarily.\n\nBecause sleep does not work quite like a bank account, where a few extra hours would automatically erase the week’s short nights.\n\nRecovery sleep can be beneficial. But recent studies remind us that another dimension matters just as much: sleep regularity.\nWhen our bedtimes and wake times shift sharply between weekdays and the weekend, we also shift our biological rhythms.\n\nIn the end, the best strategy may not be to sleep much longer on Sunday morning.\n\nIt starts with having less sleep to catch up on.\n\nSleep enough.\nSleep regularly.\nAnd use the weekend to recover when needed — rather than to systematically repair five short nights.\n\nWeekend sleep can repair part of the week.\nIt should not become the excuse for sleeping poorly from Monday to Friday."
+      }
+    }
+  },
+  {
+    "uid": "2026-08-31-lorem-ipsum-recuperation",
+    "publishedAt": "2026-08-31",
+    "link": "",
+    "author": "Dr. Christophe Hausswirth",
+    "locale": {
+      "fr": {
+        "title": "CHRONIQUE DU LUNDI : \"LOREM IPSUM\"",
+        "dateLabel": "Lundi 31 août 2026",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      },
+      "en": {
+        "title": "MONDAY COLUMN: \"LOREM IPSUM\"",
+        "dateLabel": "Monday 31 August 2026",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      }
+    }
+  },
+  {
+    "uid": "2026-08-24-lorem-ipsum-sommeil",
+    "publishedAt": "2026-08-24",
+    "link": "",
+    "author": "Dr. Christophe Hausswirth",
+    "locale": {
+      "fr": {
+        "title": "CHRONIQUE DU LUNDI : \"DOLOR SIT AMET\"",
+        "dateLabel": "Lundi 24 août 2026",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.\n\nSed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.\n\nMauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+      },
+      "en": {
+        "title": "MONDAY COLUMN: \"DOLOR SIT AMET\"",
+        "dateLabel": "Monday 24 August 2026",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.\n\nSed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.\n\nMauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+      }
+    }
+  }
+]

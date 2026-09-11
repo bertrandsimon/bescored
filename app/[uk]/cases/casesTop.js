@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function CasesTop() {
   return (
     <div
@@ -8,12 +6,9 @@ export default function CasesTop() {
     >
       <div className="flex pt-[160px] w-full justify-start items-center">
         <div className="text-white uppercase oswald sm:pl-[200px] text-center sm:text-left mx-auto sm:mx-0">
-          <p className="text-sm p-1">30 years of experience</p>
-          <p className="text-5xl p-1 font-extralight">beScored</p>
-          <p className="text-5xl p-1 font-semibold">studies examples</p>
+          <p className="text-5xl p-1 font-extralight">case</p>
+          <p className="text-5xl p-1 font-semibold">studies</p>
         </div>
-
-        <div className=""></div>
       </div>
     </div>
   );

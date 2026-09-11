@@ -1,14 +1,21 @@
 "use client";
 
-import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+function toEnglishPath(pathname) {
+  if (!pathname || pathname === "/") return "/uk";
+  return `/uk${pathname}`;
+}
 
 export default function ToolBar() {
+  const pathname = usePathname();
+
   return (
     <div className="h-14 bg-black flex items-center pl-10 pr-10">
       <div className="w-full flex justify-end">
-        <Link href="/uk" className="text-slate-400 text-xs hover:text-white">
+        <a href={toEnglishPath(pathname)} className="text-slate-400 text-xs hover:text-white">
           English
-        </Link>
+        </a>
       </div>
     </div>
   );

@@ -12,15 +12,9 @@ export default function Faq() {
     },
     {
       question:
-        "Quel est le temps minimal pour une évaluation ou une recherche ?",
+        "Quel est le délai entre le lancement d'une étude et la remise du rapport final ?",
       answer:
-        "À la validation du protocole, il faut compter environ 3 à 4 mois pour réaliser les différents tests en situation. ",
-    },
-    {
-      question:
-        "À partir de quand puis-je recevoir un rapport complet avec les résultats ?",
-      answer:
-        "Dans la majorité de cas, nous ne dépassons jamais la durée globale de l’étude ou de l’évaluation pour livrer notre rapport, soit 3 mois la plupart du temps.",
+        "La durée d'un projet est généralement d'environ 6 mois. Cette période comprend 3 à 4 mois consacrés à la réalisation des évaluations selon le protocole défini, puis 2 mois dédiés à l’exploitation des données et à la rédaction du rapport. Ce calendrier peut être adapté en fonction de la complexité du projet et des contraintes de recrutement des participants.",
     },
     {
       question:
@@ -38,12 +32,6 @@ export default function Faq() {
       question:
         "Est-il possible de faire de simples tests au début pour cibler nos hypothèses et orienter les bénéfices liés à notre produit ?",
       answer: "Cela est tout à fait envisageable voire souvent recommandé. ",
-    },
-    {
-      question:
-        "Est-il possible d’effectuer des tests de santé mentale dans mon entreprise de plus de 100 salariés et en combien de temps ?",
-      answer:
-        "Nous avons une unité mobile d’évaluation et nous sommes en mesure de nous déplacer pour évaluer la santé mentale de vos salariés. Pour 100 salariés, il faudra compter environ 3 jours sur place.",
     },
     {
       question:

@@ -1,0 +1,182 @@
+[
+  {
+    "uid": "2026-7",
+    "publishedAt": "2026-07-20",
+    "imageUrl": "/images/news/18.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Nouvelle publication scientifique : la dilatation pupillaire, un marqueur sensible du stress aigu",
+        "description": "Une nouvelle étude publiée dans Comprehensive Psychoneuroendocrinology met en évidence l'intérêt de la dilatation pupillaire comme marqueur objectif du stress aigu. Ces travaux ouvrent de nouvelles perspectives dans les domaines de l'entreprise, du bien-être et du sport, où l'évaluation objective du stress constitue un enjeu majeur. Ils s'inscrivent dans la démarche scientifique de développement du MASAK, visant à proposer des outils fiables et innovants pour l'évaluation de la santé mentale.",
+        "dateLabel": "Juillet 2026",
+        "category": "Parution"
+      },
+      "en": {
+        "title": "New scientific publication: pupillary dilation, a sensitive marker of acute stress",
+        "description": "A new study published in Comprehensive Psychoneuroendocrinology highlights the value of pupillary dilation as an objective marker of acute stress. This work opens new perspectives in corporate, wellness and sports settings, where the objective assessment of stress is a major challenge. It forms part of the scientific development of MASAK, aimed at providing reliable and innovative tools for the assessment of mental health.",
+        "dateLabel": "July 2026",
+        "category": "Publication"
+      }
+    }
+  },
+  {
+    "uid": "2026-6",
+    "publishedAt": "2026-07-15",
+    "imageUrl": "/images/news/19.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence : les nouveaux enjeux de la longévité",
+        "description": "À l'occasion d'une conférence consacrée à la longévité, Christophe est intervenu sur les dernières avancées scientifiques en matière de vieillissement en bonne santé. Les recherches montrent que l'activité physique, le sommeil, la nutrition et la gestion du stress sont de véritables leviers biologiques capables d'influencer notre âge biologique. Les interventions non médicamenteuses occupent désormais une place centrale dans cette approche préventive, avec une efficacité de plus en plus étayée par les études cliniques.",
+        "dateLabel": "Juillet 2026",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "Conference: the new challenges of longevity",
+        "description": "At a conference dedicated to longevity, Christophe presented the latest scientific advances in healthy ageing. Research shows that physical activity, sleep, nutrition and stress management are genuine biological levers capable of influencing our biological age. Non-pharmacological interventions now play a central role in this preventive approach, with growing evidence of their effectiveness from clinical studies.",
+        "dateLabel": "July 2026",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "uid": "2026-5",
+    "publishedAt": "2026-07-10",
+    "imageUrl": "/images/news/20.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence au Sénat : prévenir plutôt que subir",
+        "description": "À l'occasion d'une conférence organisée au Sénat sur le thème de la santé mentale en entreprise, beScored est intervenu pour mettre en lumière les parallèles entre les athlètes de haut niveau et les dirigeants d'entreprise. À l'image du sport, où les outils de mesure permettent aujourd'hui de prévenir les blessures, les organisations disposent désormais de solutions pour objectiver le stress, la fatigue mentale ou encore les douleurs. Une approche scientifique qui contribue à détecter les signaux précoces et à mieux préserver la santé mentale et physique des décideurs.",
+        "dateLabel": "Juillet 2026",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "Conference at the Senate: prevent rather than endure",
+        "description": "At a conference held at the French Senate on mental health in the workplace, beScored highlighted the parallels between elite athletes and business leaders. Just as in sport, where measurement tools now help prevent injuries, organisations now have solutions to objectify stress, mental fatigue and pain. A scientific approach that helps detect early warning signs and better protect the mental and physical health of decision-makers.",
+        "dateLabel": "July 2026",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "uid": "2026-4",
+    "publishedAt": "2026-04-20",
+    "imageUrl": "/images/news/21.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Installation dans le centre MoodHouse",
+        "description": "Nous sommes heureux de collaborer avec le centre MoodHouse, spécialisé dans la récupération physique, mentale et émotionnelle. Le centre intègre désormais le MASAK afin d'objectiver l'état de santé global de personnes exposées à une forte charge mentale dans leur environnement professionnel.",
+        "dateLabel": "Avril 2026",
+        "category": "Installation"
+      },
+      "en": {
+        "title": "Installation at the MoodHouse centre",
+        "description": "We are pleased to collaborate with MoodHouse, a centre specialised in physical, mental and emotional recovery. The centre now integrates MASAK to objectify the overall health of people exposed to a high mental load in their professional environment.",
+        "dateLabel": "April 2026",
+        "category": "Installation"
+      }
+    }
+  },
+  {
+    "uid": "2026-3",
+    "publishedAt": "2026-04-10",
+    "imageUrl": "/images/news/22.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Le MASAK rejoint la Maison EPIGENETIC",
+        "description": "Le MASAK est désormais installé au sein de la Maison EPIGENETIC à Paris, un espace dédié à la santé intégrative et à l'innovation. Grâce à une évaluation objective du bien-être mental et physique, le MASAK permet de personnaliser la prise en charge et d'objectiver les bénéfices des soins proposés. Cette collaboration s'inscrit pleinement dans l'approche de la Maison EPIGENETIC, qui place l'épigénétique et les interventions sur le mode de vie au cœur de l'accompagnement des patients.",
+        "dateLabel": "Avril 2026",
+        "category": "Installation"
+      },
+      "en": {
+        "title": "MASAK joins Maison EPIGENETIC",
+        "description": "MASAK is now installed at Maison EPIGENETIC in Paris, a space dedicated to integrative health and innovation. Through an objective assessment of mental and physical well-being, MASAK makes it possible to personalise care and objectify the benefits of the treatments offered. This collaboration is fully in line with Maison EPIGENETIC's approach, which places epigenetics and lifestyle interventions at the heart of patient support.",
+        "dateLabel": "April 2026",
+        "category": "Installation"
+      }
+    }
+  },
+  {
+    "uid": "2026-2",
+    "publishedAt": "2026-03-15",
+    "imageUrl": "/images/news/23.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence Care by BMC",
+        "description": "Notre dispositif MASAK a été présenté lors de la conférence Care by BMC, dédiée aux innovations technologiques pour la performance sportive et la santé, organisée par Isabelle Damoisaux-Delnoy sous l'impulsion de Marc et Jacques Borlée. À cette occasion, trois communications orales et une présentation sur stand ont permis de faire découvrir le MASAK au public. Cette rencontre marque également le déploiement de notre dispositif médical en Belgique au sein du centre sportif Boost by Borlée.",
+        "dateLabel": "Mars 2026",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "Care by BMC conference",
+        "description": "Our MASAK device was presented at the Care by BMC conference, dedicated to technological innovations for sports performance and health, organised by Isabelle Damoisaux-Delnoy at the initiative of Marc and Jacques Borlée. On this occasion, three oral presentations and a booth demonstration introduced MASAK to the audience. This meeting also marks the deployment of our medical device in Belgium at the Boost by Borlée sports centre.",
+        "dateLabel": "March 2026",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "uid": "2026-1",
+    "publishedAt": "2026-02-15",
+    "imageUrl": "/images/news/24.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "MASAK arrive en Suisse",
+        "description": "Le premier MASAK a été installé en Suisse, au sein du centre Cryocenter Basel dédié à la récupération et au bien-être. Fondé et dirigé par Angelo Lavanga, ancien boxeur professionnel, le centre intègre désormais le MASAK pour le diagnostic initial et l'évaluation de ses programmes. Cette première installation en Suisse marque une nouvelle étape dans le développement international de MASAK auprès des acteurs du sport, de la santé et du bien-être.",
+        "dateLabel": "Février 2026",
+        "category": "Installation"
+      },
+      "en": {
+        "title": "MASAK arrives in Switzerland",
+        "description": "The first MASAK has been installed in Switzerland, at Cryocenter Basel, a centre dedicated to recovery and wellness. Founded and directed by Angelo Lavanga, a former professional boxer, the centre now integrates MASAK for initial diagnosis and the evaluation of its programmes. This first installation in Switzerland marks a new step in the international development of MASAK among sports, health and wellness stakeholders.",
+        "dateLabel": "February 2026",
+        "category": "Installation"
+      }
+    }
+  },
+  {
+    "uid": "2025-10",
+    "publishedAt": "2025-10-15",
+    "imageUrl": "/images/news/25.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Vainqueur de l'European Spas Innovation Awards 2026 - Congrès de l'ESPA, Estonie",
+        "description": "Notre dispositif médical MASAK (Mental and Stress Assessment Kit) vient d'être récompensé au niveau international au congrès European Spas Association (ESPA). Plus qu'un trophée, c'est le travail de toute une équipe de chercheurs et de médecins qui est mis en avant pour venir désormais quantifier l'efficacité des parcours de soins (SPA, stations thermales, centres de bien-être, thalassothérapie, etc.).",
+        "dateLabel": "Octobre 2025",
+        "category": "Événement"
+      },
+      "en": {
+        "title": "Winner of the European Spas Innovation Awards 2026 – ESPA Congress, Estonia",
+        "description": "Our MASAK medical device (Mental and Stress Assessment Kit) has just been recognised internationally at the European Spas Association (ESPA) congress. More than a trophy, it highlights the work of an entire team of researchers and physicians, now able to quantify the effectiveness of care pathways (spas, thermal resorts, wellness centres, thalassotherapy, and more).",
+        "dateLabel": "October 2025",
+        "category": "Event"
+      }
+    }
+  },
+  {
+    "uid": "2025-9",
+    "publishedAt": "2025-09-15",
+    "imageUrl": "/images/news/26.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Soirée Parlons Santé Mentale",
+        "description": "Nous avons été ravis d'être labellisés « Parlons Santé Mentale » par le ministère du Travail et de la Santé dans le cadre de l'événement organisé en collaboration avec AMETRA06. Lorsqu'un service de santé au travail s'associe à un dispositif médical innovant en santé mentale, cela en dit long sur ses ambitions et la volonté de détecter les premiers signes d'un mal-être mental et physique chez les employés ou dirigeants.",
+        "dateLabel": "Septembre 2025",
+        "category": "Événement"
+      },
+      "en": {
+        "title": "Parlons Santé Mentale evening",
+        "description": "We were delighted to receive the “Parlons Santé Mentale” label from the Ministry of Labour and Health at an event organised in collaboration with AMETRA06. When an occupational health service partners with an innovative mental-health medical device, it says a great deal about its ambitions and its determination to detect the first signs of mental and physical distress among employees and leaders.",
+        "dateLabel": "September 2025",
+        "category": "Event"
+      }
+    }
+  }
+]

@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+"use client";
 import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
@@ -11,14 +10,10 @@ export default function Faq() {
         "We are here to help you organize the necessary evaluation programs and implement all the tools to best describe any potential benefits.",
     },
     {
-      question: "What is the minimum time for an evaluation or research?",
+      question:
+        "How long does it take from the start of a study to the delivery of the final report?",
       answer:
-        "At the protocol validation stage, it takes about 3 to 4 months to conduct the various tests in real-life situations.",
-    },
-    {
-      question: "When can I receive a complete report with the results?",
-      answer:
-        "In most cases, we never exceed the overall study or evaluation duration to deliver our report, which is usually around 3 months.",
+        "A typical project takes approximately six months. This includes 3 to 4 months for conducting the study according to the approved protocol, followed by 2 months for data analysis, interpretation of the findings, and preparation of the final report. Timelines may vary depending on the complexity of the project and participant recruitment requirements.",
     },
     {
       question: "Is the final report delivered in multiple languages?",
@@ -38,12 +33,6 @@ export default function Faq() {
     },
     {
       question:
-        "Is it possible to conduct mental health tests in my company with over 100 employees and how long does it take?",
-      answer:
-        "We have a mobile evaluation unit and we are able to travel to assess the mental health of your employees. For 100 employees, it will take about 3 days on site.",
-    },
-    {
-      question:
         "I have a product to test in the sports industry: do you handle athlete recruitment?",
       answer:
         "Yes, we handle recruitment and pre-selection based on specific criteria and in agreement with your product and its requirements.",
@@ -55,7 +44,7 @@ export default function Faq() {
       <div className="mx-auto max-w-4xl px-6 py-12 sm:py-32 lg:px-8 lg:py-14 ">
         <div className="mx-auto max-w-4xl divide-y divide-white/10">
           <p className="uppercase oswald text-4xl text-white text-center">
-            <span className="pr-2 font-semibold">Fréquently</span>
+            <span className="pr-2 font-semibold">Frequently</span>
             <span className="font-light">Asked Questions</span>
           </p>
 

@@ -4,6 +4,41 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
+const logos = [
+  { src: "/images/logos/1.jpg", alt: "Mecotec" },
+  { src: "/images/logos/3.jpg", alt: "LPG" },
+  { src: "/images/logos/4.jpg", alt: "Pôle Santé" },
+  { src: "/images/logos/5.jpg", alt: "PSG" },
+  { src: "/images/logos/6.jpg", alt: "Johnson & Johnson" },
+  { src: "/images/logos/7.jpg", alt: "Bebo" },
+  { src: "/images/logos/8.jpg", alt: "Cerballiance" },
+  { src: "/images/logos/12.jpg", alt: "University of Technology Sydney" },
+  { src: "/images/logos/13.jpg", alt: "Pôle Santé Saint Jean" },
+  { src: "/images/logos/16.jpg", alt: "CapSix" },
+  { src: "/images/logos/30.jpg", alt: "Partner" },
+  { src: "/images/logos/31.jpg", alt: "Partner" },
+  { src: "/images/logos/32.jpg", alt: "Partner" },
+  { src: "/images/logos/33.jpg", alt: "Partner" },
+  { src: "/images/logos/34.jpg", alt: "Partner" },
+  { src: "/images/logos/35.jpg", alt: "Partner" },
+  { src: "/images/logos/36.jpg", alt: "Partner" },
+  { src: "/images/logos/37.jpg", alt: "Partner" },
+  { src: "/images/logos/38.jpg", alt: "Partner" },
+  { src: "/images/logos/39.jpg", alt: "Partner" },
+  { src: "/images/logos/40.jpg", alt: "Partner" },
+  { src: "/images/logos/41.jpg", alt: "Partner" },
+  { src: "/images/logos/42.jpg", alt: "Partner" },
+  { src: "/images/logos/43.jpg", alt: "Partner" },
+  { src: "/images/logos/44.jpg", alt: "Partner" },
+  { src: "/images/logos/45.jpg", alt: "Partner" },
+  { src: "/images/logos/46.jpg", alt: "Partner" },
+  { src: "/images/logos/47.jpg", alt: "Partner" },
+  { src: "/images/logos/48.jpg", alt: "Partner" },
+  { src: "/images/logos/49.jpg", alt: "Partner" },
+  { src: "/images/logos/50.jpg", alt: "Partner" },
+  { src: "/images/logos/51.jpg", alt: "Partner" },
+];
+
 export default function Logos() {
   return (
     <>
@@ -23,243 +58,19 @@ export default function Logos() {
         pagination={{ clickable: true, dynamicBullets: true }}
         observer={true}
         observeParents={true}
-        //  autoplay={{
-        //   "delay": 5000,
-        //   "disableOnInteraction": false
-        // }}
       >
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/1.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/2.png"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/3.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/4.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/5.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/6.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/7.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/8.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/9.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/10.png"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/11.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/12.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/13.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/14.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/15.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            className="mx-auto"
-            src="/images/logos/16.jpg"
-            alt="CapSix"
-            width={216}
-            height={68}
-          />
-        </SwiperSlide>
+        {logos.map((logo) => (
+          <SwiperSlide key={logo.src}>
+            <Image
+              className="mx-auto"
+              src={logo.src}
+              alt={logo.alt}
+              width={216}
+              height={68}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
-
-      {/* <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-          <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/1.jpg"
-            alt="Mecotec"
-            width={216}
-            height={68}
-          />
-          <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/2.jpg"
-            alt="Rebalance"
-            width={216}
-            height={68}
-          />
-          <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/3.jpg"
-            alt="LPG"
-            width={216}
-            height={68}
-          />
-          <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/4.jpg"
-            alt="Pole santé"
-            width={216}
-            height={68}
-          />
-          <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/5.jpg"
-            alt="PSG"
-            width={216}
-            height={68}
-          />
-            <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/6.jpg"
-            alt="Johnson & johnson"
-            width={216}
-            height={68}
-          />
-            <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/7.jpg"
-            alt="Bebo"
-            width={216}
-            height={68}
-          />
-            <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/8.jpg"
-            alt="Cerballiance"
-            width={216}
-            height={68}
-          />
-                <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/9.jpg"
-            alt="Cryorecup"
-            width={216}
-            height={68}
-          />
-            <Image
-            className="col-span-2 lg:col-span-1 mx-auto"
-            src="/images/logos/10.jpg"
-            alt="Depuy"
-            width={216}
-            height={68}
-          />
-        </div> */}
     </>
   );
 }

@@ -1,36 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 
 export default function Footer() {
-  const [success, setSuccess] = useState(false);
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    //console.log(form.current.telephone.value)
-
-    emailjs
-      .sendForm(
-        "service_uvsxn6b",
-        "template_4d95a3p",
-        form.current,
-        "NgT7PTAfnfr_bHXV2"
-      )
-      .then(
-        (result) => {
-          setSuccess(true);
-        },
-        (error) => {
-          console.log("erreur");
-        }
-      );
-  };
-
   const navigation = {
     solutions: [
       { name: "Marketing", href: "#" },
@@ -82,7 +54,7 @@ export default function Footer() {
     <>
       <footer className="bg-gray-900">
         <div className="mx-auto max-w-7xl px-6 pb-6 pt-2 sm:pt-24 lg:px-8 lg:pt-16">
-          <div className="xl:grid xl:grid-cols-2 xl:gap-8">
+          <div>
             <div className="hidden lg:flex h-full w-full items-center justify-center sm:justify-between">
               <div className="grid grid-cols-2 gap-8 xl:col-span-2">
                 <div className="flex flex-row gap-8">
@@ -92,7 +64,17 @@ export default function Footer() {
                         href="/uk/expertise"
                         className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                       >
-                        Expertise
+                        Research
+                      </Link>
+                    </h3>
+                  </div>
+                  <div className="mt-10 md:mt-0">
+                    <h3 className="font-light text-white uppercase">
+                      <Link
+                        href="/uk/masak"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        Masak
                       </Link>
                     </h3>
                   </div>
@@ -129,6 +111,16 @@ export default function Footer() {
                   <div className="mt-10 md:mt-0">
                     <h3 className="font-light text-white uppercase">
                       <Link
+                        href="/uk/chroniques"
+                        className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
+                      >
+                        Columns
+                      </Link>
+                    </h3>
+                  </div>
+                  <div className="mt-10 md:mt-0">
+                    <h3 className="font-light text-white uppercase">
+                      <Link
                         href="/uk/contact"
                         className="rounded-md transition duration-300 ease-in-out inline-flex items-center px-2 uppercase h-[30px] hover:rounded-md hover:bg-[#4DB4C4] mt-3"
                       >
@@ -138,45 +130,6 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="mt-10 xl:mt-0">
-              <h3 className="font-normal leading-6 text-white text-center sm:text-left">
-                We call you back
-              </h3>
-              <p className="mt-2 leading-6 text-gray-300  text-center sm:text-left">
-                Get in touch with us for more information
-              </p>
-
-              {!success ? (
-                <form
-                  ref={form}
-                  action="#"
-                  onSubmit={sendEmail}
-                  className="mt-6 sm:flex sm:max-w-md"
-                >
-                  <input
-                    type="text"
-                    name="telephone"
-                    id="telephone"
-                    required
-                    className="w-full min-w-0 text-center appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#4DB4C4] sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
-                    placeholder="Téléphone"
-                  />
-                  <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-                    <button
-                      type="submit"
-                      className="flex w-full items-center justify-center rounded-md bg-[#4DB4C4] px-3 py-2 text-sm font-light text-white shadow-sm hover:bg-[#4DB4C4] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#4DB4C4] uppercase"
-                    >
-                      Send
-                    </button>
-                  </div>
-                </form>
-              ) : (
-                // success msg
-                <div className="mt-6 flex justify-left items-center mx-auto text-white">
-                  Merci, we&apos;ll get in touch.
-                </div>
-              )}
             </div>
           </div>
           <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
@@ -193,10 +146,10 @@ export default function Footer() {
               ))}
             </div>
             <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0 sm:text-left text-center">
-              &copy; beScored 2023 |
+              &copy; beScored 2026 |
               <span>
                 {" "}
-                Les Aqueducs B3 - 535 Route des Lucioles - 06560 Valbonne |
+                Les Aqueducs Bât.1 - 535 Route des Lucioles - 06560 Valbonne |
               </span>
               <span className="hover:text-white">
                 <Link href="/uk/legal"> Legal notice</Link>

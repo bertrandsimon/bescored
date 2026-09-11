@@ -3,6 +3,16 @@ import Image from "next/image";
 export default function Subteam() {
   const people = [
     {
+      name: "Marc Laidet",
+      role: "CEO Secteur Santé, President FHP psy, Vice-president Acteurs de la Prévention",
+      imageUrl: "/images/team/laidet.jpg",
+    },
+    {
+      name: "Dr. Laurent Morasz, MD",
+      role: "Psychiatrist, Founder of Clinipsy group and Ykoé group",
+      imageUrl: "/images/team/morasz.jpg",
+    },
+    {
       name: "Dr. Cyril SCHMIT, PhD.",
       role: "Psycho-physiologist scientist",
       imageUrl: "/images/team/5.jpg",
@@ -37,7 +47,6 @@ export default function Subteam() {
       role: "Biologist physician",
       imageUrl: "/images/team/11.jpg",
     },
-
     {
       name: "Dr. Eve TIOLLIER, PhD.",
       role: "Sports nutritionist",
@@ -78,11 +87,11 @@ export default function Subteam() {
           {people.map((person) => (
             <li key={person.name}>
               <Image
-                className="mx-auto h-24 w-24 rounded-full"
+                className="mx-auto h-24 w-24 rounded-full object-cover"
                 src={person.imageUrl}
                 width={200}
                 height={220}
-                alt=""
+                alt={person.name}
               />
               <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
                 {person.name}

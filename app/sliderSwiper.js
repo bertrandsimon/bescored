@@ -240,11 +240,13 @@ export default function SliderSwiper() {
                 <Fade duration={1000} delay={500} cascade damping={0.2}>
                   <Slide direction="down" duration={1000} delay={600}>
                     <p className="text-5xl p-1 font-extralight">
-                      validation de vos
+                      évaluation des bénéfices
                     </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
-                    <p className="text-5xl p-1 font-semibold">dispositifs de</p>
+                    <p className="text-5xl p-1 font-semibold">
+                      de vos dispositifs
+                    </p>
                   </Slide>
                   <Slide direction="down" duration={1000} delay={700}>
                     <p className="text-5xl p-1 font-semibold">bien-être</p>
@@ -260,18 +262,7 @@ export default function SliderSwiper() {
                   </Slide>
                 </Fade>
               </div>
-              <div className="sm:flex-shrink-0 hidden sm:flex mb-14">
-                <Fade duration={1000} delay={1500}>
-                  <Slide direction="up" duration={1000} delay={1500}>
-                    <Image
-                      src="/images/tag4.png"
-                      width={220}
-                      height={50}
-                      alt="Tag"
-                    />
-                  </Slide>
-                </Fade>
-              </div>
+              <div className="sm:flex-shrink-0 hidden sm:flex mb-14"></div>
             </div>
           </div>
         </SwiperSlide>
