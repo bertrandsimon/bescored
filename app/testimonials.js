@@ -168,49 +168,6 @@ export default function Testimonials() {
                 </figure>
               </div>
             </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20 lg:pr-8 xl:pr-8">
-                <Image
-                  className="self-start"
-                  src="/images/testimonials/1.png"
-                  alt="LPG"
-                  height={50}
-                  width={208}
-                />
-                <figure className="mt-10 flex flex-auto flex-col justify-between ">
-                  <blockquote className="text-normal font-normal leading-8 text-gray-900 ">
-                    <p>
-                      Nous travaillons aux côtés de beScored et son fondateur
-                      depuis 2020 et la facilité d&apos;exécution des recherches
-                      est remarquable. <br />
-                      <br />
-                      Je n&apos;ai jamais vu une société pouvant être aussi
-                      précise dans la livraison des rapports, et
-                      l&apos;accompagnement des domaines d&apos;application est
-                      encore aujourd&apos;hui d&apos;un très grand soutien au
-                      quotidien pour notre société. Nous sommes partis ensemble
-                      pour plusieurs années de collaboration.
-                    </p>
-                  </blockquote>
-                  <figcaption className="mt-10 flex items-center gap-x-6">
-                    <Image
-                      className="rounded-full bg-gray-50"
-                      src="/images/testimonials/man.jpg"
-                      alt=""
-                      height={80}
-                      width={80}
-                    />
-                    <div className="text-base">
-                      <div className="font-semibold text-gray-900">
-                        Sammy Gharieni
-                      </div>
-                      <div className="mt-1 text-gray-500">Gharieni group</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </SwiperSlide>
           </Swiper>
         </div>
       </section>

@@ -20,9 +20,6 @@ export default function TopContent() {
             The first objective assessment method for mental and physical
             well-being
           </p>
-          <p className="font-semibold text-xl pt-4 oswald uppercase blue">
-            Measure what was previously only perceived!
-          </p>
           <p className="font-light pt-8 max-w-3xl mx-auto text-center">
             &ldquo;In less than 20 minutes, MASAK provides a comprehensive and
             objective assessment of your mental and physical well-being.&rdquo;

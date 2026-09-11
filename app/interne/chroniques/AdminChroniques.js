@@ -8,6 +8,8 @@ const emptyForm = {
   publishedAt: "",
   link: "",
   author: "Dr. Christophe Hausswirth",
+  image_fr: "",
+  image_uk: "",
   locale: {
     fr: { title: "", dateLabel: "", body: "" },
     en: { title: "", dateLabel: "", body: "" },
@@ -91,6 +93,8 @@ export default function AdminChroniques() {
       publishedAt: post.publishedAt || "",
       link: post.link || "",
       author: post.author || "Dr. Christophe Hausswirth",
+      image_fr: post.image_fr || "",
+      image_uk: post.image_uk || "",
       locale: {
         fr: {
           title: post.locale?.fr?.title || "",
@@ -117,6 +121,8 @@ export default function AdminChroniques() {
         publishedAt: form.publishedAt,
         link: form.link,
         author: form.author,
+        image_fr: form.image_fr,
+        image_uk: form.image_uk,
         locale: form.locale,
       };
       const res = await fetch(
@@ -253,6 +259,36 @@ export default function AdminChroniques() {
               setForm((current) => ({ ...current, link: event.target.value }))
             }
             placeholder="https://www.linkedin.com/..."
+            className="rounded-md border border-gray-300 px-3 py-2"
+          />
+        </div>
+        <div className="flex flex-col gap-3">
+          <label className="text-sm font-semibold">Image FR (URL)</label>
+          <input
+            type="url"
+            value={form.image_fr}
+            onChange={(event) =>
+              setForm((current) => ({
+                ...current,
+                image_fr: event.target.value,
+              }))
+            }
+            placeholder="https://..."
+            className="rounded-md border border-gray-300 px-3 py-2"
+          />
+        </div>
+        <div className="flex flex-col gap-3">
+          <label className="text-sm font-semibold">Image UK (URL)</label>
+          <input
+            type="url"
+            value={form.image_uk}
+            onChange={(event) =>
+              setForm((current) => ({
+                ...current,
+                image_uk: event.target.value,
+              }))
+            }
+            placeholder="https://..."
             className="rounded-md border border-gray-300 px-3 py-2"
           />
         </div>

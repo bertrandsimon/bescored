@@ -79,10 +79,7 @@ export default function TopContent() {
           </dl>
         </div>
 
-        <div className="flex flex-col items-center gap-4 pt-16">
-          <Link href="/uk/expertise" className="btn btn-blue oswald cursor-pointer">
-            Learn more
-          </Link>
+        <div className="flex justify-center pt-16">
           <Link href="/uk/cases" className="btn btn-blue oswald cursor-pointer">
             Example of studies
           </Link>

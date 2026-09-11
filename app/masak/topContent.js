@@ -22,9 +22,6 @@ export default function TopContent() {
             la première méthode d&apos;évaluation objective du bien-être mental
             et physique
           </p>
-          <p className="font-semibold text-xl pt-4 oswald uppercase blue">
-            Mesurez ce qui était jusqu&apos;ici uniquement ressenti&nbsp;!
-          </p>
           <p className="font-light pt-8 max-w-3xl mx-auto text-center">
             &ldquo;En moins de 20 minutes, le MASAK réalise une cartographie
             complète et objective de votre état de bien-être mental et

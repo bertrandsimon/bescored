@@ -19,6 +19,14 @@ export default function ChroniquesFeed({
             <h3 className="mt-3 text-2xl font-light oswald uppercase leading-snug">
               <Link href={`${basePath}/${post.uid}`}>{post.title}</Link>
             </h3>
+            {post.image && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={post.image}
+                alt={post.title || ""}
+                className="mt-5 w-full h-72 rounded-lg object-cover object-top"
+              />
+            )}
             {post.excerpt && (
               <p className="mt-4 text-sm leading-7 text-gray-600">
                 {post.excerpt}

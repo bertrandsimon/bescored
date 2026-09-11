@@ -14,6 +14,14 @@ export default function ChroniqueArticle({
       <h1 className="mt-4 text-3xl sm:text-4xl font-light oswald uppercase leading-tight">
         {post.title}
       </h1>
+      {post.image && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={post.image}
+          alt={post.title || ""}
+          className="mt-8 max-w-full h-auto rounded-xl"
+        />
+      )}
       <div className="mt-10 text-base leading-8 text-gray-800 whitespace-pre-line">
         {post.body}
       </div>

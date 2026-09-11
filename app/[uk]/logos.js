@@ -36,7 +36,6 @@ const logos = [
   { src: "/images/logos/46.jpg", alt: "Partner" },
   { src: "/images/logos/47.jpg", alt: "Partner" },
   { src: "/images/logos/48.jpg", alt: "Partner" },
-  { src: "/images/logos/49.jpg", alt: "Partner" },
   { src: "/images/logos/50.jpg", alt: "Partner" },
   { src: "/images/logos/51.jpg", alt: "Partner" },
 ];
