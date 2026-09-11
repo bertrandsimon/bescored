@@ -262,42 +262,32 @@ export default function AdminChroniques() {
             className="rounded-md border border-gray-300 px-3 py-2"
           />
         </div>
-        <div className="flex flex-col gap-3">
-          <label className="text-sm font-semibold">Image FR (URL)</label>
-          <input
-            type="url"
-            value={form.image_fr}
-            onChange={(event) =>
-              setForm((current) => ({
-                ...current,
-                image_fr: event.target.value,
-              }))
-            }
-            placeholder="https://..."
-            className="rounded-md border border-gray-300 px-3 py-2"
-          />
-        </div>
-        <div className="flex flex-col gap-3">
-          <label className="text-sm font-semibold">Image UK (URL)</label>
-          <input
-            type="url"
-            value={form.image_uk}
-            onChange={(event) =>
-              setForm((current) => ({
-                ...current,
-                image_uk: event.target.value,
-              }))
-            }
-            placeholder="https://..."
-            className="rounded-md border border-gray-300 px-3 py-2"
-          />
-        </div>
 
         {["fr", "en"].map((lang) => (
           <div key={lang} className="flex flex-col gap-3">
             <p className="oswald uppercase blue">
               {lang === "fr" ? "Version française" : "English version"}
             </p>
+            <input
+              type="text"
+              value={lang === "fr" ? form.image_fr : form.image_uk}
+              onChange={(event) =>
+                setForm((current) => ({
+                  ...current,
+                  [lang === "fr" ? "image_fr" : "image_uk"]: event.target.value,
+                }))
+              }
+              placeholder="URL de l’image (laisser vide = pas d’image)"
+              className="rounded-md border border-gray-300 px-3 py-2"
+            />
+            {(lang === "fr" ? form.image_fr : form.image_uk) && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={lang === "fr" ? form.image_fr : form.image_uk}
+                alt=""
+                className="max-h-32 w-auto rounded-md object-contain"
+              />
+            )}
             <input
               type="text"
               value={form.locale[lang].title}
