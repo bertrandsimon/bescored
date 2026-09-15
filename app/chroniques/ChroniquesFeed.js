@@ -24,11 +24,11 @@ export default function ChroniquesFeed({
               <img
                 src={post.image}
                 alt={post.title || ""}
-                className="mt-5 w-full h-72 rounded-lg object-cover object-top"
+                className="mt-5 mx-auto block h-auto w-auto max-h-80 max-w-full rounded-lg object-contain object-top"
               />
             )}
             {post.excerpt && (
-              <p className="mt-4 text-sm leading-7 text-gray-600">
+              <p className="mt-4 text-sm leading-6 text-gray-600">
                 {post.excerpt}
                 {post.excerpt.length >= 280 ? "…" : ""}
               </p>

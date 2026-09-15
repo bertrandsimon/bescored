@@ -168,6 +168,58 @@ export default function Testimonials() {
                 </figure>
               </div>
             </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20 lg:pr-8 xl:pr-8">
+                <Image
+                  className="self-start"
+                  src="/images/logos/lpg.png"
+                  alt="LPG"
+                  height={50}
+                  width={208}
+                />
+                <figure className="mt-10 flex flex-auto flex-col justify-between">
+                  <blockquote className="text-normal font-normal leading-8 text-gray-900">
+                    <p>
+                      Je tiens à exprimer ma grande satisfaction à
+                      l&apos;égard de Bescored Institute. En tant que V.P.
+                      médical et scientifique du groupe LPG, j&apos;ai eu
+                      l&apos;occasion de collaborer avec leurs équipes sur deux
+                      projets de recherche au cours des dernières années.
+                      <br />
+                      <br />
+                      J&apos;ai particulièrement apprécié la rigueur et la
+                      précision de leur approche scientifique, ainsi que la
+                      qualité de leurs protocoles et de leurs rapports. Leur
+                      infrastructure de pointe permet également de mener des
+                      projets de recherche ambitieux dans d&apos;excellentes
+                      conditions.
+                      <br />
+                      <br />
+                      Enfin, leur professionnalisme et leur respect des délais
+                      ont toujours été au rendez-vous.
+                    </p>
+                  </blockquote>
+                  <figcaption className="mt-10 flex items-center gap-x-6">
+                    <Image
+                      className="rounded-full bg-gray-50"
+                      src="/images/testimonials/g.jpg"
+                      alt=""
+                      height={80}
+                      width={80}
+                    />
+                    <div className="text-base">
+                      <div className="font-semibold text-gray-900">
+                        Christian Gagnière
+                      </div>
+                      <div className="mt-1 text-gray-500">
+                        V.P. médical et scientifique · Groupe LPG Systems
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </section>

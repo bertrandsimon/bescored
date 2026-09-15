@@ -12,7 +12,7 @@ export default function TeamTop() {
             notre équipe
           </p>
           <p className="text-4xl sm:text-5xl p-1 font-semibold">
-            médicale &amp; scientifique
+            scientifique &amp; médicale
           </p>
         </div>
 

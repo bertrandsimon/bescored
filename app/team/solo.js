@@ -27,11 +27,11 @@ export default function Solo() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl sm:text-center">
           <p className="uppercase oswald text-3xl sm:text-4xl font-light leading-snug">
-            Des experts à votre écoute pour vous accompagner dans vos projets.
+            Des experts à votre écoute pour vous accompagner dans vos projets
           </p>
           <p className="mt-6 text-light text-lg leading-8">
             Une équipe fondatrice soudée portée par trois chercheurs en sciences
-            du sport et de la santé pour piloter stratégie, tech et opérations
+            du sport et de la santé pour piloter stratégie, tech et opérations.
           </p>
         </div>
 

@@ -122,18 +122,18 @@ export default function Editorial() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-[900px] mx-auto pt-12 px-6">
           <Image
-            src="/images/masak/masak-solution2.jpg"
+            src="/images/masak/uk/masak-solution2-uk.jpg"
             width={399}
             height={302}
             alt="MASAK device"
-            className="mx-auto"
+            className="mx-auto w-full h-auto max-w-full"
           />
           <Image
-            src="/images/masak/ecran2.jpg"
+            src="/images/masak/uk/masak-ecran2-uk.jpg"
             width={399}
             height={302}
             alt="MASAK screen"
-            className="mx-auto"
+            className="mx-auto w-full h-auto max-w-full"
           />
         </div>
 

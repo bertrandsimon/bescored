@@ -19,10 +19,10 @@ export default function ChroniqueArticle({
         <img
           src={post.image}
           alt={post.title || ""}
-          className="mt-8 max-w-full h-auto rounded-xl"
+          className="mt-6 mx-auto block h-auto w-auto max-w-full rounded-xl"
         />
       )}
-      <div className="mt-10 text-base leading-8 text-gray-800 whitespace-pre-line">
+      <div className="mt-6 text-[15px] sm:text-base leading-6 text-gray-800 whitespace-pre-line">
         {post.body}
       </div>
       {post.author && (

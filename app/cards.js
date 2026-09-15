@@ -16,13 +16,18 @@ function HoverCard({
   alt,
   href,
   withAtropos = false,
+  fluid = false,
 }) {
   const [hovered, setHovered] = useState(false);
 
   const images = (
     <div
-      className="relative overflow-hidden rounded-xl drop-shadow-lg"
-      style={{ width, height }}
+      className="relative overflow-hidden rounded-xl drop-shadow-lg w-full"
+      style={
+        fluid
+          ? { aspectRatio: `${width} / ${height}` }
+          : { width, height }
+      }
     >
       <Image
         src={initialSrc}
@@ -82,8 +87,8 @@ export default function Cards() {
         <link rel="preload" href="/images/cards/card3b.jpg" as="image" />
       </Head>
 
-      <div className="grid grid-cols-12 px-2 gap-2 justify-between">
-        <div className="order-1 col-span-12 lg:col-span-5 md:col-span-12 md:order-2 ">
+      <div className="hidden sm:grid grid-cols-12 px-2 gap-2 justify-between">
+        <div className="col-span-12 lg:col-span-5 md:col-span-12">
           <div className="pl-10 pt-24">
             <Fade
               duration={1000}
@@ -98,9 +103,9 @@ export default function Cards() {
                   pour nos athlètes à l&rsquo;Institut National du Sport
                   (INSEP), j’ai fondé beScored Institute. <br />
                   <br />
-                  Tirer le meilleur de vos dispositifs ou de vos collaborateurs est
-                  notre priorité“
-                </p>{" "}
+                  Tirer le meilleur de vos dispositifs ou de vos collaborateurs
+                  est notre priorité“
+                </p>
               </Slide>
               <Slide direction="up" duration={500} delay={1200} triggerOnce>
                 <Image
@@ -109,14 +114,13 @@ export default function Cards() {
                   width={252}
                   height={90}
                   alt="Signature"
-                />{" "}
+                />
               </Slide>
             </Fade>
           </div>
         </div>
 
-        {/* desktop */}
-        <div className="hidden order-2 col-span-12 lg:col-span-7 sm:flex sm:flex-row gap-2 sm:gap-6 justify-end">
+        <div className="col-span-12 lg:col-span-7 flex flex-row gap-2 sm:gap-6 justify-end">
           <Fade duration={1000} delay={1000} cascade damping={0.2} triggerOnce>
             <Slide direction="right" duration={500} delay={1000} triggerOnce>
               <HoverCard
@@ -158,8 +162,8 @@ export default function Cards() {
       </div>
 
       {/* mobile */}
-      <div className="flex justify-around items-center sm:hidden pt-10">
-        <div className="grid grid-cols-2 gap-6">
+      <div className="sm:hidden px-4">
+        <div className="grid grid-cols-2 gap-3 max-w-[400px] mx-auto">
           <HoverCard
             href="/expertise"
             initialSrc="/images/cards/card1.jpg"
@@ -167,22 +171,47 @@ export default function Cards() {
             width={206}
             height={284}
             alt="Santé"
+            fluid
           />
           <HoverCard
             href="/expertise"
             initialSrc="/images/cards/card2.jpg"
             hoverSrc="/images/cards/card2b.jpg"
             width={206}
-            height={239}
-            alt="Sport"
-          />
-          <HoverCard
-            href="/expertise"
-            initialSrc="/images/cards/card3.jpg"
-            hoverSrc="/images/cards/card3b.jpg"
-            width={206}
             height={284}
-            alt="Bien-être"
+            alt="Sport"
+            fluid
+          />
+          <div className="col-span-2 flex justify-center">
+            <div className="w-[calc(50%-6px)]">
+              <HoverCard
+                href="/expertise"
+                initialSrc="/images/cards/card3.jpg"
+                hoverSrc="/images/cards/card3b.jpg"
+                width={206}
+                height={284}
+                alt="Bien-être"
+                fluid
+              />
+            </div>
+          </div>
+        </div>
+        <div className="pt-10 px-2">
+          <p className="font-light italic text-[15px] leading-6">
+            “Après 6 jeux olympiques où j&apos;ai dirigé les recherches pour
+            nos athlètes à l&rsquo;Institut National du Sport (INSEP), j’ai
+            fondé beScored Institute.
+            <br />
+            <br />
+            Tirer le meilleur de vos dispositifs ou de vos collaborateurs est
+            notre priorité“
+          </p>
+          <Image
+            className="pt-6 w-[180px] h-auto"
+            src="/images/signature.jpg"
+            width={252}
+            height={90}
+            alt="Signature"
           />
         </div>
       </div>

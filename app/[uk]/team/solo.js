@@ -27,7 +27,7 @@ export default function Solo() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl sm:text-center">
           <p className="uppercase oswald text-3xl sm:text-4xl font-light leading-snug">
-            Experts at your service to support you in your projects.
+            Experts at your service to support you in your projects
           </p>
           <p className="mt-6 text-light text-lg leading-8">
             A founding team of three researchers in sport and health sciences,

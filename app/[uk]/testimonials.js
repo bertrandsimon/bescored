@@ -156,6 +156,57 @@ export default function Testimonials() {
                 </figure>
               </div>
             </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20 lg:pr-8 xl:pr-8">
+                <Image
+                  className="self-start"
+                  src="/images/logos/lpg.png"
+                  alt="LPG"
+                  height={50}
+                  width={208}
+                />
+                <figure className="mt-10 flex flex-auto flex-col justify-between">
+                  <blockquote className="text-normal font-normal leading-8 text-gray-900">
+                    <p>
+                      I would like to express my great satisfaction with
+                      Bescored Institute. As Medical and Scientific Vice
+                      President of the LPG Group, I have had the opportunity to
+                      collaborate with their teams on two research projects over
+                      the past few years.
+                      <br />
+                      <br />
+                      I particularly appreciated the rigor and precision of
+                      their scientific approach, as well as the quality of their
+                      protocols and reports. Their state-of-the-art facilities
+                      also provide an excellent environment for conducting
+                      ambitious research projects.
+                      <br />
+                      <br />
+                      Finally, their professionalism and ability to consistently
+                      meet deadlines have always been highly appreciated.
+                    </p>
+                  </blockquote>
+                  <figcaption className="mt-10 flex items-center gap-x-6">
+                    <Image
+                      className="rounded-full bg-gray-50"
+                      src="/images/testimonials/g.jpg"
+                      alt=""
+                      height={80}
+                      width={80}
+                    />
+                    <div className="text-base">
+                      <div className="font-semibold text-gray-900">
+                        Christian Gagnière
+                      </div>
+                      <div className="mt-1 text-gray-500">
+                        V.P. Medical and Scientific · LPG Systems Group
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </section>

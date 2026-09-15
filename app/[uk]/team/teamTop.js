@@ -8,7 +8,7 @@ export default function TeamTop() {
         <div className="text-white uppercase oswald sm:pl-[200px] text-center sm:text-left mx-auto sm:mx-0">
           <p className="text-4xl sm:text-5xl p-1 font-extralight">our</p>
           <p className="text-4xl sm:text-5xl p-1 font-semibold">
-            medical &amp; scientific team
+            scientific &amp; medical team
           </p>
         </div>
       </div>
