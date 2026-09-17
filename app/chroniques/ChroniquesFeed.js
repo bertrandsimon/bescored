@@ -24,6 +24,7 @@ export default function ChroniquesFeed({
               <img
                 src={post.image}
                 alt={post.title || ""}
+                referrerPolicy="no-referrer"
                 className="mt-5 mx-auto block h-auto w-auto max-h-80 max-w-full rounded-lg object-contain object-top"
               />
             )}

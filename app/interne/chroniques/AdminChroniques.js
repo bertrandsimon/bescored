@@ -285,6 +285,7 @@ export default function AdminChroniques() {
               <img
                 src={lang === "fr" ? form.image_fr : form.image_uk}
                 alt=""
+                referrerPolicy="no-referrer"
                 className="max-h-32 w-auto rounded-md object-contain"
               />
             )}

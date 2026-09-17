@@ -19,6 +19,7 @@ export default function ChroniqueArticle({
         <img
           src={post.image}
           alt={post.title || ""}
+          referrerPolicy="no-referrer"
           className="mt-6 mx-auto block h-auto w-auto max-w-full rounded-xl"
         />
       )}
