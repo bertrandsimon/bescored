@@ -1,0 +1,48 @@
+[
+  {
+    "_id": {
+      "$oid": "690049a0d25259084bbd9e01"
+    },
+    "uid": "2026-9",
+    "publishedAt": "2026-10-28",
+    "imageUrl": "/images/healthy.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "Conférence : la science au service de la longévité en bonne santé",
+        "description": "Le 13 octobre 2026, Christophe a animé une conférence au Palace de Menthon, près du lac d’Annecy, en partenariat avec LPG. Intitulée « The Science of Healthy Longevity », cette intervention a exploré l’influence de nos habitudes de vie, notamment du sommeil, de l’activité physique et du stress, sur les mécanismes du vieillissement et la longévité en bonne santé.",
+        "dateLabel": "28 octobre 2026",
+        "category": "Conférence"
+      },
+      "en": {
+        "title": "Conference: the Science behind healthy aging and longevity",
+        "description": "On October 13, 2026, Christophe delivered a conference at the Palace de Menthon, near Lake Annecy, in partnership with LPG. Entitled “The Science of Healthy Longevity,” the presentation explored how lifestyle factors, particularly sleep, physical activity, and stress, influence biological aging and contribute to a longer, healthier life.",
+        "dateLabel": "October 28, 2026",
+        "category": "Conference"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "690049a0d25259084bbd9e02"
+    },
+    "uid": "2026-8",
+    "publishedAt": "2026-10-28",
+    "imageUrl": "/images/cars.jpg",
+    "link": null,
+    "locale": {
+      "fr": {
+        "title": "beScored présent aux 10 ans de Cryocenter Basel",
+        "description": "À l’occasion des 10 ans de Cryocenter Basel, Alexandre était présent pour faire découvrir le MASAK aux clients du centre. Cette démonstration a permis de présenter notre solution d’évaluation du bien-être mental et physique et d’échanger avec les visiteurs dans un cadre convivial.",
+        "dateLabel": "28 octobre 2026",
+        "category": "Événement"
+      },
+      "en": {
+        "title": "beScored celebrates Cryocenter Basel's 10th anniversary",
+        "description": "To celebrate Cryocenter Basel's 10th anniversary, Alexandre attended the event to introduce MASAK to the center's clients. This demonstration provided an opportunity to showcase our solution for assessing mental and physical well-being and to engage with visitors in a friendly and welcoming atmosphere.",
+        "dateLabel": "October 28, 2026",
+        "category": "Event"
+      }
+    }
+  }
+]
